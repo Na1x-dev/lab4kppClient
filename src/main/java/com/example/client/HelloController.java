@@ -92,7 +92,6 @@ public class HelloController {
         loginButton.setTextFill(Paint.valueOf("BLACK"));
     }
 
-
     @FXML
     void openSignInWindow(ActionEvent event) {
         try {
@@ -105,13 +104,11 @@ public class HelloController {
             stage.show();
             ((Node) (event.getSource())).getScene().getWindow().hide();
         } catch (IOException e) {
-            //System.Logger logger = System.Logger.getLogger(getClass().getName());
-            //logger.log(System.Logger.Level.SEVERE, "Failed to create new Window.", e);
             System.out.println("Failed to create new Window");
         }
     }
 
-    void openMainWindow(ActionEvent event) {
+    public void openMainWindow(ActionEvent event) {
         try {
             FXMLLoader fxmlLoader = new FXMLLoader();
             fxmlLoader.setLocation(getClass().getResource("mainWindow.fxml"));
@@ -132,14 +129,14 @@ public class HelloController {
         CloseableHttpClient httpClient = HttpClients.createDefault();
         CloseableHttpResponse response = httpClient.execute(request);
         HttpEntity entity = response.getEntity();
-        User noName = new User();
+        User chekUser = new User();
         if (entity != null) {
             String result = EntityUtils.toString(entity);
             GsonBuilder builder = new GsonBuilder();
             Gson gson = builder.create();
-            noName = gson.fromJson(result, User.class);
+            chekUser = gson.fromJson(result, User.class);
         }
-        return noName;
+        return chekUser;
     }
 
     @FXML
@@ -147,14 +144,13 @@ public class HelloController {
         mainUser = new User();
         mainUser.setUsername(loginField.getText());
         mainUser.setPassword(passwordField.getText());
-        System.out.println(mainUser.toString());
         HttpUriRequest request = new HttpGet("http://localhost:8080/users/byUsername/" + mainUser.getUsername());
         try {
-            User noName = parseResponseToUser(request);
-            if (noName.getPassword().equals(mainUser.getPassword())) {
+            User chekUser = parseResponseToUser(request);
+            if (chekUser.getPassword().equals(mainUser.getPassword())) {
                 System.out.println("Success");
                 passwordField.setStyle("-fx-background-color: #ffffff; -fx-background-radius: 16; -fx-border-radius: 16; -fx-border-width: 2; -fx-border-color: #000000;");
-                mainUser = noName;
+                mainUser = chekUser;
                 System.out.println(mainUser.toString());
                 openMainWindow(event);
             } else {

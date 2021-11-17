@@ -11,7 +11,7 @@
     <children>
       <AnchorPane layoutX="450.0" prefHeight="600.0" prefWidth="450.0" style="-fx-background-color: #ffffff;">
          <children>
-              <TextField fx:id="loginField"  layoutX="75.0" layoutY="188.0" prefHeight="45.0" prefWidth="300.0" promptText="Логин" style="-fx-background-color: #7C809B; -fx-background-radius: 16; -fx-border-width: 1.5; -fx-border-color: #000000; -fx-border-radius: 14; -fx-text-fill: #ffffff; -fx-prompt-text-fill: #ffffff">
+              <TextField fx:id="loginField" layoutX="75.0" layoutY="188.0" prefHeight="45.0" prefWidth="300.0" promptText="Логин" style="-fx-background-color: #7C809B; -fx-background-radius: 16; -fx-border-width: 1.5; -fx-border-color: #000000; -fx-border-radius: 14; -fx-text-fill: #ffffff; -fx-prompt-text-fill: #ffffff">
                   <font>
                       <Font name="Underdog" size="21.0" />
                   </font>
@@ -26,7 +26,7 @@
                   <Font name="Underdog" size="21.0" />
                </font>
             </PasswordField>
-            <Button fx:id="loginButton" focusTraversable="false" layoutX="165.0" layoutY="458.0" mnemonicParsing="false" onAction="#backToLogIn" onMouseEntered="#onLoginEnter" onMouseExited="#onLoginExit" onMousePressed="#onLoginPress" onMouseReleased="#onLoginRelease" prefHeight="45.0" prefWidth="121.0" style="-fx-background-color: #ffffff; -fx-background-radius: 16;" text="Войти">
+            <Button fx:id="signinButton" focusTraversable="false" layoutX="102.0" layoutY="458.0" mnemonicParsing="false" onAction="#signInAction" onMouseEntered="#onSignEnter" onMouseExited="#onSignExit" onMousePressed="#onSignPress" onMouseReleased="#onSignRelease" prefHeight="45.0" prefWidth="239.0" style="-fx-background-color: #7C809B; -fx-background-radius: 16;" text="Зарегистрироваться" textFill="WHITE">
                <font>
                   <Font name="Underdog" size="21.0" />
                </font>
@@ -58,7 +58,7 @@
             <Font name="Underdog" size="48.0" />
          </font>
       </Label>
-      <Button fx:id="signinButton" focusTraversable="false" layoutX="106.0" layoutY="458.0" mnemonicParsing="false" onAction="#signInAction" onMouseEntered="#onSignEnter" onMouseExited="#onSignExit" onMousePressed="#onSignPress" onMouseReleased="#onSignRelease" prefHeight="45.0" prefWidth="239.0" style="-fx-background-color: #7C809B; -fx-background-radius: 16;" text="Зарегистрироваться" textFill="WHITE">
+      <Button fx:id="loginButton" focusTraversable="false" layoutX="165.0" layoutY="458.0" mnemonicParsing="false" onAction="#backToLogIn" onMouseEntered="#onLoginEnter" onMouseExited="#onLoginExit" onMousePressed="#onLoginPress" onMouseReleased="#onLoginRelease" prefHeight="45.0" prefWidth="121.0" style="-fx-background-color: #ffffff; -fx-background-radius: 16;" text="Войти">
          <font>
             <Font name="Underdog" size="21.0" />
          </font>
