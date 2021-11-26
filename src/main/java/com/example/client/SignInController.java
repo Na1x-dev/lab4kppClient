@@ -28,8 +28,10 @@ import java.io.IOException;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
+import static com.example.client.MainWindowController.bill;
+import static com.example.client.MainWindowController.mainUser;
+
 public class SignInController {
-    User mainUser;
 
 
     @FXML
@@ -61,50 +63,50 @@ public class SignInController {
 
     @FXML
     void onSignEnter(MouseEvent event) {
-        signinButton.setStyle("-fx-background-color: #ffffff;-fx-border-width: 1.5; -fx-border-radius: 14; -fx-border-color: #000000; -fx-background-radius: 16;");
-        signinButton.setTextFill(Paint.valueOf("BLACK"));
-    }
-
-    @FXML
-    void onSignExit(MouseEvent event) {
-        signinButton.setStyle("-fx-background-color: #7C809B; -fx-background-radius: 16;");
+        signinButton.setStyle("-fx-background-color: #7C809B;-fx-border-width: 1.5; -fx-border-radius: 14; -fx-border-color: #000000; -fx-background-radius: 16;");
         signinButton.setTextFill(Paint.valueOf("WHITE"));
     }
 
     @FXML
-    void onLoginEnter(MouseEvent event) {
-        loginButton.setStyle("-fx-background-color: #7C809B;-fx-border-width: 1.5; -fx-border-radius: 14; -fx-border-color: #000000; -fx-background-radius: 16;");
-        loginButton.setTextFill(Paint.valueOf("WHITE"));
+    void onSignExit(MouseEvent event) {
+        signinButton.setStyle("-fx-background-color: #ffffff; -fx-background-radius: 16;");
+        signinButton.setTextFill(Paint.valueOf("BLACK"));
     }
 
     @FXML
-    void onLoginExit(MouseEvent event) {
-        loginButton.setStyle("-fx-background-color: #ffffff; -fx-background-radius: 16;");
+    void onLoginEnter(MouseEvent event) {
+        loginButton.setStyle("-fx-background-color: #ffffff;-fx-border-width: 1.5; -fx-border-radius: 14; -fx-border-color: #000000; -fx-background-radius: 16;");
         loginButton.setTextFill(Paint.valueOf("BLACK"));
     }
 
     @FXML
+    void onLoginExit(MouseEvent event) {
+        loginButton.setStyle("-fx-background-color: #7C809B; -fx-background-radius: 16;");
+        loginButton.setTextFill(Paint.valueOf("WHITE"));
+    }
+
+    @FXML
     void onSignPress(MouseEvent event) {
-        signinButton.setStyle("-fx-background-color: #dddddd;-fx-border-width: 1.5; -fx-border-radius: 14; -fx-border-color: #000000; -fx-background-radius: 16;");
-        signinButton.setTextFill(Paint.valueOf("BLACK"));
+        signinButton.setStyle("-fx-background-color: #6B698A;-fx-border-width: 1.5; -fx-border-radius: 14; -fx-border-color: #000000; -fx-background-radius: 16;");
+        signinButton.setTextFill(Paint.valueOf("WHITE"));
     }
 
     @FXML
     void onSignRelease(MouseEvent event) {
-        signinButton.setStyle("-fx-background-color: #ffffff;-fx-border-width: 1.5; -fx-border-radius: 14; -fx-border-color: #000000; -fx-background-radius: 16;");
-        signinButton.setTextFill(Paint.valueOf("BLACK"));
+        signinButton.setStyle("-fx-background-color: #7C809B;-fx-border-width: 1.5; -fx-border-radius: 14; -fx-border-color: #000000; -fx-background-radius: 16;");
+        signinButton.setTextFill(Paint.valueOf("WHITE"));
     }
 
     @FXML
     void onLoginPress(MouseEvent event) {
-        loginButton.setStyle("-fx-background-color: #6B698A;-fx-border-width: 1.5; -fx-border-radius: 14; -fx-border-color: #000000; -fx-background-radius: 16;");
-        loginButton.setTextFill(Paint.valueOf("WHITE"));
+        loginButton.setStyle("-fx-background-color: #dddddd;-fx-border-width: 1.5; -fx-border-radius: 14; -fx-border-color: #000000; -fx-background-radius: 16;");
+        loginButton.setTextFill(Paint.valueOf("BLACK"));
     }
 
     @FXML
     void onLoginRelease(MouseEvent event) {
-        loginButton.setStyle("-fx-background-color: #7C809B;-fx-border-width: 1.5; -fx-border-radius: 14; -fx-border-color: #000000; -fx-background-radius: 16;");
-        loginButton.setTextFill(Paint.valueOf("WHITE"));
+        loginButton.setStyle("-fx-background-color: #ffffff;-fx-border-width: 1.5; -fx-border-radius: 14; -fx-border-color: #000000; -fx-background-radius: 16;");
+        loginButton.setTextFill(Paint.valueOf("BLACK"));
     }
 
 
@@ -143,9 +145,11 @@ public class SignInController {
         }
     }
 
-    User parseResponseToUser(HttpPost request, User mainUser) throws IOException {
+    User postResponseUser(User mainUser) throws IOException {
+        HttpPost request = new HttpPost("http://localhost:8080/users");
         CloseableHttpClient httpClient = HttpClients.createDefault();
         request.setEntity(new StringEntity(mainUser.getJson()));
+        System.out.println(">>>"+mainUser.getJson());
         request.setHeader("Accept", "application/json");
         request.setHeader("Content-type", "application/json");
         CloseableHttpResponse response = httpClient.execute(request);
@@ -153,14 +157,48 @@ public class SignInController {
         User checkUser = new User();
         if (entity != null) {
             String result = EntityUtils.toString(entity);
-            GsonBuilder builder = new GsonBuilder();
-            Gson gson = builder.create();
-            checkUser = gson.fromJson(result, User.class);
+            checkUser = checkUser.parseUserFromJSON(result);
             if(checkUser == null){
                 checkUser = new User();
             }
         }
-        return checkUser;
+        return checkUser; // возвращает объект юзер, если юзер с таким никнеймом уже существует
+    }
+
+    void postResponseBill(Bill bill) throws IOException {
+        HttpPost request = new HttpPost("http://localhost:8080/bills");
+        CloseableHttpClient httpClient = HttpClients.createDefault();
+        request.setEntity(new StringEntity(bill.getJson()));
+        request.setHeader("Accept", "application/json");
+        request.setHeader("Content-type", "application/json");
+        CloseableHttpResponse response = httpClient.execute(request);
+        HttpEntity entity = response.getEntity();
+        Bill checkBill = new Bill();
+        if (entity != null) {
+            String result = EntityUtils.toString(entity);
+            checkBill = checkBill.parseUserFromJSON(result);
+            if(checkBill == null){
+                checkBill = new Bill();
+            }
+            System.out.println(checkBill.toString());
+        }
+
+    }
+
+    User getResponseUser(User mainUser) throws IOException {
+        HttpUriRequest request = new HttpGet("http://localhost:8080/users/byUsername/" + mainUser.getUsername());
+        CloseableHttpClient httpClient = HttpClients.createDefault();
+        CloseableHttpResponse response = httpClient.execute(request);
+        HttpEntity entity = response.getEntity();
+        User chekUser = new User();
+        if (entity != null) {
+            String result = EntityUtils.toString(entity);
+            chekUser = chekUser.parseUserFromJSON(result);
+            if(chekUser == null){
+                chekUser = new User();
+            }
+        }
+        return chekUser;
     }
 
     boolean validation(User user) {
@@ -225,29 +263,26 @@ public class SignInController {
 
     @FXML
     void signInAction(ActionEvent event) {
-
         mainUser = new User();
+        bill = new Bill();
         mainUser.setUsername(loginField.getText());
         mainUser.setPassword(passwordField1.getText());
         mainUser.setFirstname(firstnameField.getText());
         mainUser.setLastname(lastnameField.getText());
         mainUser.setEmail(emailField.getText());
-        HttpPost request = new HttpPost("http://localhost:8080/users");
+        bill.generateBankData(mainUser.getUsername());
+        //System.out.println(bill.toString());
         try {
 
             if (validation(mainUser)) {
-                //request.setEntity(new StringEntity(mainUser.getJson()));
-                User chekUser = parseResponseToUser(request, mainUser);
-                System.out.println(chekUser.toString());
+                User chekUser = postResponseUser(mainUser);
+                postResponseBill(bill);
                 if (!chekUser.getUsername().equals(mainUser.getUsername())) {
                     System.out.println("Success");
-                    System.out.println(mainUser.toString());
                     openMainWindow(event);
                     loginField.setStyle("-fx-background-color: #ffffff; -fx-background-radius: 16; -fx-border-radius: 16; -fx-border-width: 2; -fx-border-color: #000000;");
                 } else {
-                    if (chekUser.getUsername().equals(mainUser.getUsername())) {
-                        loginField.setStyle("-fx-background-color: #ED254E; -fx-background-radius: 16; -fx-border-radius: 16; -fx-border-width: 2; -fx-border-color: #000000;");
-                    }
+                    loginField.setStyle("-fx-background-color: #ED254E; -fx-background-radius: 16; -fx-border-radius: 16; -fx-border-width: 2; -fx-border-color: #000000;");
                     System.out.println("Not success");
                 }
             }

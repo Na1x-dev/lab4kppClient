@@ -1,6 +1,9 @@
 package com.example.client;
 
 import com.google.gson.Gson;
+import com.google.gson.GsonBuilder;
+
+import java.lang.reflect.Type;
 
 public class User {
     public int id;
@@ -10,12 +13,13 @@ public class User {
     public String password;
     public String email;
 
-    public User(){
+
+    public User() {
         this.username = "";
         this.password = "";
     }
 
-    public User(String username, String password){
+    public User(String username, String password) {
         this.username = username;
         this.password = password;
     }
@@ -52,6 +56,7 @@ public class User {
         return email;
     }
 
+
     public void setPassword(String password) {
         this.password = password;
     }
@@ -72,8 +77,15 @@ public class User {
         this.email = email;
     }
 
-    public String getJson(){
-        Gson gson = new Gson();
+    public String getJson() {
+        GsonBuilder builder = new GsonBuilder();
+        Gson gson = builder.create();
         return gson.toJson(User.this);
+    }
+
+    public User parseUserFromJSON(String JSON) {
+        GsonBuilder builder = new GsonBuilder();
+        Gson gson = builder.create();
+        return gson.fromJson(JSON, User.class);
     }
 }

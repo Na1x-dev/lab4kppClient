@@ -25,9 +25,10 @@ import org.apache.http.util.EntityUtils;
 
 import java.io.IOException;
 import java.lang.reflect.InvocationTargetException;
+import static com.example.client.MainWindowController.mainUser;
 
 public class HelloController {
-    User mainUser;
+    //User mainUser;
 
     @FXML
     private AnchorPane LogInPane;
@@ -119,22 +120,25 @@ public class HelloController {
             stage.show();
             ((Node) (event.getSource())).getScene().getWindow().hide();
         } catch (IOException e) {
+            e.printStackTrace();
             //System.Logger logger = System.Logger.getLogger(getClass().getName());
             //logger.log(System.Logger.Level.SEVERE, "Failed to create new Window.", e);
-            System.out.println("Failed to create new Window");
+            System.out.println("Failed to create new Windowwww");
         }
     }
 
-    User parseResponseToUser(HttpUriRequest request) throws IOException {
+    User getResponseUser(User mainUser) throws IOException {
+        HttpUriRequest request = new HttpGet("http://localhost:8080/users/byUsername/" + mainUser.getUsername());
         CloseableHttpClient httpClient = HttpClients.createDefault();
         CloseableHttpResponse response = httpClient.execute(request);
         HttpEntity entity = response.getEntity();
         User chekUser = new User();
         if (entity != null) {
             String result = EntityUtils.toString(entity);
-            GsonBuilder builder = new GsonBuilder();
-            Gson gson = builder.create();
-            chekUser = gson.fromJson(result, User.class);
+            chekUser = chekUser.parseUserFromJSON(result);
+            if(chekUser == null){
+                chekUser = new User();
+            }
         }
         return chekUser;
     }
@@ -144,20 +148,18 @@ public class HelloController {
         mainUser = new User();
         mainUser.setUsername(loginField.getText());
         mainUser.setPassword(passwordField.getText());
-        HttpUriRequest request = new HttpGet("http://localhost:8080/users/byUsername/" + mainUser.getUsername());
         try {
-            User chekUser = parseResponseToUser(request);
-            if (chekUser.getPassword().equals(mainUser.getPassword())) {
+            User chekUser = getResponseUser(mainUser);
+            if (chekUser.getPassword().equals(mainUser.getPassword()) && !mainUser.getUsername().equals("") && !mainUser.getPassword().equals("")) {
                 System.out.println("Success");
                 passwordField.setStyle("-fx-background-color: #ffffff; -fx-background-radius: 16; -fx-border-radius: 16; -fx-border-width: 2; -fx-border-color: #000000;");
                 mainUser = chekUser;
-                System.out.println(mainUser.toString());
                 openMainWindow(event);
             } else {
                 passwordField.setStyle("-fx-background-color: #ED254E; -fx-background-radius: 16; -fx-border-radius: 16; -fx-border-width: 2; -fx-border-color: #000000;");
             }
         } catch (IOException e) {
-            //e.printStackTrace();
+            e.printStackTrace();
             loginField.setStyle("-fx-background-color: #ED254E; -fx-background-radius: 16; -fx-border-radius: 16; -fx-border-width: 2; -fx-border-color: #000000;");
         }
 

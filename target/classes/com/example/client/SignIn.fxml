@@ -26,7 +26,7 @@
                   <Font name="Underdog" size="21.0" />
                </font>
             </PasswordField>
-            <Button fx:id="signinButton" focusTraversable="false" layoutX="102.0" layoutY="458.0" mnemonicParsing="false" onAction="#signInAction" onMouseEntered="#onSignEnter" onMouseExited="#onSignExit" onMousePressed="#onSignPress" onMouseReleased="#onSignRelease" prefHeight="45.0" prefWidth="239.0" style="-fx-background-color: #7C809B; -fx-background-radius: 16;" text="Зарегистрироваться" textFill="WHITE">
+            <Button fx:id="signinButton" focusTraversable="true" layoutX="102.0" layoutY="458.0" mnemonicParsing="false" onAction="#signInAction" onMouseEntered="#onSignEnter" onMouseExited="#onSignExit" onMousePressed="#onSignPress" onMouseReleased="#onSignRelease" prefHeight="45.0" prefWidth="239.0" style="-fx-background-color: #ffffff; -fx-background-radius: 16;" text="Зарегистрироваться">
                <font>
                   <Font name="Underdog" size="21.0" />
                </font>
@@ -58,7 +58,7 @@
             <Font name="Underdog" size="48.0" />
          </font>
       </Label>
-      <Button fx:id="loginButton" focusTraversable="false" layoutX="165.0" layoutY="458.0" mnemonicParsing="false" onAction="#backToLogIn" onMouseEntered="#onLoginEnter" onMouseExited="#onLoginExit" onMousePressed="#onLoginPress" onMouseReleased="#onLoginRelease" prefHeight="45.0" prefWidth="121.0" style="-fx-background-color: #ffffff; -fx-background-radius: 16;" text="Войти">
+      <Button fx:id="loginButton" focusTraversable="false" layoutX="165.0" layoutY="458.0" mnemonicParsing="false" onAction="#backToLogIn" onMouseEntered="#onLoginEnter" onMouseExited="#onLoginExit" onMousePressed="#onLoginPress" onMouseReleased="#onLoginRelease" prefHeight="45.0" prefWidth="121.0" style="-fx-background-color: #7C809B; -fx-background-radius: 16;" text="Войти" textFill="WHITE">
          <font>
             <Font name="Underdog" size="21.0" />
          </font>
