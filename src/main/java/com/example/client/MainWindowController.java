@@ -1,5 +1,8 @@
 package com.example.client;
 
+import com.google.gson.Gson;
+import com.google.gson.GsonBuilder;
+import com.google.gson.reflect.TypeToken;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
@@ -18,19 +21,16 @@ import org.apache.http.impl.client.HttpClients;
 import org.apache.http.util.EntityUtils;
 
 import java.io.IOException;
+import java.lang.reflect.Type;
 import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
 
 public class MainWindowController {
     static User mainUser;
     static Bill bill;
-    static ArrayList<Transaction> transactions = new ArrayList<>();
+    static List<Transaction> transactions = new ArrayList<>();
 
-
-    @FXML
-    private Label firstnameAndLastname;
-
-    @FXML
-    private AnchorPane transactionsField;
 
     @FXML
     private AnchorPane LogInPane;
@@ -51,10 +51,39 @@ public class MainWindowController {
     private Label cardValidity;
 
     @FXML
+    private Label firstnameAndLastname;
+
+    @FXML
     private Button refreshButton;
 
-    void renderTransactions(){
+    @FXML
+    private AnchorPane transactionsField;
 
+    void renderTransactions() {
+        transactionsField.getChildren().clear();
+        for (int i = 0; i < transactions.size(); i++) {
+            int y = 100 * i + 10 * i;
+            transactions.get(i).createTransactionWidget(transactionsField, y);
+        }
+    }
+
+    List<Transaction> getResponseTransactions(User mainUser) throws IOException {
+        HttpUriRequest request = new HttpGet("http://localhost:8080/transactions/byUsername/" + mainUser.getUsername());
+        CloseableHttpClient httpClient = HttpClients.createDefault();
+        CloseableHttpResponse response = httpClient.execute(request);
+        HttpEntity entity = response.getEntity();
+        GsonBuilder builder = new GsonBuilder();
+        Gson gson = builder.create();
+        if (entity != null) {
+            String result = EntityUtils.toString(entity);
+            Type transactionsListType = new TypeToken<ArrayList<Transaction>>() {
+            }.getType();
+            transactions = gson.fromJson(result, transactionsListType);
+            if (transactions == null) {
+                transactions = new ArrayList<>();
+            }
+        }
+        return transactions;
     }
 
     Bill getResponseBill() throws IOException {
@@ -107,14 +136,20 @@ public class MainWindowController {
 
     @FXML
     void refresh(ActionEvent event) {
+        try {
+            transactions = getResponseTransactions(mainUser);
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        renderTransactions();
         refresh();
     }
 
     @FXML
     private void initialize() {
+
         refresh();
-        transactions.add(new Transaction());
-        transactions.get(0).createTransactionWidget(transactionsField);
+        //renderTransactions();
     }
 }
 
