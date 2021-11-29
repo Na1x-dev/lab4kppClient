@@ -105,6 +105,7 @@ public class MainWindowController {
     void refresh() {
         try {
             bill = getResponseBill();
+            transactions = getResponseTransactions(mainUser);
         } catch (IOException e) {
             e.printStackTrace();
         }
@@ -136,11 +137,6 @@ public class MainWindowController {
 
     @FXML
     void refresh(ActionEvent event) {
-        try {
-            transactions = getResponseTransactions(mainUser);
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
         renderTransactions();
         refresh();
     }
@@ -149,7 +145,7 @@ public class MainWindowController {
     private void initialize() {
 
         refresh();
-        //renderTransactions();
+        renderTransactions();
     }
 }
 
