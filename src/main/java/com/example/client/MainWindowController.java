@@ -1,36 +1,28 @@
 package com.example.client;
 
-import com.google.gson.Gson;
-import com.google.gson.GsonBuilder;
-import com.google.gson.reflect.TypeToken;
 import javafx.event.ActionEvent;
+import javafx.event.EventHandler;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Node;
 import javafx.scene.Scene;
 import javafx.scene.control.Button;
 import javafx.scene.control.Label;
+import javafx.scene.input.MouseEvent;
 import javafx.scene.layout.AnchorPane;
+import javafx.scene.paint.Paint;
 import javafx.stage.Stage;
-import org.apache.http.HttpEntity;
-import org.apache.http.client.methods.CloseableHttpResponse;
-import org.apache.http.client.methods.HttpGet;
-import org.apache.http.client.methods.HttpUriRequest;
-import org.apache.http.impl.client.CloseableHttpClient;
-import org.apache.http.impl.client.HttpClients;
-import org.apache.http.util.EntityUtils;
 
 import java.io.IOException;
-import java.lang.reflect.Type;
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 
-public class MainWindowController {
-    static User mainUser;
-    static Bill bill;
-    static List<Transaction> transactions = new ArrayList<>();
+import static com.example.client.StaticFieldsAndRequests.*;
 
+public class MainWindowController {
+
+    @FXML
+    private Button storeButton;
 
     @FXML
     private AnchorPane LogInPane;
@@ -51,69 +43,76 @@ public class MainWindowController {
     private Label cardValidity;
 
     @FXML
-    private Label firstnameAndLastname;
-
-    @FXML
-    private Button refreshButton;
+    private Button lockButton;
 
     @FXML
     private AnchorPane transactionsField;
 
-    void renderTransactions() {
-        transactionsField.getChildren().clear();
-        for (int i = 0; i < transactions.size(); i++) {
-            int y = 100 * i + 10 * i;
-            transactions.get(i).createTransactionWidget(transactionsField, y);
-        }
+    @FXML
+    private Label ibanLabel;
+
+    @FXML
+    private Label isActiveLabel;
+
+    @FXML
+    private Label firstnameLabel;
+
+    @FXML
+    private Label lastnameLabel;
+
+    @FXML
+    private Label usernameLabel;
+
+    @FXML
+    private Label emailLabel;
+
+
+    @FXML
+    void blueButtonRelease(MouseEvent event) {
+        Button someButton = (Button) event.getSource();
+        someButton.setStyle("-fx-background-color: #ffffff;-fx-border-width: 1.5; -fx-border-radius: 14; -fx-border-color: #000000; -fx-background-radius: 16;");
+        someButton.setTextFill(Paint.valueOf("BLACK"));
     }
 
-    List<Transaction> getResponseTransactions(User mainUser) throws IOException {
-        HttpUriRequest request = new HttpGet("http://localhost:8080/transactions/byUsername/" + mainUser.getUsername());
-        CloseableHttpClient httpClient = HttpClients.createDefault();
-        CloseableHttpResponse response = httpClient.execute(request);
-        HttpEntity entity = response.getEntity();
-        GsonBuilder builder = new GsonBuilder();
-        Gson gson = builder.create();
-        if (entity != null) {
-            String result = EntityUtils.toString(entity);
-            Type transactionsListType = new TypeToken<ArrayList<Transaction>>() {
-            }.getType();
-            transactions = gson.fromJson(result, transactionsListType);
-            if (transactions == null) {
-                transactions = new ArrayList<>();
-            }
-        }
-        return transactions;
+    @FXML
+    void blueButtonPress(MouseEvent event) {
+        Button someButton = (Button) event.getSource();
+        someButton.setStyle("-fx-background-color: #dddddd;-fx-border-width: 1.5; -fx-border-radius: 14; -fx-border-color: #000000; -fx-background-radius: 16;");
+        someButton.setTextFill(Paint.valueOf("BLACK"));
     }
 
-    Bill getResponseBill() throws IOException {
-        HttpUriRequest request = new HttpGet("http://localhost:8080/bills/byUsername/" + mainUser.getUsername());
-        CloseableHttpClient httpClient = HttpClients.createDefault();
-        CloseableHttpResponse response = httpClient.execute(request);
-        HttpEntity entity = response.getEntity();
-        Bill bill = new Bill();
-        if (entity != null) {
-            String result = EntityUtils.toString(entity);
-            bill = bill.parseUserFromJSON(result);
-            if (bill == null) {
-                bill = new Bill();
-            }
-        }
-        return bill;
+    @FXML
+    void blueButtonExit(MouseEvent event) {
+        Button someButton = (Button) event.getSource();
+
+        someButton.setStyle("-fx-background-color: #7C809B; -fx-background-radius: 16;");
+        someButton.setTextFill(Paint.valueOf("WHITE"));
     }
 
-    void refresh() {
+    @FXML
+    void blueButtonEnter(MouseEvent event) {
+        Button someButton = (Button) event.getSource();
+        someButton.setStyle("-fx-background-color: #ffffff;-fx-border-width: 1.5; -fx-border-radius: 14; -fx-border-color: #000000; -fx-background-radius: 16;");
+        someButton.setTextFill(Paint.valueOf("BLACK"));
+    }
+
+    @FXML
+    void toStore(ActionEvent event) {
         try {
-            bill = getResponseBill();
-            transactions = getResponseTransactions(mainUser);
+            FXMLLoader fxmlLoader = new FXMLLoader();
+            fxmlLoader.setLocation(getClass().getResource("Store.fxml"));
+            Scene scene = new Scene(fxmlLoader.load(), 1920, 1080);
+            Stage stage = new Stage();
+            stage.setTitle("Store");
+            stage.setScene(scene);
+            stage.show();
+            ((Node) (event.getSource())).getScene().getWindow().hide();
         } catch (IOException e) {
+            //System.Logger logger = System.Logger.getLogger(getClass().getName());
+            //logger.log(System.Logger.Level.SEVERE, "Failed to create new Window.", e)
+            System.out.println("Failed to create new Window");
             e.printStackTrace();
         }
-        firstnameAndLastname.setText(mainUser.getFirstname() + " " + mainUser.getLastname());
-        cardName.setText(bill.getCardName());
-        cardNumber.setText(bill.getCardNumber());
-        cardValidity.setText(bill.getCardValidity());
-        balance.setText(String.valueOf(bill.getBalance()));
     }
 
     @FXML
@@ -136,17 +135,94 @@ public class MainWindowController {
     }
 
     @FXML
-    void refresh(ActionEvent event) {
-        renderTransactions();
+    void lockUnlock(ActionEvent event) {
+        if(bill.getIsActive()){
+            bill.setIsActive(false);
+            setLock = true;
+            lockButton.setText("Разблокировать");
+        }
+        else {
+            bill.setIsActive(true);
+            setLock = false;
+            lockButton.setText("Заблокировать");
+        }
         refresh();
+        renderTransactions();
     }
 
     @FXML
     private void initialize() {
-
         refresh();
         renderTransactions();
+        lockButton.setDisable(true);
+    }
+
+    void refresh() {
+        try {
+            bill = getResponseBill(mainUser);
+            transactions = getResponseTransactions(mainUser);
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        cardName.setText(bill.getCardName());
+        cardNumber.setText(bill.getCardNumber());
+        cardValidity.setText(bill.getCardValidity());
+        ibanLabel.setText(bill.getIban());
+        balance.setText(String.format("%.2f", bill.getBalance()));
+        firstnameLabel.setText(mainUser.getFirstname());
+        lastnameLabel.setText(mainUser.getLastname());
+        usernameLabel.setText(mainUser.getUsername());
+        emailLabel.setText(mainUser.getEmail());
+        if(bill.getIsActive()){
+            isActiveLabel.setText("Активен");
+        }
+        else {
+            isActiveLabel.setText("Заблокирован");
+        }
+    }
+
+    void renderTransactions() {
+        transactionsField.getChildren().clear();
+        for (int i = 0; i < transactions.size(); i++) {
+            AnchorPane anchorPane;
+            int y = 100 * i + 10 * i;
+            anchorPane = transactions.get(i).createTransactionWidget(transactionsField, y);
+            initializeTransactions(anchorPane, i);
+        }
+    }
+
+    void initializeTransactions(AnchorPane transactionPane, int i) {
+        transactionPane.setOnMousePressed(new EventHandler<MouseEvent>() {
+            @Override
+            public void handle(MouseEvent event) {
+                viewTransaction(event, i);
+                transactionPane.setStyle("-fx-background-color: #dddddd;-fx-border-width: 1.5; -fx-border-radius: 15; -fx-border-color: #000000; -fx-background-radius: 15;");
+            }
+        });
+        transactionPane.setOnMouseReleased(new EventHandler<MouseEvent>() {
+            @Override
+            public void handle(MouseEvent event) {
+                transactionPane.setStyle("-fx-background-color: #ffffff;-fx-border-width: 1.5; -fx-border-radius: 15; -fx-border-color: #000000; -fx-background-radius: 15;");
+            }
+        });
+    }
+
+    void viewTransaction(MouseEvent event, int i) {
+        idTransaction = i;
+        try {
+            FXMLLoader fxmlLoader = new FXMLLoader();
+            fxmlLoader.setLocation(getClass().getResource("TransactionCard.fxml"));
+            Scene scene = new Scene(fxmlLoader.load(), 400, 700);
+            Stage stage = new Stage();
+            stage.setTitle("Transaction Card");
+            stage.setScene(scene);
+            stage.show();
+        } catch (IOException e) {
+            //System.Logger logger = System.Logger.getLogger(getClass().getName());
+            //logger.log(System.Logger.Level.SEVERE, "Failed to create new Window.", e);
+            System.out.println("Failed to create new Window");
+        }
+
     }
 }
-
 

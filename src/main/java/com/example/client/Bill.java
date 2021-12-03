@@ -4,23 +4,30 @@ package com.example.client;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 
+import java.text.DecimalFormat;
+
+import static com.example.client.StaticFieldsAndRequests.setLock;
+
 public class Bill {
 
-    public int id;
+    public Integer id;
     public String username;
     public String iban;
     public String cardNumber;
     public String cardName;
     public String cardValidity;
     public double balance;
+    public boolean isActive;
 
     public Bill() {
+        id = 1;
         username = "Semen";
         iban = "BY0";
         cardNumber = "0000 0000 0000 0000";
         cardName = "card 0";
         cardValidity = "00/00";
         balance = 0;
+        isActive = true;
     }
 
     public Integer getId() { return id; }
@@ -49,6 +56,10 @@ public class Bill {
         return balance;
     }
 
+    public boolean getIsActive(){
+        return isActive;
+    }
+
     public void setId(Integer id) {
         this.id = id;
     }
@@ -73,9 +84,16 @@ public class Bill {
     }
 
     public void setBalance(double balance) {
+        if(balance<(-1000) || setLock){
+            setIsActive(false);
+        }
+        else {
+            setIsActive(true);
+        }
         this.balance = balance;
     }
 
+    public void setIsActive(boolean isActive){ this.isActive = isActive; }
 
     private void generateIban() {
         iban = "BY";
@@ -120,6 +138,7 @@ public class Bill {
     public String getJson() {
         GsonBuilder builder = new GsonBuilder();
         Gson gson = builder.create();
+        System.out.println(getCardName() + "  " + gson.toJson(Bill.this));
         return gson.toJson(Bill.this);
     }
 
@@ -132,7 +151,8 @@ public class Bill {
     @Override
     public String toString() {
         return "Bill{" +
-                "username='" + username + '\'' +
+                "id=" + id +
+                ", username='" + username + '\'' +
                 ", iban='" + iban + '\'' +
                 ", cardNumber='" + cardNumber + '\'' +
                 ", cardName='" + cardName + '\'' +

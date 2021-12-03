@@ -1,7 +1,5 @@
 package com.example.client;
 
-import com.google.gson.Gson;
-import com.google.gson.GsonBuilder;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
@@ -14,22 +12,13 @@ import javafx.scene.input.MouseEvent;
 import javafx.scene.layout.AnchorPane;
 import javafx.scene.paint.Paint;
 import javafx.stage.Stage;
-import org.apache.http.HttpEntity;
-import org.apache.http.client.methods.CloseableHttpResponse;
-import org.apache.http.client.methods.HttpGet;
-import org.apache.http.client.methods.HttpPost;
-import org.apache.http.client.methods.HttpUriRequest;
-import org.apache.http.entity.StringEntity;
-import org.apache.http.impl.client.CloseableHttpClient;
-import org.apache.http.impl.client.HttpClients;
-import org.apache.http.util.EntityUtils;
 
 import java.io.IOException;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-import static com.example.client.MainWindowController.bill;
-import static com.example.client.MainWindowController.mainUser;
+import static com.example.client.StaticFieldsAndRequests.*;
+
 
 public class SignInController {
 
@@ -128,6 +117,38 @@ public class SignInController {
         }
     }
 
+    @FXML
+    void signInAction(ActionEvent event) {
+        mainUser = new User();
+        bill = new Bill();
+        mainUser.setUsername(loginField.getText());
+        mainUser.setPassword(passwordField1.getText());
+        mainUser.setFirstname(firstnameField.getText());
+        mainUser.setLastname(lastnameField.getText());
+        mainUser.setEmail(emailField.getText());
+        bill.generateBankData(mainUser.getUsername());
+        //System.out.println(bill.toString());
+        try {
+
+            if (validation(mainUser)) {
+                User chekUser = postResponseUser(mainUser);
+                postResponseBill(bill);
+                if (!chekUser.getUsername().equals(mainUser.getUsername())) {
+                    System.out.println("Success");
+                    openMainWindow(event);
+                    loginField.setStyle("-fx-background-color: #ffffff; -fx-background-radius: 16; -fx-border-radius: 16; -fx-border-width: 2; -fx-border-color: #000000;");
+                } else {
+                    loginField.setStyle("-fx-background-color: #ED254E; -fx-background-radius: 16; -fx-border-radius: 16; -fx-border-width: 2; -fx-border-color: #000000;");
+                    System.out.println("Not success");
+                }
+            }
+        } catch (IOException e) {
+            //e.printStackTrace();
+            loginField.setStyle("-fx-background-color: #ED2; -fx-background-radius: 16; -fx-border-radius: 16; -fx-border-width: 2; -fx-border-color: #000000;");
+        }
+    }
+
+    ////////////////////////////////////////////////////////////////////////////////////////////////////////
     void openMainWindow(ActionEvent event) {
         try {
             FXMLLoader fxmlLoader = new FXMLLoader();
@@ -143,62 +164,6 @@ public class SignInController {
             //logger.log(System.Logger.Level.SEVERE, "Failed to create new Window.", e);
             System.out.println("Failed to create new Window");
         }
-    }
-
-    User postResponseUser(User mainUser) throws IOException {
-        HttpPost request = new HttpPost("http://localhost:8080/users");
-        CloseableHttpClient httpClient = HttpClients.createDefault();
-        request.setEntity(new StringEntity(mainUser.getJson()));
-        System.out.println(">>>"+mainUser.getJson());
-        request.setHeader("Accept", "application/json");
-        request.setHeader("Content-type", "application/json");
-        CloseableHttpResponse response = httpClient.execute(request);
-        HttpEntity entity = response.getEntity();
-        User checkUser = new User();
-        if (entity != null) {
-            String result = EntityUtils.toString(entity);
-            checkUser = checkUser.parseUserFromJSON(result);
-            if(checkUser == null){
-                checkUser = new User();
-            }
-        }
-        return checkUser; // возвращает объект юзер, если юзер с таким никнеймом уже существует
-    }
-
-    void postResponseBill(Bill bill) throws IOException {
-        HttpPost request = new HttpPost("http://localhost:8080/bills");
-        CloseableHttpClient httpClient = HttpClients.createDefault();
-        request.setEntity(new StringEntity(bill.getJson()));
-        request.setHeader("Accept", "application/json");
-        request.setHeader("Content-type", "application/json");
-        CloseableHttpResponse response = httpClient.execute(request);
-        HttpEntity entity = response.getEntity();
-        Bill checkBill = new Bill();
-        if (entity != null) {
-            String result = EntityUtils.toString(entity);
-            checkBill = checkBill.parseUserFromJSON(result);
-            if(checkBill == null){
-                checkBill = new Bill();
-            }
-            System.out.println(checkBill.toString());
-        }
-
-    }
-
-    User getResponseUser(User mainUser) throws IOException {
-        HttpUriRequest request = new HttpGet("http://localhost:8080/users/byUsername/" + mainUser.getUsername());
-        CloseableHttpClient httpClient = HttpClients.createDefault();
-        CloseableHttpResponse response = httpClient.execute(request);
-        HttpEntity entity = response.getEntity();
-        User chekUser = new User();
-        if (entity != null) {
-            String result = EntityUtils.toString(entity);
-            chekUser = chekUser.parseUserFromJSON(result);
-            if(chekUser == null){
-                chekUser = new User();
-            }
-        }
-        return chekUser;
     }
 
     boolean validation(User user) {
@@ -261,36 +226,6 @@ public class SignInController {
         return isValidated;
     }
 
-    @FXML
-    void signInAction(ActionEvent event) {
-        mainUser = new User();
-        bill = new Bill();
-        mainUser.setUsername(loginField.getText());
-        mainUser.setPassword(passwordField1.getText());
-        mainUser.setFirstname(firstnameField.getText());
-        mainUser.setLastname(lastnameField.getText());
-        mainUser.setEmail(emailField.getText());
-        bill.generateBankData(mainUser.getUsername());
-        //System.out.println(bill.toString());
-        try {
-
-            if (validation(mainUser)) {
-                User chekUser = postResponseUser(mainUser);
-                postResponseBill(bill);
-                if (!chekUser.getUsername().equals(mainUser.getUsername())) {
-                    System.out.println("Success");
-                    openMainWindow(event);
-                    loginField.setStyle("-fx-background-color: #ffffff; -fx-background-radius: 16; -fx-border-radius: 16; -fx-border-width: 2; -fx-border-color: #000000;");
-                } else {
-                    loginField.setStyle("-fx-background-color: #ED254E; -fx-background-radius: 16; -fx-border-radius: 16; -fx-border-width: 2; -fx-border-color: #000000;");
-                    System.out.println("Not success");
-                }
-            }
-        } catch (IOException e) {
-            //e.printStackTrace();
-            loginField.setStyle("-fx-background-color: #ED2; -fx-background-radius: 16; -fx-border-radius: 16; -fx-border-width: 2; -fx-border-color: #000000;");
-        }
-    }
 }
 
 

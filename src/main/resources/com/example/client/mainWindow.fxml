@@ -11,44 +11,44 @@
    <children>
       <AnchorPane layoutX="710.0" layoutY="100.0" prefHeight="300.0" prefWidth="500.0" style="-fx-background-color: #ffffff; -fx-background-radius: 20; -fx-border-radius: 20; -fx-border-width: 1.5; -fx-border-color: #000000;">
          <children>
-            <Label fx:id="cardName" layoutX="37.0" layoutY="36.0" prefHeight="28.0" prefWidth="426.0" text="Карта 1">
+            <Label fx:id="cardName" layoutX="37.0" layoutY="36.0" prefHeight="28.0" prefWidth="199.0" text="Карта 1">
                <font>
                   <Font name="Underdog" size="22.0" />
                </font>
             </Label>
-            <Label fx:id="balance" alignment="TOP_RIGHT" layoutX="86.0" layoutY="88.0" prefHeight="84.0" prefWidth="240.0" text="0.00" textAlignment="CENTER">
+            <Label fx:id="balance" alignment="TOP_RIGHT" layoutX="33.0" layoutY="108.0" prefHeight="84.0" prefWidth="291.0" text="0.00" textAlignment="CENTER">
                <font>
                   <Font name="Underdog" size="60.0" />
                </font>
             </Label>
-            <Label layoutX="337.0" layoutY="88.0" text="BYN">
+            <Label layoutX="335.0" layoutY="108.0" text="BYN">
                <font>
                   <Font name="Underdog" size="22.0" />
                </font>
             </Label>
-            <Label fx:id="cardNumber" layoutX="86.0" layoutY="172.0" prefHeight="44.0" prefWidth="240.0" text="4255 2003 0457 1979">
+            <Label fx:id="cardNumber" layoutX="86.0" layoutY="201.0" prefHeight="44.0" prefWidth="240.0" text="4255 2003 0457 1979">
                <font>
                   <Font name="Underdog" size="22.0" />
                </font>
             </Label>
-            <Label fx:id="cardValidity" layoutX="346.0" layoutY="172.0" prefHeight="44.0" prefWidth="71.0" text="09/21">
+            <Label fx:id="cardValidity" layoutX="346.0" layoutY="201.0" prefHeight="44.0" prefWidth="71.0" text="09/21">
                <font>
                   <Font name="Underdog" size="22.0" />
                </font>
             </Label>
-            <Label fx:id="firstnameAndLastname" alignment="CENTER" contentDisplay="CENTER" layoutX="46.0" layoutY="227.0" prefHeight="44.0" prefWidth="408.0" text="SEMEN SEMENOV" textAlignment="CENTER">
+            <Label fx:id="isActiveLabel" alignment="CENTER_RIGHT" layoutX="260.0" layoutY="36.0" prefHeight="28.0" prefWidth="199.0" text="Активен">
                <font>
                   <Font name="Underdog" size="22.0" />
                </font>
             </Label>
          </children>
       </AnchorPane>
-      <Button fx:id="refreshButton" layoutX="861.0" layoutY="448.0" mnemonicParsing="false" onAction="#refresh" prefHeight="59.0" prefWidth="199.0" style="-fx-background-color: #7C809B; -fx-background-radius: 14;" text="Обновить" textFill="WHITE">
+      <Button fx:id="lockButton" layoutX="820.0" layoutY="471.0" mnemonicParsing="false" onAction="#lockUnlock" onMouseEntered="#blueButtonEnter" onMouseExited="#blueButtonExit" onMousePressed="#blueButtonPress" onMouseReleased="#blueButtonRelease" prefHeight="84.0" prefWidth="280.0" style="-fx-background-color: #7C809B; -fx-background-radius: 14;" text="Заблокировать" textFill="WHITE">
          <font>
             <Font name="Underdog" size="28.0" />
          </font>
       </Button>
-      <Button fx:id="backToLogInButton" layoutX="14.0" layoutY="936.0" mnemonicParsing="false" onAction="#backToLogin" prefHeight="59.0" prefWidth="133.0" style="-fx-background-color: #7C809B;" text="Выйти" textFill="WHITE">
+      <Button fx:id="backToLogInButton" layoutX="15.0" layoutY="900.0" mnemonicParsing="false" onAction="#backToLogin" onMouseEntered="#blueButtonEnter" onMouseExited="#blueButtonExit" onMousePressed="#blueButtonPress" onMouseReleased="#blueButtonRelease" prefHeight="59.0" prefWidth="133.0" style="-fx-background-color: #7C809B;" text="Выйти" textFill="WHITE">
          <font>
             <Font name="Underdog" size="28.0" />
          </font>
@@ -61,5 +61,69 @@
             <Insets bottom="8.5" left="8.5" right="8.5" top="8.5" />
          </padding>
       </ScrollPane>
+      <Button fx:id="storeButton" layoutX="861.0" layoutY="653.0" mnemonicParsing="false" onAction="#toStore" onMouseEntered="#blueButtonEnter" onMouseExited="#blueButtonExit" onMousePressed="#blueButtonPress" onMouseReleased="#blueButtonRelease" prefHeight="199.0" prefWidth="199.0" style="-fx-background-color: #7C809B; -fx-background-radius: 14;" text="Магазин" textFill="WHITE">
+         <font>
+            <Font name="Underdog" size="28.0" />
+         </font>
+      </Button>
+      <Label fx:id="cardName2" layoutX="710.0" layoutY="44.0" prefHeight="34.0" prefWidth="71.0" text="IBAN:" textFill="WHITE">
+         <font>
+            <Font name="Underdog" size="28.0" />
+         </font>
+      </Label>
+      <Label fx:id="ibanLabel" layoutX="787.0" layoutY="44.0" prefHeight="34.0" prefWidth="427.0" text="0000000000000000000000" textFill="WHITE">
+         <font>
+            <Font name="Underdog" size="28.0" />
+         </font>
+      </Label>
+      <AnchorPane layoutX="80.0" layoutY="100.0" prefHeight="382.0" prefWidth="550.0" style="-fx-background-color: #ffffff; -fx-background-radius: 20; -fx-border-radius: 20; -fx-border-width: 1.5; -fx-border-color: #000000;">
+         <children>
+            <Label alignment="CENTER" layoutX="25.0" layoutY="21.0" prefHeight="28.0" prefWidth="500.0" text="Информация о пользователе" textAlignment="CENTER">
+               <font>
+                  <Font name="Underdog" size="28.0" />
+               </font>
+            </Label>
+            <Label fx:id="firstnameLabel" alignment="CENTER_RIGHT" layoutX="238.0" layoutY="79.0" prefHeight="34.0" prefWidth="250.0" text="Андрей" textAlignment="CENTER">
+               <font>
+                  <Font name="Underdog" size="24.0" />
+               </font>
+            </Label>
+            <Label layoutX="63.0" layoutY="79.0" prefHeight="34.0" prefWidth="59.0" text="Имя:" textAlignment="CENTER">
+               <font>
+                  <Font name="Underdog" size="24.0" />
+               </font>
+            </Label>
+            <Label fx:id="lastnameLabel" alignment="CENTER_RIGHT" layoutX="238.0" layoutY="132.0" prefHeight="34.0" prefWidth="250.0" text="Шевченко" textAlignment="CENTER">
+               <font>
+                  <Font name="Underdog" size="24.0" />
+               </font>
+            </Label>
+            <Label layoutX="63.0" layoutY="132.0" prefHeight="34.0" prefWidth="113.0" text="Фамилия:" textAlignment="CENTER">
+               <font>
+                  <Font name="Underdog" size="24.0" />
+               </font>
+            </Label>
+            <Label fx:id="usernameLabel" alignment="CENTER_RIGHT" layoutX="238.0" layoutY="191.0" prefHeight="34.0" prefWidth="250.0" text="SymNearOne" textAlignment="CENTER">
+               <font>
+                  <Font name="Underdog" size="24.0" />
+               </font>
+            </Label>
+            <Label layoutX="63.0" layoutY="191.0" prefHeight="34.0" prefWidth="113.0" text="Никнейм:" textAlignment="CENTER">
+               <font>
+                  <Font name="Underdog" size="24.0" />
+               </font>
+            </Label>
+            <Label fx:id="emailLabel" alignment="CENTER" contentDisplay="CENTER" layoutX="31.0" layoutY="296.0" prefHeight="34.0" prefWidth="489.0" text="na1x.1024@gmail.com" textAlignment="CENTER">
+               <font>
+                  <Font name="Underdog" size="24.0" />
+               </font>
+            </Label>
+            <Label layoutX="167.0" layoutY="253.0" prefHeight="34.0" prefWidth="216.0" text="Электронная почта" textAlignment="CENTER">
+               <font>
+                  <Font name="Underdog" size="24.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
    </children>
 </AnchorPane>

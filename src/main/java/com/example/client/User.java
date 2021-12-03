@@ -86,6 +86,7 @@ public class User {
     public User parseUserFromJSON(String JSON) {
         GsonBuilder builder = new GsonBuilder();
         Gson gson = builder.create();
+        System.out.println(JSON);
         return gson.fromJson(JSON, User.class);
     }
 }

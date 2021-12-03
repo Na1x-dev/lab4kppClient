@@ -5,6 +5,8 @@ module com.example.client {
     requires org.apache.httpcomponents.httpclient;
     requires org.apache.httpcomponents.httpcore;
     requires javafx.graphics;
+    requires java.desktop;
+    requires org.apache.commons.codec;
 
 
     opens com.example.client to javafx.fxml;
