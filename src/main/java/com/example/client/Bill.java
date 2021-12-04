@@ -6,8 +6,6 @@ import com.google.gson.GsonBuilder;
 
 import java.text.DecimalFormat;
 
-import static com.example.client.StaticFieldsAndRequests.setLock;
-
 public class Bill {
 
     public Integer id;
@@ -17,7 +15,8 @@ public class Bill {
     public String cardName;
     public String cardValidity;
     public double balance;
-    public boolean isActive;
+    public boolean isAutoBlock;
+    public boolean isManualBlock;
 
     public Bill() {
         id = 1;
@@ -27,7 +26,8 @@ public class Bill {
         cardName = "card 0";
         cardValidity = "00/00";
         balance = 0;
-        isActive = true;
+        isAutoBlock = false;
+        isManualBlock = false;
     }
 
     public Integer getId() { return id; }
@@ -56,8 +56,12 @@ public class Bill {
         return balance;
     }
 
-    public boolean getIsActive(){
-        return isActive;
+    public boolean getAutoBlock() {
+        return isAutoBlock;
+    }
+
+    public boolean getManualBlock() {
+        return isManualBlock;
     }
 
     public void setId(Integer id) {
@@ -84,16 +88,22 @@ public class Bill {
     }
 
     public void setBalance(double balance) {
-        if(balance<(-1000) || setLock){
-            setIsActive(false);
+        if(balance<(-1000)){
+            setAutoBlock(true);
         }
         else {
-            setIsActive(true);
+            setAutoBlock(false);
         }
         this.balance = balance;
     }
 
-    public void setIsActive(boolean isActive){ this.isActive = isActive; }
+    public void setAutoBlock(boolean autoBlock) {
+        isAutoBlock = autoBlock;
+    }
+
+    public void setManualBlock(boolean manualBlock) {
+        isManualBlock = manualBlock;
+    }
 
     private void generateIban() {
         iban = "BY";

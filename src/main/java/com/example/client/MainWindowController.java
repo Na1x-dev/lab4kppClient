@@ -136,25 +136,40 @@ public class MainWindowController {
 
     @FXML
     void lockUnlock(ActionEvent event) {
-        if(bill.getIsActive()){
-            bill.setIsActive(false);
-            setLock = true;
-            lockButton.setText("Разблокировать");
-        }
-        else {
-            bill.setIsActive(true);
-            setLock = false;
+        if(bill.getManualBlock()){
+            bill.setManualBlock(false);
             lockButton.setText("Заблокировать");
         }
+        else if (!bill.getManualBlock()){
+            bill.setManualBlock(true);
+            lockButton.setText("Разблокировать");
+        }
+        try {
+            putResponseBill(bill);
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        System.out.println("1."+bill.getManualBlock());
         refresh();
         renderTransactions();
+        System.out.println("2."+bill.getManualBlock());
     }
 
     @FXML
     private void initialize() {
         refresh();
         renderTransactions();
-        lockButton.setDisable(true);
+    }
+
+    @FXML
+    void plusMoney(){
+        bill.setBalance(bill.getBalance()+50);
+        try {
+            putResponseBill(bill);
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        refresh();
     }
 
     void refresh() {
@@ -173,7 +188,7 @@ public class MainWindowController {
         lastnameLabel.setText(mainUser.getLastname());
         usernameLabel.setText(mainUser.getUsername());
         emailLabel.setText(mainUser.getEmail());
-        if(bill.getIsActive()){
+        if(!bill.getAutoBlock() && !bill.getManualBlock()){
             isActiveLabel.setText("Активен");
         }
         else {

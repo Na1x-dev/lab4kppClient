@@ -25,7 +25,6 @@ public class StaticFieldsAndRequests {
     static Component component;
     static int idButton;
     static int idTransaction;
-    static boolean setLock;
 
     static User getResponseUser(User mainUser) throws IOException {
         HttpUriRequest request = new HttpGet(ip+"/users/byUsername/" + mainUser.getUsername());

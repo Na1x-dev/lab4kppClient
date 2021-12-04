@@ -125,5 +125,10 @@
             </Label>
          </children>
       </AnchorPane>
+      <Button fx:id="plusMoneyButton" layoutX="289.0" layoutY="555.0" mnemonicParsing="false" onAction="#plusMoney" onMouseEntered="#blueButtonEnter" onMouseExited="#blueButtonExit" onMousePressed="#blueButtonPress" onMouseReleased="#blueButtonRelease" prefHeight="133.0" prefWidth="133.0" style="-fx-background-color: #7C809B; -fx-background-radius: 14;" text="+50" textFill="WHITE">
+         <font>
+            <Font name="Underdog" size="28.0" />
+         </font>
+      </Button>
    </children>
 </AnchorPane>

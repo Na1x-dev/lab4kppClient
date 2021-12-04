@@ -9,7 +9,7 @@
 
 <AnchorPane fx:id="LogInPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="900.0" style="-fx-background-color: #7C809B;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.client.HelloController">
    <children>
-      <TextField fx:id="loginField" layoutX="311.0" layoutY="209.0" prefHeight="45.0" prefWidth="279.0" promptText="Логин" style="-fx-background-color: #ffffff; -fx-background-radius: 16; -fx-border-width: 1.5; -fx-border-color: #000000; -fx-border-radius: 14;-fx-prompt-text-fill: #999999">
+      <TextField fx:id="loginField" layoutX="311.0" layoutY="209.0" onKeyPressed="#onChangeField" prefHeight="45.0" prefWidth="279.0" promptText="Логин" style="-fx-background-color: #ffffff; -fx-background-radius: 16; -fx-border-width: 1.5; -fx-border-color: #000000; -fx-border-radius: 14;-fx-prompt-text-fill: #999999">
          <font>
             <Font name="Underdog" size="21.0" />
          </font></TextField>
@@ -18,7 +18,7 @@
             <Font name="Underdog" size="48.0" />
          </font>
       </Label>
-      <PasswordField fx:id="passwordField" layoutX="311.0" layoutY="285.0" prefHeight="45.0" prefWidth="279.0" promptText="Пароль" style="-fx-background-color: #ffffff; -fx-background-radius: 16; -fx-border-radius: 14; -fx-border-width: 1.5; -fx-border-color: #000000;-fx-prompt-text-fill: #999999">
+      <PasswordField fx:id="passwordField" layoutX="311.0" layoutY="285.0" onKeyPressed="#onChangeField" prefHeight="45.0" prefWidth="279.0" promptText="Пароль" style="-fx-background-color: #ffffff; -fx-background-radius: 16; -fx-border-radius: 14; -fx-border-width: 1.5; -fx-border-color: #000000;-fx-prompt-text-fill: #999999">
          <font>
             <Font name="Underdog" size="21.0" />
          </font>
@@ -33,5 +33,10 @@
             <Font name="Underdog" size="21.0" />
          </font>
       </Button>
+      <Label fx:id="logLabel" alignment="CENTER" layoutX="215.0" layoutY="454.0" prefHeight="58.0" prefWidth="470.0" textFill="WHITE">
+         <font>
+            <Font name="Underdog" size="24.0" />
+         </font>
+      </Label>
    </children>
 </AnchorPane>

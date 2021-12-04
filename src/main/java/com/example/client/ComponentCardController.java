@@ -74,7 +74,7 @@ public class ComponentCardController {
     }
     @FXML
     void initialize(){
-        if (!bill.getIsActive()) {
+        if (bill.getManualBlock() || bill.getAutoBlock()) {
             payButton.setDisable(true);
             payButton.setText("Карта заблокирована");
         }

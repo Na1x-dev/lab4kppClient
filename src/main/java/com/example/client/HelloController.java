@@ -7,6 +7,7 @@ import javafx.fxml.FXMLLoader;
 import javafx.scene.Node;
 import javafx.scene.Scene;
 import javafx.scene.control.Button;
+import javafx.scene.control.Label;
 import javafx.scene.control.TextField;
 import javafx.scene.input.MouseEvent;
 import javafx.scene.layout.AnchorPane;
@@ -35,6 +36,8 @@ public class HelloController {
     @FXML
     private TextField passwordField;
 
+    @FXML
+    private Label logLabel;
 
     @FXML
     void blueButtonRelease(MouseEvent event) {
@@ -100,6 +103,13 @@ public class HelloController {
     }
 
     @FXML
+    void onChangeField(){
+        logLabel.setText("");
+        loginField.setStyle("-fx-background-color: #ffffff; -fx-background-radius: 16; -fx-border-radius: 16; -fx-border-width: 2; -fx-border-color: #000000;");
+        passwordField.setStyle("-fx-background-color: #ffffff; -fx-background-radius: 16; -fx-border-radius: 16; -fx-border-width: 2; -fx-border-color: #000000;");
+    }
+
+    @FXML
     void loginAction(ActionEvent event) {
         mainUser = new User();
         mainUser.setUsername(loginField.getText());
@@ -113,10 +123,12 @@ public class HelloController {
                 openMainWindow(event);
             } else {
                 passwordField.setStyle("-fx-background-color: #ED254E; -fx-background-radius: 16; -fx-border-radius: 16; -fx-border-width: 2; -fx-border-color: #000000;");
+                loginField.setStyle("-fx-background-color: #ED254E; -fx-background-radius: 16; -fx-border-radius: 16; -fx-border-width: 2; -fx-border-color: #000000;");
+                logLabel.setText("Неверные логин и(или) пароль");
             }
         } catch (IOException e) {
-            e.printStackTrace();
-            loginField.setStyle("-fx-background-color: #ED254E; -fx-background-radius: 16; -fx-border-radius: 16; -fx-border-width: 2; -fx-border-color: #000000;");
+            //loginField.setStyle("-fx-background-color: #ED254E; -fx-background-radius: 16; -fx-border-radius: 16; -fx-border-width: 2; -fx-border-color: #000000;");
+            logLabel.setText("Сервер недоступен");
         }
 
     }

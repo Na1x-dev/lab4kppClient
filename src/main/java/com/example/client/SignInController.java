@@ -6,8 +6,10 @@ import javafx.fxml.FXMLLoader;
 import javafx.scene.Node;
 import javafx.scene.Scene;
 import javafx.scene.control.Button;
+import javafx.scene.control.Label;
 import javafx.scene.control.PasswordField;
 import javafx.scene.control.TextField;
+import javafx.scene.input.KeyEvent;
 import javafx.scene.input.MouseEvent;
 import javafx.scene.layout.AnchorPane;
 import javafx.scene.paint.Paint;
@@ -19,9 +21,7 @@ import java.util.regex.Pattern;
 
 import static com.example.client.StaticFieldsAndRequests.*;
 
-
 public class SignInController {
-
 
     @FXML
     private AnchorPane LogInPane;
@@ -49,6 +49,9 @@ public class SignInController {
 
     @FXML
     private Button signinButton;
+
+    @FXML
+    private Label logLabel;
 
     @FXML
     void onSignEnter(MouseEvent event) {
@@ -127,25 +130,39 @@ public class SignInController {
         mainUser.setLastname(lastnameField.getText());
         mainUser.setEmail(emailField.getText());
         bill.generateBankData(mainUser.getUsername());
-        //System.out.println(bill.toString());
         try {
-
             if (validation(mainUser)) {
                 User chekUser = postResponseUser(mainUser);
                 postResponseBill(bill);
                 if (!chekUser.getUsername().equals(mainUser.getUsername())) {
                     System.out.println("Success");
                     openMainWindow(event);
-                    loginField.setStyle("-fx-background-color: #ffffff; -fx-background-radius: 16; -fx-border-radius: 16; -fx-border-width: 2; -fx-border-color: #000000;");
+                    loginField.setStyle("-fx-background-color: #7C809B; -fx-background-radius: 16; -fx-border-radius: 14; -fx-border-width: 1.5; -fx-border-color: #000000; -fx-text-fill: #ffffff; -fx-prompt-text-fill: #ffffff");
                 } else {
-                    loginField.setStyle("-fx-background-color: #ED254E; -fx-background-radius: 16; -fx-border-radius: 16; -fx-border-width: 2; -fx-border-color: #000000;");
-                    System.out.println("Not success");
+                    loginField.setStyle("-fx-background-color: #ED254E; -fx-background-radius: 16; -fx-border-radius: 16; -fx-border-width: 2; -fx-border-color: #000000;-fx-prompt-text-fill: #ffffff");
+                    logLabel.setText("Никнейм уже используется");
                 }
             }
+            else {
+                logLabel.setText("Введите другие данные");
+            }
         } catch (IOException e) {
-            //e.printStackTrace();
-            loginField.setStyle("-fx-background-color: #ED2; -fx-background-radius: 16; -fx-border-radius: 16; -fx-border-width: 2; -fx-border-color: #000000;");
+            logLabel.setText("Сервер недоступен");
         }
+    }
+
+    @FXML
+    void onChangeBlueField(KeyEvent event){
+        TextField someField = (TextField) event.getSource();
+        logLabel.setText("");
+        someField.setStyle("-fx-background-color: #7C809B; -fx-background-radius: 16; -fx-border-radius: 14; -fx-border-width: 1.5; -fx-border-color: #000000; -fx-text-fill: #ffffff; -fx-prompt-text-fill: #ffffff");
+    }
+
+    @FXML
+    void onChangeWhiteField(KeyEvent event){
+        TextField someField = (TextField) event.getSource();
+        logLabel.setText("");
+        someField.setStyle("-fx-background-color: #ffffff; -fx-background-radius: 16; -fx-border-radius: 16; -fx-border-width: 2; -fx-border-color: #000000;");
     }
 
     ////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -167,17 +184,17 @@ public class SignInController {
     }
 
     boolean validation(User user) {
-        Pattern firstnamePattern = Pattern.compile(".+");
-        Pattern lastnamePattern = Pattern.compile(".+");
-        Pattern usernamePattern = Pattern.compile(".+"); //[a-z0-9_-]{3,16}
-        Pattern passwordPattern = Pattern.compile(".+"); //(?=.*[A-Z].*[A-Z])(?=.*[!@#$&*])(?=.*[0-9].*[0-9])(?=.*[a-z].*[a-z].*[a-z]).{8,}
-        Pattern emailPattern = Pattern.compile(".+"); //[A-Z0-9._%+-]+@[A-Z0-9-]+.+.[A-Z]{2,4}
+        Pattern firstnamePattern = Pattern.compile(".{4,}");
+        Pattern lastnamePattern = Pattern.compile(".{4,}");
+        Pattern usernamePattern = Pattern.compile(".{4,}"); //[a-z0-9_-]{3,16}
+        Pattern passwordPattern = Pattern.compile(".{4,}"); //(?=.*[A-Z].*[A-Z])(?=.*[!@#$&*])(?=.*[0-9].*[0-9])(?=.*[a-z].*[a-z].*[a-z]).{8,}
+        Pattern emailPattern = Pattern.compile(".{4,}"); //[A-Z0-9._%+-]+@[A-Z0-9-]+.+.[A-Z]{2,4}
 
         Matcher firstnameMatcher = firstnamePattern.matcher(user.getFirstname());
-        Matcher lastnameMatcher = lastnamePattern.matcher(user.getFirstname());
-        Matcher usernameMatcher = usernamePattern.matcher(user.getFirstname());
-        Matcher passwordMatcher = passwordPattern.matcher(user.getFirstname());
-        Matcher emailMatcher = emailPattern.matcher(user.getFirstname());
+        Matcher lastnameMatcher = lastnamePattern.matcher(user.getLastname());
+        Matcher usernameMatcher = usernamePattern.matcher(user.getUsername());
+        Matcher passwordMatcher = passwordPattern.matcher(user.getPassword());
+        Matcher emailMatcher = emailPattern.matcher(user.getEmail());
 
         boolean isValidated = true;
 
@@ -186,42 +203,44 @@ public class SignInController {
         } else {
             isValidated = false;
             //firstnameField.clear();
-            firstnameField.setStyle("-fx-background-color: #ED254E; -fx-background-radius: 16; -fx-border-radius: 16; -fx-border-width: 2; -fx-border-color: #000000;");
+            firstnameField.setStyle("-fx-background-color: #ED254E; -fx-background-radius: 16; -fx-border-radius: 16; -fx-border-width: 2; -fx-border-color: #000000; -fx-text-fill: #ffffff");
         }
         if (lastnameMatcher.matches()) {
             lastnameField.setStyle("-fx-background-color: #ffffff; -fx-background-radius: 16; -fx-border-radius: 16; -fx-border-width: 2; -fx-border-color: #000000;");
         } else {
             isValidated = false;
             //lastnameField.clear();
-            lastnameField.setStyle("-fx-background-color: #ED254E; -fx-background-radius: 16; -fx-border-radius: 16; -fx-border-width: 2; -fx-border-color: #000000;");
+            lastnameField.setStyle("-fx-background-color: #ED254E; -fx-background-radius: 16; -fx-border-radius: 16; -fx-border-width: 2; -fx-border-color: #000000; -fx-text-fill: #ffffff");
         }
         if (usernameMatcher.matches()) {
-            loginField.setStyle("-fx-background-color: #ffffff; -fx-background-radius: 16; -fx-border-radius: 16; -fx-border-width: 2; -fx-border-color: #000000;");
+            loginField.setStyle("-fx-background-color: #7C809B; -fx-background-radius: 16; -fx-border-radius: 14; -fx-border-width: 1.5; -fx-border-color: #000000; -fx-text-fill: #ffffff; -fx-prompt-text-fill: #ffffff");
         } else {
             isValidated = false;
             //loginField.clear();
-            loginField.setStyle("-fx-background-color: #ED254E; -fx-background-radius: 16; -fx-border-radius: 16; -fx-border-width: 2; -fx-border-color: #000000;");
+            loginField.setStyle("-fx-background-color: #ED254E; -fx-background-radius: 16; -fx-border-radius: 16; -fx-border-width: 2; -fx-border-color: #000000; -fx-text-fill: #ffffff");
         }
         if (passwordMatcher.matches()) {
             if (mainUser.getPassword().equals(passwordField2.getText())) {
-                passwordField1.setStyle("-fx-background-color: #ffffff; -fx-background-radius: 16; -fx-border-radius: 16; -fx-border-width: 2; -fx-border-color: #000000;");
-                passwordField2.setStyle("-fx-background-color: #ffffff; -fx-background-radius: 16; -fx-border-radius: 16; -fx-border-width: 2; -fx-border-color: #000000;");
+                passwordField1.setStyle("-fx-background-color: #7C809B; -fx-background-radius: 16; -fx-border-radius: 14; -fx-border-width: 1.5; -fx-border-color: #000000; -fx-text-fill: #ffffff; -fx-prompt-text-fill: #ffffff");
+                passwordField2.setStyle("-fx-background-color: #7C809B; -fx-background-radius: 16; -fx-border-radius: 14; -fx-border-width: 1.5; -fx-border-color: #000000; -fx-text-fill: #ffffff; -fx-prompt-text-fill: #ffffff");
             } else {
                 //passwordField.clear();
-                passwordField1.setStyle("-fx-background-color: #ED254E; -fx-background-radius: 16; -fx-border-radius: 16; -fx-border-width: 2; -fx-border-color: #000000;");
-                passwordField2.setStyle("-fx-background-color: #ED254E; -fx-background-radius: 16; -fx-border-radius: 16; -fx-border-width: 2; -fx-border-color: #000000;");
+                passwordField1.setStyle("-fx-background-color: #ED254E; -fx-background-radius: 16; -fx-border-radius: 16; -fx-border-width: 2; -fx-border-color: #000000; -fx-text-fill: #ffffff");
+                passwordField2.setStyle("-fx-background-color: #ED254E; -fx-background-radius: 16; -fx-border-radius: 16; -fx-border-width: 2; -fx-border-color: #000000; -fx-text-fill: #ffffff");
+                isValidated = false;
             }
         } else {
             isValidated = false;
             //passwordField.clear();
-            passwordField1.setStyle("-fx-background-color: #ED254E; -fx-background-radius: 16; -fx-border-radius: 16; -fx-border-width: 2; -fx-border-color: #000000;");
+            passwordField1.setStyle("-fx-background-color: #ED254E; -fx-background-radius: 16; -fx-border-radius: 16; -fx-border-width: 2; -fx-border-color: #000000;-fx-text-fill: #ffffff");
+            passwordField2.setStyle("-fx-background-color: #ED254E; -fx-background-radius: 16; -fx-border-radius: 16; -fx-border-width: 2; -fx-border-color: #000000;-fx-text-fill: #ffffff");
         }
         if (emailMatcher.matches()) {
             emailField.setStyle("-fx-background-color: #ffffff; -fx-background-radius: 16; -fx-border-radius: 16; -fx-border-width: 2; -fx-border-color: #000000;");
         } else {
             isValidated = false;
             //emailField.clear();
-            emailField.setStyle("-fx-background-color: #ED254E; -fx-background-radius: 16; -fx-border-radius: 16; -fx-border-width: 2; -fx-border-color: #000000;");
+            emailField.setStyle("-fx-background-color: #ED254E; -fx-background-radius: 16; -fx-border-radius: 16; -fx-border-width: 2; -fx-border-color: #000000; -fx-text-fill: #ffffff");
         }
         return isValidated;
     }
