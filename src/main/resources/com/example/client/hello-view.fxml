@@ -33,7 +33,7 @@
             <Font name="Underdog" size="21.0" />
          </font>
       </Button>
-      <Label fx:id="logLabel" alignment="CENTER" layoutX="215.0" layoutY="454.0" prefHeight="58.0" prefWidth="470.0" textFill="WHITE">
+      <Label fx:id="logLoginLabel" alignment="CENTER" layoutX="215.0" layoutY="454.0" prefHeight="58.0" prefWidth="470.0" textFill="WHITE">
          <font>
             <Font name="Underdog" size="24.0" />
          </font>

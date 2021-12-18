@@ -1,6 +1,8 @@
 package com.example.client;
 
 
+import com.example.client.StaticFieldsAndRequests;
+import com.example.client.User;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
@@ -13,6 +15,7 @@ import javafx.scene.input.MouseEvent;
 import javafx.scene.layout.AnchorPane;
 import javafx.scene.paint.Paint;
 import javafx.stage.Stage;
+import org.apache.log4j.Logger;
 
 import java.io.IOException;
 
@@ -20,7 +23,7 @@ import static com.example.client.StaticFieldsAndRequests.*;
 
 
 public class HelloController {
-
+    private static final Logger log = Logger.getLogger(HelloController.class);
     @FXML
     private AnchorPane LogInPane;
 
@@ -37,7 +40,7 @@ public class HelloController {
     private TextField passwordField;
 
     @FXML
-    private Label logLabel;
+    private Label logLoginLabel;
 
     @FXML
     void blueButtonRelease(MouseEvent event) {
@@ -56,7 +59,6 @@ public class HelloController {
     @FXML
     void blueButtonExit(MouseEvent event) {
         Button someButton = (Button) event.getSource();
-
         someButton.setStyle("-fx-background-color: #7C809B; -fx-background-radius: 16;");
         someButton.setTextFill(Paint.valueOf("WHITE"));
     }
@@ -79,8 +81,9 @@ public class HelloController {
             stage.setScene(scene);
             stage.show();
             ((Node) (event.getSource())).getScene().getWindow().hide();
+            log.info("окно SignIn успешно создано");
         } catch (IOException e) {
-            System.out.println("Failed to create new Window");
+            log.error("окно SignIn не создано");
         }
     }
 
@@ -94,17 +97,15 @@ public class HelloController {
             stage.setScene(scene);
             stage.show();
             ((Node) (event.getSource())).getScene().getWindow().hide();
+            log.info("окно mainWindow успешно создано");
         } catch (IOException e) {
-            e.printStackTrace();
-            //System.Logger logger = System.Logger.getLogger(getClass().getName());
-            //logger.log(System.Logger.Level.SEVERE, "Failed to create new Window.", e);
-            System.out.println("Failed to create new Windowwww");
+            log.error("окно mainWindow не создано");
         }
     }
 
     @FXML
-    void onChangeField(){
-        logLabel.setText("");
+    void onChangeField() {
+        logLoginLabel.setText("");
         loginField.setStyle("-fx-background-color: #ffffff; -fx-background-radius: 16; -fx-border-radius: 16; -fx-border-width: 2; -fx-border-color: #000000;");
         passwordField.setStyle("-fx-background-color: #ffffff; -fx-background-radius: 16; -fx-border-radius: 16; -fx-border-width: 2; -fx-border-color: #000000;");
     }
@@ -114,23 +115,20 @@ public class HelloController {
         mainUser = new User();
         mainUser.setUsername(loginField.getText());
         mainUser.setPassword(passwordField.getText());
-        try {
-            User chekUser = getResponseUser(mainUser);
-            if (chekUser.getPassword().equals(mainUser.getPassword()) && !mainUser.getUsername().equals("") && !mainUser.getPassword().equals("")) {
-                System.out.println("Success");
-                passwordField.setStyle("-fx-background-color: #ffffff; -fx-background-radius: 16; -fx-border-radius: 16; -fx-border-width: 2; -fx-border-color: #000000;");
-                mainUser = chekUser;
-                openMainWindow(event);
-            } else {
-                passwordField.setStyle("-fx-background-color: #ED254E; -fx-background-radius: 16; -fx-border-radius: 16; -fx-border-width: 2; -fx-border-color: #000000;");
-                loginField.setStyle("-fx-background-color: #ED254E; -fx-background-radius: 16; -fx-border-radius: 16; -fx-border-width: 2; -fx-border-color: #000000;");
-                logLabel.setText("Неверные логин и(или) пароль");
-            }
-        } catch (IOException e) {
-            //loginField.setStyle("-fx-background-color: #ED254E; -fx-background-radius: 16; -fx-border-radius: 16; -fx-border-width: 2; -fx-border-color: #000000;");
-            logLabel.setText("Сервер недоступен");
+        User checkUser = getResponseUser(mainUser);
+        if(checkUser == null) {
+            logString = "Сервер недоступен";
         }
-
+        else if (checkUser.getPassword().equals(mainUser.getPassword()) && !mainUser.getUsername().equals("") && !mainUser.getPassword().equals("")) {
+            passwordField.setStyle("-fx-background-color: #ffffff; -fx-background-radius: 16; -fx-border-radius: 16; -fx-border-width: 2; -fx-border-color: #000000;");
+            mainUser = checkUser;
+            openMainWindow(event);
+        }
+        else {
+            passwordField.setStyle("-fx-background-color: #ED254E; -fx-background-radius: 16; -fx-border-radius: 16; -fx-border-width: 2; -fx-border-color: #000000;");
+            loginField.setStyle("-fx-background-color: #ED254E; -fx-background-radius: 16; -fx-border-radius: 16; -fx-border-width: 2; -fx-border-color: #000000;");
+            logString = "Неверные логин и(или) пароль";
+        }
+        logLoginLabel.setText(logString);
     }
-
 }

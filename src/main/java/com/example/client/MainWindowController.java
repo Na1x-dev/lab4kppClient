@@ -12,6 +12,7 @@ import javafx.scene.input.MouseEvent;
 import javafx.scene.layout.AnchorPane;
 import javafx.scene.paint.Paint;
 import javafx.stage.Stage;
+import org.apache.log4j.Logger;
 
 import java.io.IOException;
 import java.util.ArrayList;
@@ -20,6 +21,7 @@ import java.util.List;
 import static com.example.client.StaticFieldsAndRequests.*;
 
 public class MainWindowController {
+    private static final Logger log = Logger.getLogger(MainWindowController.class);
 
     @FXML
     private Button storeButton;
@@ -66,7 +68,6 @@ public class MainWindowController {
     @FXML
     private Label emailLabel;
 
-
     @FXML
     void blueButtonRelease(MouseEvent event) {
         Button someButton = (Button) event.getSource();
@@ -84,7 +85,6 @@ public class MainWindowController {
     @FXML
     void blueButtonExit(MouseEvent event) {
         Button someButton = (Button) event.getSource();
-
         someButton.setStyle("-fx-background-color: #7C809B; -fx-background-radius: 16;");
         someButton.setTextFill(Paint.valueOf("WHITE"));
     }
@@ -107,11 +107,9 @@ public class MainWindowController {
             stage.setScene(scene);
             stage.show();
             ((Node) (event.getSource())).getScene().getWindow().hide();
+            log.info("окно Store успешно создано");
         } catch (IOException e) {
-            //System.Logger logger = System.Logger.getLogger(getClass().getName());
-            //logger.log(System.Logger.Level.SEVERE, "Failed to create new Window.", e)
-            System.out.println("Failed to create new Window");
-            e.printStackTrace();
+            log.error("окно Store не создано");
         }
     }
 
@@ -126,11 +124,9 @@ public class MainWindowController {
             stage.setScene(scene);
             stage.show();
             ((Node) (event.getSource())).getScene().getWindow().hide();
+            log.info("окно hello-view успешно создано");
         } catch (IOException e) {
-            //System.Logger logger = System.Logger.getLogger(getClass().getName());
-            //logger.log(System.Logger.Level.SEVERE, "Failed to create new Window.", e)
-            System.out.println("Failed to create new Window");
-            e.printStackTrace();
+            log.error("окно hello-view не создано");
         }
     }
 
@@ -144,15 +140,9 @@ public class MainWindowController {
             bill.setManualBlock(true);
             lockButton.setText("Разблокировать");
         }
-        try {
-            putResponseBill(bill);
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-        System.out.println("1."+bill.getManualBlock());
+        putResponseBill(bill);
         refresh();
         renderTransactions();
-        System.out.println("2."+bill.getManualBlock());
     }
 
     @FXML
@@ -164,21 +154,13 @@ public class MainWindowController {
     @FXML
     void plusMoney(){
         bill.setBalance(bill.getBalance()+50);
-        try {
-            putResponseBill(bill);
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
+        putResponseBill(bill);
         refresh();
     }
 
     void refresh() {
-        try {
-            bill = getResponseBill(mainUser);
-            transactions = getResponseTransactions(mainUser);
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
+        bill = getResponseBill(mainUser);
+        transactions = getResponseTransactions(mainUser);
         cardName.setText(bill.getCardName());
         cardNumber.setText(bill.getCardNumber());
         cardValidity.setText(bill.getCardValidity());
@@ -232,12 +214,10 @@ public class MainWindowController {
             stage.setTitle("Transaction Card");
             stage.setScene(scene);
             stage.show();
+            log.info("окно TransactionCard успешно создано");
         } catch (IOException e) {
-            //System.Logger logger = System.Logger.getLogger(getClass().getName());
-            //logger.log(System.Logger.Level.SEVERE, "Failed to create new Window.", e);
-            System.out.println("Failed to create new Window");
+            log.error("окно TransactionCard не создано");
         }
-
     }
 }
 

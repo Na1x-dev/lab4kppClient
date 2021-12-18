@@ -8,12 +8,14 @@ import javafx.scene.control.Label;
 import javafx.scene.input.MouseEvent;
 import javafx.scene.layout.AnchorPane;
 import javafx.scene.paint.Paint;
+import org.apache.log4j.Logger;
 
 import java.io.IOException;
 
 import static com.example.client.StaticFieldsAndRequests.*;
 
 public class ComponentCardController {
+    private static final Logger log = Logger.getLogger(ComponentCardController.class);
     Transaction transaction = new Transaction();
 
     @FXML
@@ -61,17 +63,14 @@ public class ComponentCardController {
 
     @FXML
     void pay(ActionEvent event) {
-
-            bill = transaction.componentToTransaction(component, bill);
-            try {
-                postResponseTransactions(transaction);
-                putResponseBill(bill);
-            } catch (IOException e) {
-                e.printStackTrace();
-            }
-            ((Node) (event.getSource())).getScene().getWindow().hide();
-
+        bill = transaction.componentToTransaction(component, bill);
+        postResponseTransactions(transaction);
+        log.info("получен ответ от post класса Transaction");
+        putResponseBill(bill);
+        log.info("получен ответ от put класса Bill");
+        ((Node) (event.getSource())).getScene().getWindow().hide();
     }
+
     @FXML
     void initialize(){
         if (bill.getManualBlock() || bill.getAutoBlock()) {

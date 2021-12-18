@@ -1,36 +1,25 @@
 package com.example.client;
 
-import com.google.gson.Gson;
-import com.google.gson.GsonBuilder;
-import com.google.gson.reflect.TypeToken;
+import com.example.client.Component;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Node;
 import javafx.scene.Scene;
 import javafx.scene.control.Button;
-import javafx.scene.image.Image;
 import javafx.scene.input.MouseEvent;
-import javafx.scene.layout.*;
 import javafx.scene.paint.Paint;
 import javafx.stage.Stage;
-import org.apache.http.HttpEntity;
-import org.apache.http.client.methods.CloseableHttpResponse;
-import org.apache.http.client.methods.HttpGet;
-import org.apache.http.client.methods.HttpUriRequest;
-import org.apache.http.impl.client.CloseableHttpClient;
-import org.apache.http.impl.client.HttpClients;
-import org.apache.http.util.EntityUtils;
+import org.apache.log4j.Logger;
 
 import java.io.IOException;
-import java.lang.reflect.Type;
 import java.util.ArrayList;
-import java.util.List;
 
 import static com.example.client.StaticFieldsAndRequests.*;
 
 
 public class StoreController {
+    private static final Logger log = Logger.getLogger(StoreController.class);
     ArrayList<Component> components = new ArrayList<>();
     ArrayList<Button> buttons = new ArrayList<>();
 
@@ -167,10 +156,9 @@ public class StoreController {
             stage.setScene(scene);
             stage.show();
             ((Node) (event.getSource())).getScene().getWindow().hide();
+            log.info("окно mainWindow успешно создано");
         } catch (IOException e) {
-            //System.Logger logger = System.Logger.getLogger(getClass().getName());
-            //logger.log(System.Logger.Level.SEVERE, "Failed to create new Window.", e);
-            System.out.println("Failed to create new Window");
+            log.error("окно mainWindow не создано");
         }
     }
 
@@ -187,23 +175,16 @@ public class StoreController {
             stage.setTitle("Component Card");
             stage.setScene(scene);
             stage.show();
+            log.info("окно ComponentCard успешно создано");
         } catch (IOException e) {
-            //System.Logger logger = System.Logger.getLogger(getClass().getName());
-            //logger.log(System.Logger.Level.SEVERE, "Failed to create new Window.", e);
-            System.out.println("Failed to create new Window");
+            log.error("окно ComponentCard не создано");
         }
     }
-
-
 
     @FXML
     void initialize(){
         addAllButtons();
-        try {
-            components = (ArrayList<Component>) getResponseComponents();
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
+        components = (ArrayList<Component>) getResponseComponents();
         for(int i=0; i<buttons.size(); i++){
             buttons.get(i).setText(components.get(i).getNameOfComponent());
             buttons.get(i).setStyle("-fx-background-color: #ffffff;-fx-border-width: 1.5; -fx-border-radius: 14; -fx-border-color: #7C809B; -fx-background-radius: 16; -fx-background-image: url(file:images/" + i + ".jpg); -fx-background-repeat: no-repeat; -fx-background-size: 100 ; -fx-background-position: center center");

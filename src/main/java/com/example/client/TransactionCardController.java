@@ -5,11 +5,12 @@ import javafx.fxml.FXML;
 import javafx.scene.Node;
 import javafx.scene.control.Button;
 import javafx.scene.control.Label;
+import org.apache.log4j.Logger;
 
 import static com.example.client.StaticFieldsAndRequests.*;
 
 public class TransactionCardController {
-
+    private static final Logger log = Logger.getLogger(TransactionCardController.class);
     @FXML
     private Label cardNumberLabel;
 

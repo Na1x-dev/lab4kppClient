@@ -3,8 +3,6 @@ package com.example.client;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 
-import java.lang.reflect.Type;
-
 public class User {
     public int id;
     public String firstname;
@@ -83,7 +81,7 @@ public class User {
         return gson.toJson(User.this);
     }
 
-    public User parseUserFromJSON(String JSON) {
+    public static User parseUserFromJSON(String JSON) {
         GsonBuilder builder = new GsonBuilder();
         Gson gson = builder.create();
         System.out.println(JSON);

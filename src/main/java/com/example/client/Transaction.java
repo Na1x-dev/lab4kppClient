@@ -2,23 +2,11 @@ package com.example.client;
 
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
-import javafx.event.ActionEvent;
-import javafx.event.EventHandler;
-import javafx.fxml.FXML;
-import javafx.fxml.FXMLLoader;
 import javafx.geometry.Pos;
-import javafx.scene.Scene;
-import javafx.scene.control.Button;
 import javafx.scene.control.Label;
 import javafx.scene.control.OverrunStyle;
-import javafx.scene.input.MouseEvent;
 import javafx.scene.layout.AnchorPane;
 import javafx.scene.text.Font;
-import javafx.stage.Stage;
-
-import java.io.IOException;
-
-import static com.example.client.StaticFieldsAndRequests.*;
 
 public class Transaction {
     public Integer id;
@@ -138,7 +126,7 @@ public class Transaction {
         priceLabel.setAlignment(Pos.BASELINE_RIGHT);
     }
 
-    Bill componentToTransaction(Component component, Bill bill) {
+    public Bill componentToTransaction(Component component, Bill bill) {
         this.username = bill.getUsername();
         this.nameOfTransaction = component.getNameOfComponent();
         this.checkNumber = String.valueOf((int)(Math.random() * 1000000000));

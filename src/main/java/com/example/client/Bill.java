@@ -4,8 +4,6 @@ package com.example.client;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 
-import java.text.DecimalFormat;
-
 public class Bill {
 
     public Integer id;
@@ -148,7 +146,6 @@ public class Bill {
     public String getJson() {
         GsonBuilder builder = new GsonBuilder();
         Gson gson = builder.create();
-        System.out.println(getCardName() + "  " + gson.toJson(Bill.this));
         return gson.toJson(Bill.this);
     }
 

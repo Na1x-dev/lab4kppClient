@@ -1,5 +1,7 @@
 package com.example.client;
 
+import com.example.client.User;
+import com.example.client.Bill;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
@@ -14,6 +16,7 @@ import javafx.scene.input.MouseEvent;
 import javafx.scene.layout.AnchorPane;
 import javafx.scene.paint.Paint;
 import javafx.stage.Stage;
+import org.apache.log4j.Logger;
 
 import java.io.IOException;
 import java.util.regex.Matcher;
@@ -22,7 +25,7 @@ import java.util.regex.Pattern;
 import static com.example.client.StaticFieldsAndRequests.*;
 
 public class SignInController {
-
+    private static final Logger log = Logger.getLogger(SignInController.class);
     @FXML
     private AnchorPane LogInPane;
 
@@ -51,7 +54,7 @@ public class SignInController {
     private Button signinButton;
 
     @FXML
-    private Label logLabel;
+    private Label logSignLabel;
 
     @FXML
     void onSignEnter(MouseEvent event) {
@@ -113,10 +116,9 @@ public class SignInController {
             stage.setScene(scene);
             stage.show();
             ((Node) (event.getSource())).getScene().getWindow().hide();
+            log.info("окно hello-view успешно создано");
         } catch (IOException e) {
-            //System.Logger logger = System.Logger.getLogger(getClass().getName());
-            //logger.log(System.Logger.Level.SEVERE, "Failed to create new Window.", e);
-            System.out.println("Failed to create new Window");
+            log.error("окно hello-view не создано");
         }
     }
 
@@ -130,38 +132,37 @@ public class SignInController {
         mainUser.setLastname(lastnameField.getText());
         mainUser.setEmail(emailField.getText());
         bill.generateBankData(mainUser.getUsername());
-        try {
-            if (validation(mainUser)) {
-                User chekUser = postResponseUser(mainUser);
-                postResponseBill(bill);
-                if (!chekUser.getUsername().equals(mainUser.getUsername())) {
-                    System.out.println("Success");
-                    openMainWindow(event);
-                    loginField.setStyle("-fx-background-color: #7C809B; -fx-background-radius: 16; -fx-border-radius: 14; -fx-border-width: 1.5; -fx-border-color: #000000; -fx-text-fill: #ffffff; -fx-prompt-text-fill: #ffffff");
-                } else {
-                    loginField.setStyle("-fx-background-color: #ED254E; -fx-background-radius: 16; -fx-border-radius: 16; -fx-border-width: 2; -fx-border-color: #000000;-fx-prompt-text-fill: #ffffff");
-                    logLabel.setText("Никнейм уже используется");
-                }
+        if (validation(mainUser)) {
+            User checkUser = postResponseUser(mainUser);
+            postResponseBill(bill);
+            if(checkUser==null){
+                logString = "Сервер недоступен";
             }
-            else {
-                logLabel.setText("Введите другие данные");
+            else if (!checkUser.getUsername().equals(mainUser.getUsername())) {
+                openMainWindow(event);
+                loginField.setStyle("-fx-background-color: #7C809B; -fx-background-radius: 16; -fx-border-radius: 14; -fx-border-width: 1.5; -fx-border-color: #000000; -fx-text-fill: #ffffff; -fx-prompt-text-fill: #ffffff");
+            } else {
+                loginField.setStyle("-fx-background-color: #ED254E; -fx-background-radius: 16; -fx-border-radius: 16; -fx-border-width: 2; -fx-border-color: #000000;-fx-prompt-text-fill: #ffffff");
+                logString="Никнейм уже используется";
             }
-        } catch (IOException e) {
-            logLabel.setText("Сервер недоступен");
         }
+        else {
+            logString="Введите другие данные";
+        }
+        logSignLabel.setText(logString);
     }
 
     @FXML
     void onChangeBlueField(KeyEvent event){
         TextField someField = (TextField) event.getSource();
-        logLabel.setText("");
+        logSignLabel.setText("");
         someField.setStyle("-fx-background-color: #7C809B; -fx-background-radius: 16; -fx-border-radius: 14; -fx-border-width: 1.5; -fx-border-color: #000000; -fx-text-fill: #ffffff; -fx-prompt-text-fill: #ffffff");
     }
 
     @FXML
     void onChangeWhiteField(KeyEvent event){
         TextField someField = (TextField) event.getSource();
-        logLabel.setText("");
+        logSignLabel.setText("");
         someField.setStyle("-fx-background-color: #ffffff; -fx-background-radius: 16; -fx-border-radius: 16; -fx-border-width: 2; -fx-border-color: #000000;");
     }
 
@@ -176,10 +177,9 @@ public class SignInController {
             stage.setScene(scene);
             stage.show();
             ((Node) (event.getSource())).getScene().getWindow().hide();
+            log.info("окно mainWindow успешно создано");
         } catch (IOException e) {
-            //System.Logger logger = System.Logger.getLogger(getClass().getName());
-            //logger.log(System.Logger.Level.SEVERE, "Failed to create new Window.", e);
-            System.out.println("Failed to create new Window");
+            log.error("окно mainWindow не создано");
         }
     }
 
