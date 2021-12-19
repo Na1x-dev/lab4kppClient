@@ -1,0 +1,1506 @@
+2021-12-06 13:33:10 INFO  StaticFieldsAndRequests:38 - получен ответ запроса get класса User
+2021-12-06 13:33:10 INFO  StaticFieldsAndRequests:51 - получена информация объекта класса User
+2021-12-06 13:33:10 INFO  StaticFieldsAndRequests:107 - получен ответ запроса get класса Bill
+2021-12-06 13:33:10 INFO  StaticFieldsAndRequests:120 - получена информация объекта класса Bill
+2021-12-06 13:33:10 INFO  StaticFieldsAndRequests:71 - получен ответ запроса get класса Transaction
+2021-12-06 13:33:10 INFO  StaticFieldsAndRequests:86 - получена информация объекта класса Transaction
+2021-12-06 13:33:10 INFO  HelloController:100 - окно mainWindow успешно создано
+2021-12-06 13:33:11 INFO  StaticFieldsAndRequests:139 - получен ответ запроса get класса Component
+2021-12-06 13:33:11 INFO  StaticFieldsAndRequests:154 - получена информация объектов класса Component
+2021-12-06 13:33:11 INFO  MainWindowController:110 - окно Store успешно создано
+2021-12-06 13:33:13 INFO  StoreController:178 - окно ComponentCard успешно создано
+2021-12-06 13:33:14 INFO  StaticFieldsAndRequests:238 - получен ответ запроса post класса Transaction
+2021-12-06 13:33:14 INFO  StaticFieldsAndRequests:247 - получена информация объекта класса Transaction
+2021-12-06 13:33:14 INFO  ComponentCardController:68 - получен ответ от post класса Transaction
+2021-12-06 13:33:14 INFO  StaticFieldsAndRequests:264 - получен ответ запроса put класса Bill
+2021-12-06 13:33:14 INFO  StaticFieldsAndRequests:273 - получена информация объекта класса Bill
+2021-12-06 13:33:14 INFO  ComponentCardController:70 - получен ответ от put класса Bill
+2021-12-06 13:33:15 INFO  StaticFieldsAndRequests:107 - получен ответ запроса get класса Bill
+2021-12-06 13:33:15 INFO  StaticFieldsAndRequests:120 - получена информация объекта класса Bill
+2021-12-06 13:33:15 INFO  StaticFieldsAndRequests:71 - получен ответ запроса get класса Transaction
+2021-12-06 13:33:15 INFO  StaticFieldsAndRequests:86 - получена информация объекта класса Transaction
+2021-12-06 13:33:15 INFO  StoreController:159 - окно mainWindow успешно создано
+2021-12-06 13:33:17 INFO  StaticFieldsAndRequests:264 - получен ответ запроса put класса Bill
+2021-12-06 13:33:17 INFO  StaticFieldsAndRequests:273 - получена информация объекта класса Bill
+2021-12-06 13:33:17 INFO  StaticFieldsAndRequests:107 - получен ответ запроса get класса Bill
+2021-12-06 13:33:17 INFO  StaticFieldsAndRequests:120 - получена информация объекта класса Bill
+2021-12-06 13:33:17 INFO  StaticFieldsAndRequests:71 - получен ответ запроса get класса Transaction
+2021-12-06 13:33:17 INFO  StaticFieldsAndRequests:86 - получена информация объекта класса Transaction
+2021-12-06 13:33:17 INFO  StaticFieldsAndRequests:264 - получен ответ запроса put класса Bill
+2021-12-06 13:33:17 INFO  StaticFieldsAndRequests:273 - получена информация объекта класса Bill
+2021-12-06 13:33:17 INFO  StaticFieldsAndRequests:107 - получен ответ запроса get класса Bill
+2021-12-06 13:33:17 INFO  StaticFieldsAndRequests:120 - получена информация объекта класса Bill
+2021-12-06 13:33:17 INFO  StaticFieldsAndRequests:71 - получен ответ запроса get класса Transaction
+2021-12-06 13:33:17 INFO  StaticFieldsAndRequests:86 - получена информация объекта класса Transaction
+2021-12-06 13:33:17 INFO  StaticFieldsAndRequests:264 - получен ответ запроса put класса Bill
+2021-12-06 13:33:17 INFO  StaticFieldsAndRequests:273 - получена информация объекта класса Bill
+2021-12-06 13:33:17 INFO  StaticFieldsAndRequests:107 - получен ответ запроса get класса Bill
+2021-12-06 13:33:17 INFO  StaticFieldsAndRequests:120 - получена информация объекта класса Bill
+2021-12-06 13:33:17 INFO  StaticFieldsAndRequests:71 - получен ответ запроса get класса Transaction
+2021-12-06 13:33:17 INFO  StaticFieldsAndRequests:86 - получена информация объекта класса Transaction
+2021-12-06 13:33:17 INFO  StaticFieldsAndRequests:264 - получен ответ запроса put класса Bill
+2021-12-06 13:33:17 INFO  StaticFieldsAndRequests:273 - получена информация объекта класса Bill
+2021-12-06 13:33:17 INFO  StaticFieldsAndRequests:107 - получен ответ запроса get класса Bill
+2021-12-06 13:33:17 INFO  StaticFieldsAndRequests:120 - получена информация объекта класса Bill
+2021-12-06 13:33:17 INFO  StaticFieldsAndRequests:71 - получен ответ запроса get класса Transaction
+2021-12-06 13:33:17 INFO  StaticFieldsAndRequests:86 - получена информация объекта класса Transaction
+2021-12-06 13:33:18 INFO  MainWindowController:127 - окно hello-view успешно создано
+2021-12-06 13:33:20 INFO  HelloController:84 - окно SignIn успешно создано
+2021-12-06 13:56:08 INFO  StaticFieldsAndRequests:38 - получен ответ запроса get класса User
+2021-12-06 13:56:08 INFO  StaticFieldsAndRequests:51 - получена информация объекта класса User
+2021-12-06 13:56:32 ERROR StaticFieldsAndRequests:40 - нет ответа запроса get класса User
+2021-12-06 13:56:32 ERROR StaticFieldsAndRequests:58 - не удалось получить информацию объекта класса User
+2021-12-06 13:56:32 ERROR StaticFieldsAndRequests:40 - нет ответа запроса get класса User
+2021-12-06 13:56:32 ERROR StaticFieldsAndRequests:58 - не удалось получить информацию объекта класса User
+2021-12-06 13:56:33 ERROR StaticFieldsAndRequests:40 - нет ответа запроса get класса User
+2021-12-06 13:56:33 ERROR StaticFieldsAndRequests:58 - не удалось получить информацию объекта класса User
+2021-12-06 13:56:33 ERROR StaticFieldsAndRequests:40 - нет ответа запроса get класса User
+2021-12-06 13:56:33 ERROR StaticFieldsAndRequests:58 - не удалось получить информацию объекта класса User
+2021-12-06 13:56:33 ERROR StaticFieldsAndRequests:40 - нет ответа запроса get класса User
+2021-12-06 13:56:33 ERROR StaticFieldsAndRequests:58 - не удалось получить информацию объекта класса User
+2021-12-06 13:56:33 ERROR StaticFieldsAndRequests:40 - нет ответа запроса get класса User
+2021-12-06 13:56:33 ERROR StaticFieldsAndRequests:58 - не удалось получить информацию объекта класса User
+2021-12-06 13:56:33 ERROR StaticFieldsAndRequests:40 - нет ответа запроса get класса User
+2021-12-06 13:56:33 ERROR StaticFieldsAndRequests:58 - не удалось получить информацию объекта класса User
+2021-12-06 13:56:33 ERROR StaticFieldsAndRequests:40 - нет ответа запроса get класса User
+2021-12-06 13:56:33 ERROR StaticFieldsAndRequests:58 - не удалось получить информацию объекта класса User
+2021-12-06 13:56:34 ERROR StaticFieldsAndRequests:40 - нет ответа запроса get класса User
+2021-12-06 13:56:34 ERROR StaticFieldsAndRequests:58 - не удалось получить информацию объекта класса User
+2021-12-06 13:56:34 ERROR StaticFieldsAndRequests:40 - нет ответа запроса get класса User
+2021-12-06 13:56:34 ERROR StaticFieldsAndRequests:58 - не удалось получить информацию объекта класса User
+2021-12-06 14:15:12 ERROR StaticFieldsAndRequests:40 - нет ответа запроса get класса User
+2021-12-06 14:15:12 ERROR StaticFieldsAndRequests:58 - не удалось получить информацию объекта класса User
+2021-12-06 14:15:12 ERROR StaticFieldsAndRequests:40 - нет ответа запроса get класса User
+2021-12-06 14:15:12 ERROR StaticFieldsAndRequests:58 - не удалось получить информацию объекта класса User
+2021-12-06 14:15:13 ERROR StaticFieldsAndRequests:40 - нет ответа запроса get класса User
+2021-12-06 14:15:13 ERROR StaticFieldsAndRequests:58 - не удалось получить информацию объекта класса User
+2021-12-06 14:15:55 INFO  StaticFieldsAndRequests:38 - получен ответ запроса get класса User
+2021-12-06 14:15:55 INFO  StaticFieldsAndRequests:51 - получена информация объекта класса User
+2021-12-06 14:15:55 INFO  StaticFieldsAndRequests:107 - получен ответ запроса get класса Bill
+2021-12-06 14:15:55 INFO  StaticFieldsAndRequests:120 - получена информация объекта класса Bill
+2021-12-06 14:15:55 INFO  StaticFieldsAndRequests:71 - получен ответ запроса get класса Transaction
+2021-12-06 14:15:55 INFO  StaticFieldsAndRequests:86 - получена информация объекта класса Transaction
+2021-12-06 14:15:55 INFO  HelloController:100 - окно mainWindow успешно создано
+2021-12-06 14:15:58 INFO  StaticFieldsAndRequests:264 - получен ответ запроса put класса Bill
+2021-12-06 14:15:58 INFO  StaticFieldsAndRequests:273 - получена информация объекта класса Bill
+2021-12-06 14:15:58 INFO  StaticFieldsAndRequests:107 - получен ответ запроса get класса Bill
+2021-12-06 14:15:58 INFO  StaticFieldsAndRequests:120 - получена информация объекта класса Bill
+2021-12-06 14:15:58 INFO  StaticFieldsAndRequests:71 - получен ответ запроса get класса Transaction
+2021-12-06 14:15:58 INFO  StaticFieldsAndRequests:86 - получена информация объекта класса Transaction
+2021-12-06 14:15:59 INFO  StaticFieldsAndRequests:264 - получен ответ запроса put класса Bill
+2021-12-06 14:15:59 INFO  StaticFieldsAndRequests:273 - получена информация объекта класса Bill
+2021-12-06 14:15:59 INFO  StaticFieldsAndRequests:107 - получен ответ запроса get класса Bill
+2021-12-06 14:15:59 INFO  StaticFieldsAndRequests:120 - получена информация объекта класса Bill
+2021-12-06 14:15:59 INFO  StaticFieldsAndRequests:71 - получен ответ запроса get класса Transaction
+2021-12-06 14:15:59 INFO  StaticFieldsAndRequests:86 - получена информация объекта класса Transaction
+2021-12-06 14:16:01 INFO  StaticFieldsAndRequests:264 - получен ответ запроса put класса Bill
+2021-12-06 14:16:01 INFO  StaticFieldsAndRequests:273 - получена информация объекта класса Bill
+2021-12-06 14:16:01 INFO  StaticFieldsAndRequests:107 - получен ответ запроса get класса Bill
+2021-12-06 14:16:01 INFO  StaticFieldsAndRequests:120 - получена информация объекта класса Bill
+2021-12-06 14:16:01 INFO  StaticFieldsAndRequests:71 - получен ответ запроса get класса Transaction
+2021-12-06 14:16:01 INFO  StaticFieldsAndRequests:86 - получена информация объекта класса Transaction
+2021-12-06 14:16:02 INFO  StaticFieldsAndRequests:264 - получен ответ запроса put класса Bill
+2021-12-06 14:16:02 INFO  StaticFieldsAndRequests:273 - получена информация объекта класса Bill
+2021-12-06 14:16:02 INFO  StaticFieldsAndRequests:107 - получен ответ запроса get класса Bill
+2021-12-06 14:16:02 INFO  StaticFieldsAndRequests:120 - получена информация объекта класса Bill
+2021-12-06 14:16:02 INFO  StaticFieldsAndRequests:71 - получен ответ запроса get класса Transaction
+2021-12-06 14:16:02 INFO  StaticFieldsAndRequests:86 - получена информация объекта класса Transaction
+2021-12-06 14:16:02 INFO  StaticFieldsAndRequests:264 - получен ответ запроса put класса Bill
+2021-12-06 14:16:02 INFO  StaticFieldsAndRequests:273 - получена информация объекта класса Bill
+2021-12-06 14:16:02 INFO  StaticFieldsAndRequests:107 - получен ответ запроса get класса Bill
+2021-12-06 14:16:02 INFO  StaticFieldsAndRequests:120 - получена информация объекта класса Bill
+2021-12-06 14:16:02 INFO  StaticFieldsAndRequests:71 - получен ответ запроса get класса Transaction
+2021-12-06 14:16:02 INFO  StaticFieldsAndRequests:86 - получена информация объекта класса Transaction
+2021-12-06 14:16:03 INFO  StaticFieldsAndRequests:264 - получен ответ запроса put класса Bill
+2021-12-06 14:16:03 INFO  StaticFieldsAndRequests:273 - получена информация объекта класса Bill
+2021-12-06 14:16:03 INFO  StaticFieldsAndRequests:107 - получен ответ запроса get класса Bill
+2021-12-06 14:16:03 INFO  StaticFieldsAndRequests:120 - получена информация объекта класса Bill
+2021-12-06 14:16:03 INFO  StaticFieldsAndRequests:71 - получен ответ запроса get класса Transaction
+2021-12-06 14:16:03 INFO  StaticFieldsAndRequests:86 - получена информация объекта класса Transaction
+2021-12-06 14:16:03 INFO  StaticFieldsAndRequests:264 - получен ответ запроса put класса Bill
+2021-12-06 14:16:03 INFO  StaticFieldsAndRequests:273 - получена информация объекта класса Bill
+2021-12-06 14:16:03 INFO  StaticFieldsAndRequests:107 - получен ответ запроса get класса Bill
+2021-12-06 14:16:03 INFO  StaticFieldsAndRequests:120 - получена информация объекта класса Bill
+2021-12-06 14:16:03 INFO  StaticFieldsAndRequests:71 - получен ответ запроса get класса Transaction
+2021-12-06 14:16:03 INFO  StaticFieldsAndRequests:86 - получена информация объекта класса Transaction
+2021-12-06 14:16:03 INFO  StaticFieldsAndRequests:264 - получен ответ запроса put класса Bill
+2021-12-06 14:16:03 INFO  StaticFieldsAndRequests:273 - получена информация объекта класса Bill
+2021-12-06 14:16:03 INFO  StaticFieldsAndRequests:107 - получен ответ запроса get класса Bill
+2021-12-06 14:16:03 INFO  StaticFieldsAndRequests:120 - получена информация объекта класса Bill
+2021-12-06 14:16:03 INFO  StaticFieldsAndRequests:71 - получен ответ запроса get класса Transaction
+2021-12-06 14:16:03 INFO  StaticFieldsAndRequests:86 - получена информация объекта класса Transaction
+2021-12-06 14:16:04 INFO  StaticFieldsAndRequests:264 - получен ответ запроса put класса Bill
+2021-12-06 14:16:04 INFO  StaticFieldsAndRequests:273 - получена информация объекта класса Bill
+2021-12-06 14:16:04 INFO  StaticFieldsAndRequests:107 - получен ответ запроса get класса Bill
+2021-12-06 14:16:04 INFO  StaticFieldsAndRequests:120 - получена информация объекта класса Bill
+2021-12-06 14:16:04 INFO  StaticFieldsAndRequests:71 - получен ответ запроса get класса Transaction
+2021-12-06 14:16:04 INFO  StaticFieldsAndRequests:86 - получена информация объекта класса Transaction
+2021-12-06 14:16:04 INFO  StaticFieldsAndRequests:264 - получен ответ запроса put класса Bill
+2021-12-06 14:16:04 INFO  StaticFieldsAndRequests:273 - получена информация объекта класса Bill
+2021-12-06 14:16:04 INFO  StaticFieldsAndRequests:107 - получен ответ запроса get класса Bill
+2021-12-06 14:16:04 INFO  StaticFieldsAndRequests:120 - получена информация объекта класса Bill
+2021-12-06 14:16:04 INFO  StaticFieldsAndRequests:71 - получен ответ запроса get класса Transaction
+2021-12-06 14:16:04 INFO  StaticFieldsAndRequests:86 - получена информация объекта класса Transaction
+2021-12-06 14:16:04 INFO  StaticFieldsAndRequests:264 - получен ответ запроса put класса Bill
+2021-12-06 14:16:04 INFO  StaticFieldsAndRequests:273 - получена информация объекта класса Bill
+2021-12-06 14:16:04 INFO  StaticFieldsAndRequests:107 - получен ответ запроса get класса Bill
+2021-12-06 14:16:04 INFO  StaticFieldsAndRequests:120 - получена информация объекта класса Bill
+2021-12-06 14:16:04 INFO  StaticFieldsAndRequests:71 - получен ответ запроса get класса Transaction
+2021-12-06 14:16:04 INFO  StaticFieldsAndRequests:86 - получена информация объекта класса Transaction
+2021-12-06 14:16:05 INFO  StaticFieldsAndRequests:264 - получен ответ запроса put класса Bill
+2021-12-06 14:16:05 INFO  StaticFieldsAndRequests:273 - получена информация объекта класса Bill
+2021-12-06 14:16:05 INFO  StaticFieldsAndRequests:107 - получен ответ запроса get класса Bill
+2021-12-06 14:16:05 INFO  StaticFieldsAndRequests:120 - получена информация объекта класса Bill
+2021-12-06 14:16:05 INFO  StaticFieldsAndRequests:71 - получен ответ запроса get класса Transaction
+2021-12-06 14:16:05 INFO  StaticFieldsAndRequests:86 - получена информация объекта класса Transaction
+2021-12-06 14:16:05 INFO  StaticFieldsAndRequests:264 - получен ответ запроса put класса Bill
+2021-12-06 14:16:05 INFO  StaticFieldsAndRequests:273 - получена информация объекта класса Bill
+2021-12-06 14:16:05 INFO  StaticFieldsAndRequests:107 - получен ответ запроса get класса Bill
+2021-12-06 14:16:05 INFO  StaticFieldsAndRequests:120 - получена информация объекта класса Bill
+2021-12-06 14:16:05 INFO  StaticFieldsAndRequests:71 - получен ответ запроса get класса Transaction
+2021-12-06 14:16:05 INFO  StaticFieldsAndRequests:86 - получена информация объекта класса Transaction
+2021-12-06 14:16:07 INFO  StaticFieldsAndRequests:264 - получен ответ запроса put класса Bill
+2021-12-06 14:16:07 INFO  StaticFieldsAndRequests:273 - получена информация объекта класса Bill
+2021-12-06 14:16:07 INFO  StaticFieldsAndRequests:107 - получен ответ запроса get класса Bill
+2021-12-06 14:16:07 INFO  StaticFieldsAndRequests:120 - получена информация объекта класса Bill
+2021-12-06 14:16:07 INFO  StaticFieldsAndRequests:71 - получен ответ запроса get класса Transaction
+2021-12-06 14:16:07 INFO  StaticFieldsAndRequests:86 - получена информация объекта класса Transaction
+2021-12-06 14:16:07 INFO  StaticFieldsAndRequests:264 - получен ответ запроса put класса Bill
+2021-12-06 14:16:07 INFO  StaticFieldsAndRequests:273 - получена информация объекта класса Bill
+2021-12-06 14:16:07 INFO  StaticFieldsAndRequests:107 - получен ответ запроса get класса Bill
+2021-12-06 14:16:07 INFO  StaticFieldsAndRequests:120 - получена информация объекта класса Bill
+2021-12-06 14:16:07 INFO  StaticFieldsAndRequests:71 - получен ответ запроса get класса Transaction
+2021-12-06 14:16:07 INFO  StaticFieldsAndRequests:86 - получена информация объекта класса Transaction
+2021-12-06 14:16:08 INFO  StaticFieldsAndRequests:264 - получен ответ запроса put класса Bill
+2021-12-06 14:16:08 INFO  StaticFieldsAndRequests:273 - получена информация объекта класса Bill
+2021-12-06 14:16:08 INFO  StaticFieldsAndRequests:107 - получен ответ запроса get класса Bill
+2021-12-06 14:16:08 INFO  StaticFieldsAndRequests:120 - получена информация объекта класса Bill
+2021-12-06 14:16:08 INFO  StaticFieldsAndRequests:71 - получен ответ запроса get класса Transaction
+2021-12-06 14:16:08 INFO  StaticFieldsAndRequests:86 - получена информация объекта класса Transaction
+2021-12-06 14:16:09 INFO  StaticFieldsAndRequests:264 - получен ответ запроса put класса Bill
+2021-12-06 14:16:09 INFO  StaticFieldsAndRequests:273 - получена информация объекта класса Bill
+2021-12-06 14:16:09 INFO  StaticFieldsAndRequests:107 - получен ответ запроса get класса Bill
+2021-12-06 14:16:09 INFO  StaticFieldsAndRequests:120 - получена информация объекта класса Bill
+2021-12-06 14:16:09 INFO  StaticFieldsAndRequests:71 - получен ответ запроса get класса Transaction
+2021-12-06 14:16:09 INFO  StaticFieldsAndRequests:86 - получена информация объекта класса Transaction
+2021-12-06 14:16:09 INFO  StaticFieldsAndRequests:264 - получен ответ запроса put класса Bill
+2021-12-06 14:16:09 INFO  StaticFieldsAndRequests:273 - получена информация объекта класса Bill
+2021-12-06 14:16:09 INFO  StaticFieldsAndRequests:107 - получен ответ запроса get класса Bill
+2021-12-06 14:16:09 INFO  StaticFieldsAndRequests:120 - получена информация объекта класса Bill
+2021-12-06 14:16:09 INFO  StaticFieldsAndRequests:71 - получен ответ запроса get класса Transaction
+2021-12-06 14:16:09 INFO  StaticFieldsAndRequests:86 - получена информация объекта класса Transaction
+2021-12-06 14:16:09 INFO  StaticFieldsAndRequests:264 - получен ответ запроса put класса Bill
+2021-12-06 14:16:09 INFO  StaticFieldsAndRequests:273 - получена информация объекта класса Bill
+2021-12-06 14:16:09 INFO  StaticFieldsAndRequests:107 - получен ответ запроса get класса Bill
+2021-12-06 14:16:09 INFO  StaticFieldsAndRequests:120 - получена информация объекта класса Bill
+2021-12-06 14:16:09 INFO  StaticFieldsAndRequests:71 - получен ответ запроса get класса Transaction
+2021-12-06 14:16:09 INFO  StaticFieldsAndRequests:86 - получена информация объекта класса Transaction
+2021-12-06 14:16:09 INFO  StaticFieldsAndRequests:264 - получен ответ запроса put класса Bill
+2021-12-06 14:16:09 INFO  StaticFieldsAndRequests:273 - получена информация объекта класса Bill
+2021-12-06 14:16:09 INFO  StaticFieldsAndRequests:107 - получен ответ запроса get класса Bill
+2021-12-06 14:16:09 INFO  StaticFieldsAndRequests:120 - получена информация объекта класса Bill
+2021-12-06 14:16:09 INFO  StaticFieldsAndRequests:71 - получен ответ запроса get класса Transaction
+2021-12-06 14:16:09 INFO  StaticFieldsAndRequests:86 - получена информация объекта класса Transaction
+2021-12-06 14:16:10 INFO  StaticFieldsAndRequests:264 - получен ответ запроса put класса Bill
+2021-12-06 14:16:10 INFO  StaticFieldsAndRequests:273 - получена информация объекта класса Bill
+2021-12-06 14:16:10 INFO  StaticFieldsAndRequests:107 - получен ответ запроса get класса Bill
+2021-12-06 14:16:10 INFO  StaticFieldsAndRequests:120 - получена информация объекта класса Bill
+2021-12-06 14:16:10 INFO  StaticFieldsAndRequests:71 - получен ответ запроса get класса Transaction
+2021-12-06 14:16:10 INFO  StaticFieldsAndRequests:86 - получена информация объекта класса Transaction
+2021-12-06 14:16:10 INFO  StaticFieldsAndRequests:264 - получен ответ запроса put класса Bill
+2021-12-06 14:16:10 INFO  StaticFieldsAndRequests:273 - получена информация объекта класса Bill
+2021-12-06 14:16:10 INFO  StaticFieldsAndRequests:107 - получен ответ запроса get класса Bill
+2021-12-06 14:16:10 INFO  StaticFieldsAndRequests:120 - получена информация объекта класса Bill
+2021-12-06 14:16:10 INFO  StaticFieldsAndRequests:71 - получен ответ запроса get класса Transaction
+2021-12-06 14:16:10 INFO  StaticFieldsAndRequests:86 - получена информация объекта класса Transaction
+2021-12-06 14:16:10 INFO  StaticFieldsAndRequests:264 - получен ответ запроса put класса Bill
+2021-12-06 14:16:10 INFO  StaticFieldsAndRequests:273 - получена информация объекта класса Bill
+2021-12-06 14:16:10 INFO  StaticFieldsAndRequests:107 - получен ответ запроса get класса Bill
+2021-12-06 14:16:10 INFO  StaticFieldsAndRequests:120 - получена информация объекта класса Bill
+2021-12-06 14:16:10 INFO  StaticFieldsAndRequests:71 - получен ответ запроса get класса Transaction
+2021-12-06 14:16:10 INFO  StaticFieldsAndRequests:86 - получена информация объекта класса Transaction
+2021-12-06 14:16:10 INFO  StaticFieldsAndRequests:264 - получен ответ запроса put класса Bill
+2021-12-06 14:16:10 INFO  StaticFieldsAndRequests:273 - получена информация объекта класса Bill
+2021-12-06 14:16:10 INFO  StaticFieldsAndRequests:107 - получен ответ запроса get класса Bill
+2021-12-06 14:16:10 INFO  StaticFieldsAndRequests:120 - получена информация объекта класса Bill
+2021-12-06 14:16:10 INFO  StaticFieldsAndRequests:71 - получен ответ запроса get класса Transaction
+2021-12-06 14:16:10 INFO  StaticFieldsAndRequests:86 - получена информация объекта класса Transaction
+2021-12-06 14:16:10 INFO  StaticFieldsAndRequests:264 - получен ответ запроса put класса Bill
+2021-12-06 14:16:10 INFO  StaticFieldsAndRequests:273 - получена информация объекта класса Bill
+2021-12-06 14:16:10 INFO  StaticFieldsAndRequests:107 - получен ответ запроса get класса Bill
+2021-12-06 14:16:10 INFO  StaticFieldsAndRequests:120 - получена информация объекта класса Bill
+2021-12-06 14:16:10 INFO  StaticFieldsAndRequests:71 - получен ответ запроса get класса Transaction
+2021-12-06 14:16:10 INFO  StaticFieldsAndRequests:86 - получена информация объекта класса Transaction
+2021-12-06 14:16:10 INFO  StaticFieldsAndRequests:264 - получен ответ запроса put класса Bill
+2021-12-06 14:16:10 INFO  StaticFieldsAndRequests:273 - получена информация объекта класса Bill
+2021-12-06 14:16:10 INFO  StaticFieldsAndRequests:107 - получен ответ запроса get класса Bill
+2021-12-06 14:16:10 INFO  StaticFieldsAndRequests:120 - получена информация объекта класса Bill
+2021-12-06 14:16:10 INFO  StaticFieldsAndRequests:71 - получен ответ запроса get класса Transaction
+2021-12-06 14:16:10 INFO  StaticFieldsAndRequests:86 - получена информация объекта класса Transaction
+2021-12-06 14:16:11 INFO  StaticFieldsAndRequests:264 - получен ответ запроса put класса Bill
+2021-12-06 14:16:11 INFO  StaticFieldsAndRequests:273 - получена информация объекта класса Bill
+2021-12-06 14:16:11 INFO  StaticFieldsAndRequests:107 - получен ответ запроса get класса Bill
+2021-12-06 14:16:11 INFO  StaticFieldsAndRequests:120 - получена информация объекта класса Bill
+2021-12-06 14:16:11 INFO  StaticFieldsAndRequests:71 - получен ответ запроса get класса Transaction
+2021-12-06 14:16:11 INFO  StaticFieldsAndRequests:86 - получена информация объекта класса Transaction
+2021-12-06 14:16:11 INFO  StaticFieldsAndRequests:264 - получен ответ запроса put класса Bill
+2021-12-06 14:16:11 INFO  StaticFieldsAndRequests:273 - получена информация объекта класса Bill
+2021-12-06 14:16:11 INFO  StaticFieldsAndRequests:107 - получен ответ запроса get класса Bill
+2021-12-06 14:16:11 INFO  StaticFieldsAndRequests:120 - получена информация объекта класса Bill
+2021-12-06 14:16:11 INFO  StaticFieldsAndRequests:71 - получен ответ запроса get класса Transaction
+2021-12-06 14:16:11 INFO  StaticFieldsAndRequests:86 - получена информация объекта класса Transaction
+2021-12-06 14:16:11 INFO  StaticFieldsAndRequests:264 - получен ответ запроса put класса Bill
+2021-12-06 14:16:11 INFO  StaticFieldsAndRequests:273 - получена информация объекта класса Bill
+2021-12-06 14:16:11 INFO  StaticFieldsAndRequests:107 - получен ответ запроса get класса Bill
+2021-12-06 14:16:11 INFO  StaticFieldsAndRequests:120 - получена информация объекта класса Bill
+2021-12-06 14:16:11 INFO  StaticFieldsAndRequests:71 - получен ответ запроса get класса Transaction
+2021-12-06 14:16:11 INFO  StaticFieldsAndRequests:86 - получена информация объекта класса Transaction
+2021-12-06 14:16:11 INFO  StaticFieldsAndRequests:264 - получен ответ запроса put класса Bill
+2021-12-06 14:16:11 INFO  StaticFieldsAndRequests:273 - получена информация объекта класса Bill
+2021-12-06 14:16:11 INFO  StaticFieldsAndRequests:107 - получен ответ запроса get класса Bill
+2021-12-06 14:16:11 INFO  StaticFieldsAndRequests:120 - получена информация объекта класса Bill
+2021-12-06 14:16:11 INFO  StaticFieldsAndRequests:71 - получен ответ запроса get класса Transaction
+2021-12-06 14:16:11 INFO  StaticFieldsAndRequests:86 - получена информация объекта класса Transaction
+2021-12-06 14:16:11 INFO  StaticFieldsAndRequests:264 - получен ответ запроса put класса Bill
+2021-12-06 14:16:11 INFO  StaticFieldsAndRequests:273 - получена информация объекта класса Bill
+2021-12-06 14:16:11 INFO  StaticFieldsAndRequests:107 - получен ответ запроса get класса Bill
+2021-12-06 14:16:11 INFO  StaticFieldsAndRequests:120 - получена информация объекта класса Bill
+2021-12-06 14:16:11 INFO  StaticFieldsAndRequests:71 - получен ответ запроса get класса Transaction
+2021-12-06 14:16:11 INFO  StaticFieldsAndRequests:86 - получена информация объекта класса Transaction
+2021-12-06 14:16:11 INFO  StaticFieldsAndRequests:264 - получен ответ запроса put класса Bill
+2021-12-06 14:16:11 INFO  StaticFieldsAndRequests:273 - получена информация объекта класса Bill
+2021-12-06 14:16:11 INFO  StaticFieldsAndRequests:107 - получен ответ запроса get класса Bill
+2021-12-06 14:16:11 INFO  StaticFieldsAndRequests:120 - получена информация объекта класса Bill
+2021-12-06 14:16:11 INFO  StaticFieldsAndRequests:71 - получен ответ запроса get класса Transaction
+2021-12-06 14:16:11 INFO  StaticFieldsAndRequests:86 - получена информация объекта класса Transaction
+2021-12-06 14:16:11 INFO  StaticFieldsAndRequests:264 - получен ответ запроса put класса Bill
+2021-12-06 14:16:11 INFO  StaticFieldsAndRequests:273 - получена информация объекта класса Bill
+2021-12-06 14:16:11 INFO  StaticFieldsAndRequests:107 - получен ответ запроса get класса Bill
+2021-12-06 14:16:11 INFO  StaticFieldsAndRequests:120 - получена информация объекта класса Bill
+2021-12-06 14:16:11 INFO  StaticFieldsAndRequests:71 - получен ответ запроса get класса Transaction
+2021-12-06 14:16:11 INFO  StaticFieldsAndRequests:86 - получена информация объекта класса Transaction
+2021-12-06 14:16:11 INFO  StaticFieldsAndRequests:264 - получен ответ запроса put класса Bill
+2021-12-06 14:16:11 INFO  StaticFieldsAndRequests:273 - получена информация объекта класса Bill
+2021-12-06 14:16:11 INFO  StaticFieldsAndRequests:107 - получен ответ запроса get класса Bill
+2021-12-06 14:16:11 INFO  StaticFieldsAndRequests:120 - получена информация объекта класса Bill
+2021-12-06 14:16:11 INFO  StaticFieldsAndRequests:71 - получен ответ запроса get класса Transaction
+2021-12-06 14:16:11 INFO  StaticFieldsAndRequests:86 - получена информация объекта класса Transaction
+2021-12-06 14:16:11 INFO  StaticFieldsAndRequests:264 - получен ответ запроса put класса Bill
+2021-12-06 14:16:11 INFO  StaticFieldsAndRequests:273 - получена информация объекта класса Bill
+2021-12-06 14:16:11 INFO  StaticFieldsAndRequests:107 - получен ответ запроса get класса Bill
+2021-12-06 14:16:11 INFO  StaticFieldsAndRequests:120 - получена информация объекта класса Bill
+2021-12-06 14:16:11 INFO  StaticFieldsAndRequests:71 - получен ответ запроса get класса Transaction
+2021-12-06 14:16:11 INFO  StaticFieldsAndRequests:86 - получена информация объекта класса Transaction
+2021-12-06 14:16:11 INFO  StaticFieldsAndRequests:264 - получен ответ запроса put класса Bill
+2021-12-06 14:16:11 INFO  StaticFieldsAndRequests:273 - получена информация объекта класса Bill
+2021-12-06 14:16:11 INFO  StaticFieldsAndRequests:107 - получен ответ запроса get класса Bill
+2021-12-06 14:16:11 INFO  StaticFieldsAndRequests:120 - получена информация объекта класса Bill
+2021-12-06 14:16:11 INFO  StaticFieldsAndRequests:71 - получен ответ запроса get класса Transaction
+2021-12-06 14:16:11 INFO  StaticFieldsAndRequests:86 - получена информация объекта класса Transaction
+2021-12-06 14:16:11 INFO  StaticFieldsAndRequests:264 - получен ответ запроса put класса Bill
+2021-12-06 14:16:11 INFO  StaticFieldsAndRequests:273 - получена информация объекта класса Bill
+2021-12-06 14:16:12 INFO  StaticFieldsAndRequests:107 - получен ответ запроса get класса Bill
+2021-12-06 14:16:12 INFO  StaticFieldsAndRequests:120 - получена информация объекта класса Bill
+2021-12-06 14:16:12 INFO  StaticFieldsAndRequests:71 - получен ответ запроса get класса Transaction
+2021-12-06 14:16:12 INFO  StaticFieldsAndRequests:86 - получена информация объекта класса Transaction
+2021-12-06 14:16:12 INFO  StaticFieldsAndRequests:264 - получен ответ запроса put класса Bill
+2021-12-06 14:16:12 INFO  StaticFieldsAndRequests:273 - получена информация объекта класса Bill
+2021-12-06 14:16:12 INFO  StaticFieldsAndRequests:107 - получен ответ запроса get класса Bill
+2021-12-06 14:16:12 INFO  StaticFieldsAndRequests:120 - получена информация объекта класса Bill
+2021-12-06 14:16:12 INFO  StaticFieldsAndRequests:71 - получен ответ запроса get класса Transaction
+2021-12-06 14:16:12 INFO  StaticFieldsAndRequests:86 - получена информация объекта класса Transaction
+2021-12-06 14:16:12 INFO  StaticFieldsAndRequests:264 - получен ответ запроса put класса Bill
+2021-12-06 14:16:12 INFO  StaticFieldsAndRequests:273 - получена информация объекта класса Bill
+2021-12-06 14:16:12 INFO  StaticFieldsAndRequests:107 - получен ответ запроса get класса Bill
+2021-12-06 14:16:12 INFO  StaticFieldsAndRequests:120 - получена информация объекта класса Bill
+2021-12-06 14:16:12 INFO  StaticFieldsAndRequests:71 - получен ответ запроса get класса Transaction
+2021-12-06 14:16:12 INFO  StaticFieldsAndRequests:86 - получена информация объекта класса Transaction
+2021-12-06 14:16:12 INFO  StaticFieldsAndRequests:264 - получен ответ запроса put класса Bill
+2021-12-06 14:16:12 INFO  StaticFieldsAndRequests:273 - получена информация объекта класса Bill
+2021-12-06 14:16:12 INFO  StaticFieldsAndRequests:107 - получен ответ запроса get класса Bill
+2021-12-06 14:16:12 INFO  StaticFieldsAndRequests:120 - получена информация объекта класса Bill
+2021-12-06 14:16:12 INFO  StaticFieldsAndRequests:71 - получен ответ запроса get класса Transaction
+2021-12-06 14:16:12 INFO  StaticFieldsAndRequests:86 - получена информация объекта класса Transaction
+2021-12-06 14:16:12 INFO  StaticFieldsAndRequests:264 - получен ответ запроса put класса Bill
+2021-12-06 14:16:12 INFO  StaticFieldsAndRequests:273 - получена информация объекта класса Bill
+2021-12-06 14:16:12 INFO  StaticFieldsAndRequests:107 - получен ответ запроса get класса Bill
+2021-12-06 14:16:12 INFO  StaticFieldsAndRequests:120 - получена информация объекта класса Bill
+2021-12-06 14:16:12 INFO  StaticFieldsAndRequests:71 - получен ответ запроса get класса Transaction
+2021-12-06 14:16:12 INFO  StaticFieldsAndRequests:86 - получена информация объекта класса Transaction
+2021-12-06 14:16:12 INFO  StaticFieldsAndRequests:264 - получен ответ запроса put класса Bill
+2021-12-06 14:16:12 INFO  StaticFieldsAndRequests:273 - получена информация объекта класса Bill
+2021-12-06 14:16:12 INFO  StaticFieldsAndRequests:107 - получен ответ запроса get класса Bill
+2021-12-06 14:16:12 INFO  StaticFieldsAndRequests:120 - получена информация объекта класса Bill
+2021-12-06 14:16:12 INFO  StaticFieldsAndRequests:71 - получен ответ запроса get класса Transaction
+2021-12-06 14:16:12 INFO  StaticFieldsAndRequests:86 - получена информация объекта класса Transaction
+2021-12-06 14:16:12 INFO  StaticFieldsAndRequests:264 - получен ответ запроса put класса Bill
+2021-12-06 14:16:12 INFO  StaticFieldsAndRequests:273 - получена информация объекта класса Bill
+2021-12-06 14:16:12 INFO  StaticFieldsAndRequests:107 - получен ответ запроса get класса Bill
+2021-12-06 14:16:12 INFO  StaticFieldsAndRequests:120 - получена информация объекта класса Bill
+2021-12-06 14:16:12 INFO  StaticFieldsAndRequests:71 - получен ответ запроса get класса Transaction
+2021-12-06 14:16:12 INFO  StaticFieldsAndRequests:86 - получена информация объекта класса Transaction
+2021-12-06 14:16:12 INFO  StaticFieldsAndRequests:264 - получен ответ запроса put класса Bill
+2021-12-06 14:16:12 INFO  StaticFieldsAndRequests:273 - получена информация объекта класса Bill
+2021-12-06 14:16:12 INFO  StaticFieldsAndRequests:107 - получен ответ запроса get класса Bill
+2021-12-06 14:16:12 INFO  StaticFieldsAndRequests:120 - получена информация объекта класса Bill
+2021-12-06 14:16:12 INFO  StaticFieldsAndRequests:71 - получен ответ запроса get класса Transaction
+2021-12-06 14:16:12 INFO  StaticFieldsAndRequests:86 - получена информация объекта класса Transaction
+2021-12-06 14:16:12 INFO  StaticFieldsAndRequests:264 - получен ответ запроса put класса Bill
+2021-12-06 14:16:12 INFO  StaticFieldsAndRequests:273 - получена информация объекта класса Bill
+2021-12-06 14:16:12 INFO  StaticFieldsAndRequests:107 - получен ответ запроса get класса Bill
+2021-12-06 14:16:12 INFO  StaticFieldsAndRequests:120 - получена информация объекта класса Bill
+2021-12-06 14:16:12 INFO  StaticFieldsAndRequests:71 - получен ответ запроса get класса Transaction
+2021-12-06 14:16:12 INFO  StaticFieldsAndRequests:86 - получена информация объекта класса Transaction
+2021-12-06 14:16:12 INFO  StaticFieldsAndRequests:264 - получен ответ запроса put класса Bill
+2021-12-06 14:16:12 INFO  StaticFieldsAndRequests:273 - получена информация объекта класса Bill
+2021-12-06 14:16:12 INFO  StaticFieldsAndRequests:107 - получен ответ запроса get класса Bill
+2021-12-06 14:16:12 INFO  StaticFieldsAndRequests:120 - получена информация объекта класса Bill
+2021-12-06 14:16:12 INFO  StaticFieldsAndRequests:71 - получен ответ запроса get класса Transaction
+2021-12-06 14:16:12 INFO  StaticFieldsAndRequests:86 - получена информация объекта класса Transaction
+2021-12-06 14:16:12 INFO  StaticFieldsAndRequests:264 - получен ответ запроса put класса Bill
+2021-12-06 14:16:12 INFO  StaticFieldsAndRequests:273 - получена информация объекта класса Bill
+2021-12-06 14:16:12 INFO  StaticFieldsAndRequests:107 - получен ответ запроса get класса Bill
+2021-12-06 14:16:12 INFO  StaticFieldsAndRequests:120 - получена информация объекта класса Bill
+2021-12-06 14:16:12 INFO  StaticFieldsAndRequests:71 - получен ответ запроса get класса Transaction
+2021-12-06 14:16:12 INFO  StaticFieldsAndRequests:86 - получена информация объекта класса Transaction
+2021-12-06 14:16:12 INFO  StaticFieldsAndRequests:264 - получен ответ запроса put класса Bill
+2021-12-06 14:16:12 INFO  StaticFieldsAndRequests:273 - получена информация объекта класса Bill
+2021-12-06 14:16:12 INFO  StaticFieldsAndRequests:107 - получен ответ запроса get класса Bill
+2021-12-06 14:16:12 INFO  StaticFieldsAndRequests:120 - получена информация объекта класса Bill
+2021-12-06 14:16:12 INFO  StaticFieldsAndRequests:71 - получен ответ запроса get класса Transaction
+2021-12-06 14:16:12 INFO  StaticFieldsAndRequests:86 - получена информация объекта класса Transaction
+2021-12-06 14:16:13 INFO  StaticFieldsAndRequests:264 - получен ответ запроса put класса Bill
+2021-12-06 14:16:13 INFO  StaticFieldsAndRequests:273 - получена информация объекта класса Bill
+2021-12-06 14:16:13 INFO  StaticFieldsAndRequests:107 - получен ответ запроса get класса Bill
+2021-12-06 14:16:13 INFO  StaticFieldsAndRequests:120 - получена информация объекта класса Bill
+2021-12-06 14:16:13 INFO  StaticFieldsAndRequests:71 - получен ответ запроса get класса Transaction
+2021-12-06 14:16:13 INFO  StaticFieldsAndRequests:86 - получена информация объекта класса Transaction
+2021-12-06 14:16:13 INFO  StaticFieldsAndRequests:264 - получен ответ запроса put класса Bill
+2021-12-06 14:16:13 INFO  StaticFieldsAndRequests:273 - получена информация объекта класса Bill
+2021-12-06 14:16:13 INFO  StaticFieldsAndRequests:107 - получен ответ запроса get класса Bill
+2021-12-06 14:16:13 INFO  StaticFieldsAndRequests:120 - получена информация объекта класса Bill
+2021-12-06 14:16:13 INFO  StaticFieldsAndRequests:71 - получен ответ запроса get класса Transaction
+2021-12-06 14:16:13 INFO  StaticFieldsAndRequests:86 - получена информация объекта класса Transaction
+2021-12-06 14:16:13 INFO  StaticFieldsAndRequests:264 - получен ответ запроса put класса Bill
+2021-12-06 14:16:13 INFO  StaticFieldsAndRequests:273 - получена информация объекта класса Bill
+2021-12-06 14:16:13 INFO  StaticFieldsAndRequests:107 - получен ответ запроса get класса Bill
+2021-12-06 14:16:13 INFO  StaticFieldsAndRequests:120 - получена информация объекта класса Bill
+2021-12-06 14:16:13 INFO  StaticFieldsAndRequests:71 - получен ответ запроса get класса Transaction
+2021-12-06 14:16:13 INFO  StaticFieldsAndRequests:86 - получена информация объекта класса Transaction
+2021-12-06 14:16:13 INFO  StaticFieldsAndRequests:264 - получен ответ запроса put класса Bill
+2021-12-06 14:16:13 INFO  StaticFieldsAndRequests:273 - получена информация объекта класса Bill
+2021-12-06 14:16:13 INFO  StaticFieldsAndRequests:107 - получен ответ запроса get класса Bill
+2021-12-06 14:16:13 INFO  StaticFieldsAndRequests:120 - получена информация объекта класса Bill
+2021-12-06 14:16:13 INFO  StaticFieldsAndRequests:71 - получен ответ запроса get класса Transaction
+2021-12-06 14:16:13 INFO  StaticFieldsAndRequests:86 - получена информация объекта класса Transaction
+2021-12-06 14:16:13 INFO  StaticFieldsAndRequests:264 - получен ответ запроса put класса Bill
+2021-12-06 14:16:13 INFO  StaticFieldsAndRequests:273 - получена информация объекта класса Bill
+2021-12-06 14:16:13 INFO  StaticFieldsAndRequests:107 - получен ответ запроса get класса Bill
+2021-12-06 14:16:13 INFO  StaticFieldsAndRequests:120 - получена информация объекта класса Bill
+2021-12-06 14:16:13 INFO  StaticFieldsAndRequests:71 - получен ответ запроса get класса Transaction
+2021-12-06 14:16:13 INFO  StaticFieldsAndRequests:86 - получена информация объекта класса Transaction
+2021-12-06 14:16:13 INFO  StaticFieldsAndRequests:264 - получен ответ запроса put класса Bill
+2021-12-06 14:16:13 INFO  StaticFieldsAndRequests:273 - получена информация объекта класса Bill
+2021-12-06 14:16:13 INFO  StaticFieldsAndRequests:107 - получен ответ запроса get класса Bill
+2021-12-06 14:16:13 INFO  StaticFieldsAndRequests:120 - получена информация объекта класса Bill
+2021-12-06 14:16:13 INFO  StaticFieldsAndRequests:71 - получен ответ запроса get класса Transaction
+2021-12-06 14:16:13 INFO  StaticFieldsAndRequests:86 - получена информация объекта класса Transaction
+2021-12-06 14:16:13 INFO  StaticFieldsAndRequests:264 - получен ответ запроса put класса Bill
+2021-12-06 14:16:13 INFO  StaticFieldsAndRequests:273 - получена информация объекта класса Bill
+2021-12-06 14:16:13 INFO  StaticFieldsAndRequests:107 - получен ответ запроса get класса Bill
+2021-12-06 14:16:13 INFO  StaticFieldsAndRequests:120 - получена информация объекта класса Bill
+2021-12-06 14:16:13 INFO  StaticFieldsAndRequests:71 - получен ответ запроса get класса Transaction
+2021-12-06 14:16:13 INFO  StaticFieldsAndRequests:86 - получена информация объекта класса Transaction
+2021-12-06 14:16:13 INFO  StaticFieldsAndRequests:264 - получен ответ запроса put класса Bill
+2021-12-06 14:16:13 INFO  StaticFieldsAndRequests:273 - получена информация объекта класса Bill
+2021-12-06 14:16:13 INFO  StaticFieldsAndRequests:107 - получен ответ запроса get класса Bill
+2021-12-06 14:16:13 INFO  StaticFieldsAndRequests:120 - получена информация объекта класса Bill
+2021-12-06 14:16:13 INFO  StaticFieldsAndRequests:71 - получен ответ запроса get класса Transaction
+2021-12-06 14:16:13 INFO  StaticFieldsAndRequests:86 - получена информация объекта класса Transaction
+2021-12-06 14:16:13 INFO  StaticFieldsAndRequests:264 - получен ответ запроса put класса Bill
+2021-12-06 14:16:13 INFO  StaticFieldsAndRequests:273 - получена информация объекта класса Bill
+2021-12-06 14:16:13 INFO  StaticFieldsAndRequests:107 - получен ответ запроса get класса Bill
+2021-12-06 14:16:13 INFO  StaticFieldsAndRequests:120 - получена информация объекта класса Bill
+2021-12-06 14:16:13 INFO  StaticFieldsAndRequests:71 - получен ответ запроса get класса Transaction
+2021-12-06 14:16:13 INFO  StaticFieldsAndRequests:86 - получена информация объекта класса Transaction
+2021-12-06 14:16:13 INFO  StaticFieldsAndRequests:264 - получен ответ запроса put класса Bill
+2021-12-06 14:16:13 INFO  StaticFieldsAndRequests:273 - получена информация объекта класса Bill
+2021-12-06 14:16:13 INFO  StaticFieldsAndRequests:107 - получен ответ запроса get класса Bill
+2021-12-06 14:16:13 INFO  StaticFieldsAndRequests:120 - получена информация объекта класса Bill
+2021-12-06 14:16:13 INFO  StaticFieldsAndRequests:71 - получен ответ запроса get класса Transaction
+2021-12-06 14:16:13 INFO  StaticFieldsAndRequests:86 - получена информация объекта класса Transaction
+2021-12-06 14:16:13 INFO  StaticFieldsAndRequests:264 - получен ответ запроса put класса Bill
+2021-12-06 14:16:13 INFO  StaticFieldsAndRequests:273 - получена информация объекта класса Bill
+2021-12-06 14:16:13 INFO  StaticFieldsAndRequests:107 - получен ответ запроса get класса Bill
+2021-12-06 14:16:13 INFO  StaticFieldsAndRequests:120 - получена информация объекта класса Bill
+2021-12-06 14:16:13 INFO  StaticFieldsAndRequests:71 - получен ответ запроса get класса Transaction
+2021-12-06 14:16:13 INFO  StaticFieldsAndRequests:86 - получена информация объекта класса Transaction
+2021-12-06 14:16:13 INFO  StaticFieldsAndRequests:264 - получен ответ запроса put класса Bill
+2021-12-06 14:16:13 INFO  StaticFieldsAndRequests:273 - получена информация объекта класса Bill
+2021-12-06 14:16:13 INFO  StaticFieldsAndRequests:107 - получен ответ запроса get класса Bill
+2021-12-06 14:16:13 INFO  StaticFieldsAndRequests:120 - получена информация объекта класса Bill
+2021-12-06 14:16:13 INFO  StaticFieldsAndRequests:71 - получен ответ запроса get класса Transaction
+2021-12-06 14:16:13 INFO  StaticFieldsAndRequests:86 - получена информация объекта класса Transaction
+2021-12-06 14:16:14 INFO  StaticFieldsAndRequests:264 - получен ответ запроса put класса Bill
+2021-12-06 14:16:14 INFO  StaticFieldsAndRequests:273 - получена информация объекта класса Bill
+2021-12-06 14:16:14 INFO  StaticFieldsAndRequests:107 - получен ответ запроса get класса Bill
+2021-12-06 14:16:14 INFO  StaticFieldsAndRequests:120 - получена информация объекта класса Bill
+2021-12-06 14:16:14 INFO  StaticFieldsAndRequests:71 - получен ответ запроса get класса Transaction
+2021-12-06 14:16:14 INFO  StaticFieldsAndRequests:86 - получена информация объекта класса Transaction
+2021-12-06 14:16:14 INFO  StaticFieldsAndRequests:264 - получен ответ запроса put класса Bill
+2021-12-06 14:16:14 INFO  StaticFieldsAndRequests:273 - получена информация объекта класса Bill
+2021-12-06 14:16:14 INFO  StaticFieldsAndRequests:107 - получен ответ запроса get класса Bill
+2021-12-06 14:16:14 INFO  StaticFieldsAndRequests:120 - получена информация объекта класса Bill
+2021-12-06 14:16:14 INFO  StaticFieldsAndRequests:71 - получен ответ запроса get класса Transaction
+2021-12-06 14:16:14 INFO  StaticFieldsAndRequests:86 - получена информация объекта класса Transaction
+2021-12-06 14:16:14 INFO  StaticFieldsAndRequests:264 - получен ответ запроса put класса Bill
+2021-12-06 14:16:14 INFO  StaticFieldsAndRequests:273 - получена информация объекта класса Bill
+2021-12-06 14:16:14 INFO  StaticFieldsAndRequests:107 - получен ответ запроса get класса Bill
+2021-12-06 14:16:14 INFO  StaticFieldsAndRequests:120 - получена информация объекта класса Bill
+2021-12-06 14:16:14 INFO  StaticFieldsAndRequests:71 - получен ответ запроса get класса Transaction
+2021-12-06 14:16:14 INFO  StaticFieldsAndRequests:86 - получена информация объекта класса Transaction
+2021-12-06 14:16:14 INFO  StaticFieldsAndRequests:264 - получен ответ запроса put класса Bill
+2021-12-06 14:16:14 INFO  StaticFieldsAndRequests:273 - получена информация объекта класса Bill
+2021-12-06 14:16:14 INFO  StaticFieldsAndRequests:107 - получен ответ запроса get класса Bill
+2021-12-06 14:16:14 INFO  StaticFieldsAndRequests:120 - получена информация объекта класса Bill
+2021-12-06 14:16:14 INFO  StaticFieldsAndRequests:71 - получен ответ запроса get класса Transaction
+2021-12-06 14:16:14 INFO  StaticFieldsAndRequests:86 - получена информация объекта класса Transaction
+2021-12-06 14:16:14 INFO  StaticFieldsAndRequests:264 - получен ответ запроса put класса Bill
+2021-12-06 14:16:14 INFO  StaticFieldsAndRequests:273 - получена информация объекта класса Bill
+2021-12-06 14:16:14 INFO  StaticFieldsAndRequests:107 - получен ответ запроса get класса Bill
+2021-12-06 14:16:14 INFO  StaticFieldsAndRequests:120 - получена информация объекта класса Bill
+2021-12-06 14:16:14 INFO  StaticFieldsAndRequests:71 - получен ответ запроса get класса Transaction
+2021-12-06 14:16:14 INFO  StaticFieldsAndRequests:86 - получена информация объекта класса Transaction
+2021-12-06 14:16:14 INFO  StaticFieldsAndRequests:264 - получен ответ запроса put класса Bill
+2021-12-06 14:16:14 INFO  StaticFieldsAndRequests:273 - получена информация объекта класса Bill
+2021-12-06 14:16:14 INFO  StaticFieldsAndRequests:107 - получен ответ запроса get класса Bill
+2021-12-06 14:16:14 INFO  StaticFieldsAndRequests:120 - получена информация объекта класса Bill
+2021-12-06 14:16:14 INFO  StaticFieldsAndRequests:71 - получен ответ запроса get класса Transaction
+2021-12-06 14:16:14 INFO  StaticFieldsAndRequests:86 - получена информация объекта класса Transaction
+2021-12-06 14:16:14 INFO  StaticFieldsAndRequests:264 - получен ответ запроса put класса Bill
+2021-12-06 14:16:14 INFO  StaticFieldsAndRequests:273 - получена информация объекта класса Bill
+2021-12-06 14:16:14 INFO  StaticFieldsAndRequests:107 - получен ответ запроса get класса Bill
+2021-12-06 14:16:14 INFO  StaticFieldsAndRequests:120 - получена информация объекта класса Bill
+2021-12-06 14:16:14 INFO  StaticFieldsAndRequests:71 - получен ответ запроса get класса Transaction
+2021-12-06 14:16:14 INFO  StaticFieldsAndRequests:86 - получена информация объекта класса Transaction
+2021-12-06 14:16:14 INFO  StaticFieldsAndRequests:264 - получен ответ запроса put класса Bill
+2021-12-06 14:16:14 INFO  StaticFieldsAndRequests:273 - получена информация объекта класса Bill
+2021-12-06 14:16:14 INFO  StaticFieldsAndRequests:107 - получен ответ запроса get класса Bill
+2021-12-06 14:16:14 INFO  StaticFieldsAndRequests:120 - получена информация объекта класса Bill
+2021-12-06 14:16:14 INFO  StaticFieldsAndRequests:71 - получен ответ запроса get класса Transaction
+2021-12-06 14:16:14 INFO  StaticFieldsAndRequests:86 - получена информация объекта класса Transaction
+2021-12-06 14:16:14 INFO  StaticFieldsAndRequests:264 - получен ответ запроса put класса Bill
+2021-12-06 14:16:14 INFO  StaticFieldsAndRequests:273 - получена информация объекта класса Bill
+2021-12-06 14:16:14 INFO  StaticFieldsAndRequests:107 - получен ответ запроса get класса Bill
+2021-12-06 14:16:14 INFO  StaticFieldsAndRequests:120 - получена информация объекта класса Bill
+2021-12-06 14:16:14 INFO  StaticFieldsAndRequests:71 - получен ответ запроса get класса Transaction
+2021-12-06 14:16:14 INFO  StaticFieldsAndRequests:86 - получена информация объекта класса Transaction
+2021-12-06 14:16:14 INFO  StaticFieldsAndRequests:264 - получен ответ запроса put класса Bill
+2021-12-06 14:16:14 INFO  StaticFieldsAndRequests:273 - получена информация объекта класса Bill
+2021-12-06 14:16:14 INFO  StaticFieldsAndRequests:107 - получен ответ запроса get класса Bill
+2021-12-06 14:16:14 INFO  StaticFieldsAndRequests:120 - получена информация объекта класса Bill
+2021-12-06 14:16:14 INFO  StaticFieldsAndRequests:71 - получен ответ запроса get класса Transaction
+2021-12-06 14:16:14 INFO  StaticFieldsAndRequests:86 - получена информация объекта класса Transaction
+2021-12-06 14:16:14 INFO  StaticFieldsAndRequests:264 - получен ответ запроса put класса Bill
+2021-12-06 14:16:14 INFO  StaticFieldsAndRequests:273 - получена информация объекта класса Bill
+2021-12-06 14:16:14 INFO  StaticFieldsAndRequests:107 - получен ответ запроса get класса Bill
+2021-12-06 14:16:14 INFO  StaticFieldsAndRequests:120 - получена информация объекта класса Bill
+2021-12-06 14:16:14 INFO  StaticFieldsAndRequests:71 - получен ответ запроса get класса Transaction
+2021-12-06 14:16:14 INFO  StaticFieldsAndRequests:86 - получена информация объекта класса Transaction
+2021-12-06 14:16:14 INFO  StaticFieldsAndRequests:264 - получен ответ запроса put класса Bill
+2021-12-06 14:16:14 INFO  StaticFieldsAndRequests:273 - получена информация объекта класса Bill
+2021-12-06 14:16:14 INFO  StaticFieldsAndRequests:107 - получен ответ запроса get класса Bill
+2021-12-06 14:16:14 INFO  StaticFieldsAndRequests:120 - получена информация объекта класса Bill
+2021-12-06 14:16:14 INFO  StaticFieldsAndRequests:71 - получен ответ запроса get класса Transaction
+2021-12-06 14:16:14 INFO  StaticFieldsAndRequests:86 - получена информация объекта класса Transaction
+2021-12-06 14:16:14 INFO  StaticFieldsAndRequests:264 - получен ответ запроса put класса Bill
+2021-12-06 14:16:14 INFO  StaticFieldsAndRequests:273 - получена информация объекта класса Bill
+2021-12-06 14:16:14 INFO  StaticFieldsAndRequests:107 - получен ответ запроса get класса Bill
+2021-12-06 14:16:14 INFO  StaticFieldsAndRequests:120 - получена информация объекта класса Bill
+2021-12-06 14:16:14 INFO  StaticFieldsAndRequests:71 - получен ответ запроса get класса Transaction
+2021-12-06 14:16:14 INFO  StaticFieldsAndRequests:86 - получена информация объекта класса Transaction
+2021-12-06 14:16:14 INFO  StaticFieldsAndRequests:264 - получен ответ запроса put класса Bill
+2021-12-06 14:16:14 INFO  StaticFieldsAndRequests:273 - получена информация объекта класса Bill
+2021-12-06 14:16:14 INFO  StaticFieldsAndRequests:107 - получен ответ запроса get класса Bill
+2021-12-06 14:16:14 INFO  StaticFieldsAndRequests:120 - получена информация объекта класса Bill
+2021-12-06 14:16:14 INFO  StaticFieldsAndRequests:71 - получен ответ запроса get класса Transaction
+2021-12-06 14:16:14 INFO  StaticFieldsAndRequests:86 - получена информация объекта класса Transaction
+2021-12-06 14:16:15 INFO  StaticFieldsAndRequests:264 - получен ответ запроса put класса Bill
+2021-12-06 14:16:15 INFO  StaticFieldsAndRequests:273 - получена информация объекта класса Bill
+2021-12-06 14:16:15 INFO  StaticFieldsAndRequests:107 - получен ответ запроса get класса Bill
+2021-12-06 14:16:15 INFO  StaticFieldsAndRequests:120 - получена информация объекта класса Bill
+2021-12-06 14:16:15 INFO  StaticFieldsAndRequests:71 - получен ответ запроса get класса Transaction
+2021-12-06 14:16:15 INFO  StaticFieldsAndRequests:86 - получена информация объекта класса Transaction
+2021-12-06 14:16:15 INFO  StaticFieldsAndRequests:264 - получен ответ запроса put класса Bill
+2021-12-06 14:16:15 INFO  StaticFieldsAndRequests:273 - получена информация объекта класса Bill
+2021-12-06 14:16:15 INFO  StaticFieldsAndRequests:107 - получен ответ запроса get класса Bill
+2021-12-06 14:16:15 INFO  StaticFieldsAndRequests:120 - получена информация объекта класса Bill
+2021-12-06 14:16:15 INFO  StaticFieldsAndRequests:71 - получен ответ запроса get класса Transaction
+2021-12-06 14:16:15 INFO  StaticFieldsAndRequests:86 - получена информация объекта класса Transaction
+2021-12-06 14:16:15 INFO  StaticFieldsAndRequests:264 - получен ответ запроса put класса Bill
+2021-12-06 14:16:15 INFO  StaticFieldsAndRequests:273 - получена информация объекта класса Bill
+2021-12-06 14:16:15 INFO  StaticFieldsAndRequests:107 - получен ответ запроса get класса Bill
+2021-12-06 14:16:15 INFO  StaticFieldsAndRequests:120 - получена информация объекта класса Bill
+2021-12-06 14:16:15 INFO  StaticFieldsAndRequests:71 - получен ответ запроса get класса Transaction
+2021-12-06 14:16:15 INFO  StaticFieldsAndRequests:86 - получена информация объекта класса Transaction
+2021-12-06 14:16:15 INFO  StaticFieldsAndRequests:264 - получен ответ запроса put класса Bill
+2021-12-06 14:16:15 INFO  StaticFieldsAndRequests:273 - получена информация объекта класса Bill
+2021-12-06 14:16:15 INFO  StaticFieldsAndRequests:107 - получен ответ запроса get класса Bill
+2021-12-06 14:16:15 INFO  StaticFieldsAndRequests:120 - получена информация объекта класса Bill
+2021-12-06 14:16:15 INFO  StaticFieldsAndRequests:71 - получен ответ запроса get класса Transaction
+2021-12-06 14:16:15 INFO  StaticFieldsAndRequests:86 - получена информация объекта класса Transaction
+2021-12-06 14:16:15 INFO  StaticFieldsAndRequests:264 - получен ответ запроса put класса Bill
+2021-12-06 14:16:15 INFO  StaticFieldsAndRequests:273 - получена информация объекта класса Bill
+2021-12-06 14:16:15 INFO  StaticFieldsAndRequests:107 - получен ответ запроса get класса Bill
+2021-12-06 14:16:15 INFO  StaticFieldsAndRequests:120 - получена информация объекта класса Bill
+2021-12-06 14:16:15 INFO  StaticFieldsAndRequests:71 - получен ответ запроса get класса Transaction
+2021-12-06 14:16:15 INFO  StaticFieldsAndRequests:86 - получена информация объекта класса Transaction
+2021-12-06 14:16:15 INFO  StaticFieldsAndRequests:264 - получен ответ запроса put класса Bill
+2021-12-06 14:16:15 INFO  StaticFieldsAndRequests:273 - получена информация объекта класса Bill
+2021-12-06 14:16:15 INFO  StaticFieldsAndRequests:107 - получен ответ запроса get класса Bill
+2021-12-06 14:16:15 INFO  StaticFieldsAndRequests:120 - получена информация объекта класса Bill
+2021-12-06 14:16:15 INFO  StaticFieldsAndRequests:71 - получен ответ запроса get класса Transaction
+2021-12-06 14:16:15 INFO  StaticFieldsAndRequests:86 - получена информация объекта класса Transaction
+2021-12-06 14:16:15 INFO  StaticFieldsAndRequests:264 - получен ответ запроса put класса Bill
+2021-12-06 14:16:15 INFO  StaticFieldsAndRequests:273 - получена информация объекта класса Bill
+2021-12-06 14:16:15 INFO  StaticFieldsAndRequests:107 - получен ответ запроса get класса Bill
+2021-12-06 14:16:15 INFO  StaticFieldsAndRequests:120 - получена информация объекта класса Bill
+2021-12-06 14:16:15 INFO  StaticFieldsAndRequests:71 - получен ответ запроса get класса Transaction
+2021-12-06 14:16:15 INFO  StaticFieldsAndRequests:86 - получена информация объекта класса Transaction
+2021-12-06 14:16:15 INFO  StaticFieldsAndRequests:264 - получен ответ запроса put класса Bill
+2021-12-06 14:16:15 INFO  StaticFieldsAndRequests:273 - получена информация объекта класса Bill
+2021-12-06 14:16:15 INFO  StaticFieldsAndRequests:107 - получен ответ запроса get класса Bill
+2021-12-06 14:16:15 INFO  StaticFieldsAndRequests:120 - получена информация объекта класса Bill
+2021-12-06 14:16:15 INFO  StaticFieldsAndRequests:71 - получен ответ запроса get класса Transaction
+2021-12-06 14:16:15 INFO  StaticFieldsAndRequests:86 - получена информация объекта класса Transaction
+2021-12-06 14:16:15 INFO  StaticFieldsAndRequests:264 - получен ответ запроса put класса Bill
+2021-12-06 14:16:15 INFO  StaticFieldsAndRequests:273 - получена информация объекта класса Bill
+2021-12-06 14:16:15 INFO  StaticFieldsAndRequests:107 - получен ответ запроса get класса Bill
+2021-12-06 14:16:15 INFO  StaticFieldsAndRequests:120 - получена информация объекта класса Bill
+2021-12-06 14:16:15 INFO  StaticFieldsAndRequests:71 - получен ответ запроса get класса Transaction
+2021-12-06 14:16:15 INFO  StaticFieldsAndRequests:86 - получена информация объекта класса Transaction
+2021-12-06 14:16:15 INFO  StaticFieldsAndRequests:264 - получен ответ запроса put класса Bill
+2021-12-06 14:16:15 INFO  StaticFieldsAndRequests:273 - получена информация объекта класса Bill
+2021-12-06 14:16:15 INFO  StaticFieldsAndRequests:107 - получен ответ запроса get класса Bill
+2021-12-06 14:16:15 INFO  StaticFieldsAndRequests:120 - получена информация объекта класса Bill
+2021-12-06 14:16:15 INFO  StaticFieldsAndRequests:71 - получен ответ запроса get класса Transaction
+2021-12-06 14:16:15 INFO  StaticFieldsAndRequests:86 - получена информация объекта класса Transaction
+2021-12-06 14:16:15 INFO  StaticFieldsAndRequests:264 - получен ответ запроса put класса Bill
+2021-12-06 14:16:15 INFO  StaticFieldsAndRequests:273 - получена информация объекта класса Bill
+2021-12-06 14:16:15 INFO  StaticFieldsAndRequests:107 - получен ответ запроса get класса Bill
+2021-12-06 14:16:15 INFO  StaticFieldsAndRequests:120 - получена информация объекта класса Bill
+2021-12-06 14:16:15 INFO  StaticFieldsAndRequests:71 - получен ответ запроса get класса Transaction
+2021-12-06 14:16:15 INFO  StaticFieldsAndRequests:86 - получена информация объекта класса Transaction
+2021-12-06 14:16:15 INFO  StaticFieldsAndRequests:264 - получен ответ запроса put класса Bill
+2021-12-06 14:16:15 INFO  StaticFieldsAndRequests:273 - получена информация объекта класса Bill
+2021-12-06 14:16:15 INFO  StaticFieldsAndRequests:107 - получен ответ запроса get класса Bill
+2021-12-06 14:16:15 INFO  StaticFieldsAndRequests:120 - получена информация объекта класса Bill
+2021-12-06 14:16:15 INFO  StaticFieldsAndRequests:71 - получен ответ запроса get класса Transaction
+2021-12-06 14:16:15 INFO  StaticFieldsAndRequests:86 - получена информация объекта класса Transaction
+2021-12-06 14:16:15 INFO  StaticFieldsAndRequests:264 - получен ответ запроса put класса Bill
+2021-12-06 14:16:15 INFO  StaticFieldsAndRequests:273 - получена информация объекта класса Bill
+2021-12-06 14:16:16 INFO  StaticFieldsAndRequests:107 - получен ответ запроса get класса Bill
+2021-12-06 14:16:16 INFO  StaticFieldsAndRequests:120 - получена информация объекта класса Bill
+2021-12-06 14:16:16 INFO  StaticFieldsAndRequests:71 - получен ответ запроса get класса Transaction
+2021-12-06 14:16:16 INFO  StaticFieldsAndRequests:86 - получена информация объекта класса Transaction
+2021-12-06 14:16:16 INFO  StaticFieldsAndRequests:264 - получен ответ запроса put класса Bill
+2021-12-06 14:16:16 INFO  StaticFieldsAndRequests:273 - получена информация объекта класса Bill
+2021-12-06 14:16:16 INFO  StaticFieldsAndRequests:107 - получен ответ запроса get класса Bill
+2021-12-06 14:16:16 INFO  StaticFieldsAndRequests:120 - получена информация объекта класса Bill
+2021-12-06 14:16:16 INFO  StaticFieldsAndRequests:71 - получен ответ запроса get класса Transaction
+2021-12-06 14:16:16 INFO  StaticFieldsAndRequests:86 - получена информация объекта класса Transaction
+2021-12-06 14:16:16 INFO  StaticFieldsAndRequests:264 - получен ответ запроса put класса Bill
+2021-12-06 14:16:16 INFO  StaticFieldsAndRequests:273 - получена информация объекта класса Bill
+2021-12-06 14:16:16 INFO  StaticFieldsAndRequests:107 - получен ответ запроса get класса Bill
+2021-12-06 14:16:16 INFO  StaticFieldsAndRequests:120 - получена информация объекта класса Bill
+2021-12-06 14:16:16 INFO  StaticFieldsAndRequests:71 - получен ответ запроса get класса Transaction
+2021-12-06 14:16:16 INFO  StaticFieldsAndRequests:86 - получена информация объекта класса Transaction
+2021-12-06 14:16:16 INFO  StaticFieldsAndRequests:264 - получен ответ запроса put класса Bill
+2021-12-06 14:16:16 INFO  StaticFieldsAndRequests:273 - получена информация объекта класса Bill
+2021-12-06 14:16:16 INFO  StaticFieldsAndRequests:107 - получен ответ запроса get класса Bill
+2021-12-06 14:16:16 INFO  StaticFieldsAndRequests:120 - получена информация объекта класса Bill
+2021-12-06 14:16:16 INFO  StaticFieldsAndRequests:71 - получен ответ запроса get класса Transaction
+2021-12-06 14:16:16 INFO  StaticFieldsAndRequests:86 - получена информация объекта класса Transaction
+2021-12-06 14:16:16 INFO  StaticFieldsAndRequests:264 - получен ответ запроса put класса Bill
+2021-12-06 14:16:16 INFO  StaticFieldsAndRequests:273 - получена информация объекта класса Bill
+2021-12-06 14:16:16 INFO  StaticFieldsAndRequests:107 - получен ответ запроса get класса Bill
+2021-12-06 14:16:16 INFO  StaticFieldsAndRequests:120 - получена информация объекта класса Bill
+2021-12-06 14:16:16 INFO  StaticFieldsAndRequests:71 - получен ответ запроса get класса Transaction
+2021-12-06 14:16:16 INFO  StaticFieldsAndRequests:86 - получена информация объекта класса Transaction
+2021-12-06 14:16:16 INFO  StaticFieldsAndRequests:264 - получен ответ запроса put класса Bill
+2021-12-06 14:16:16 INFO  StaticFieldsAndRequests:273 - получена информация объекта класса Bill
+2021-12-06 14:16:16 INFO  StaticFieldsAndRequests:107 - получен ответ запроса get класса Bill
+2021-12-06 14:16:16 INFO  StaticFieldsAndRequests:120 - получена информация объекта класса Bill
+2021-12-06 14:16:16 INFO  StaticFieldsAndRequests:71 - получен ответ запроса get класса Transaction
+2021-12-06 14:16:16 INFO  StaticFieldsAndRequests:86 - получена информация объекта класса Transaction
+2021-12-06 14:16:16 INFO  StaticFieldsAndRequests:264 - получен ответ запроса put класса Bill
+2021-12-06 14:16:16 INFO  StaticFieldsAndRequests:273 - получена информация объекта класса Bill
+2021-12-06 14:16:16 INFO  StaticFieldsAndRequests:107 - получен ответ запроса get класса Bill
+2021-12-06 14:16:16 INFO  StaticFieldsAndRequests:120 - получена информация объекта класса Bill
+2021-12-06 14:16:16 INFO  StaticFieldsAndRequests:71 - получен ответ запроса get класса Transaction
+2021-12-06 14:16:16 INFO  StaticFieldsAndRequests:86 - получена информация объекта класса Transaction
+2021-12-06 14:16:16 INFO  StaticFieldsAndRequests:264 - получен ответ запроса put класса Bill
+2021-12-06 14:16:16 INFO  StaticFieldsAndRequests:273 - получена информация объекта класса Bill
+2021-12-06 14:16:16 INFO  StaticFieldsAndRequests:107 - получен ответ запроса get класса Bill
+2021-12-06 14:16:16 INFO  StaticFieldsAndRequests:120 - получена информация объекта класса Bill
+2021-12-06 14:16:16 INFO  StaticFieldsAndRequests:71 - получен ответ запроса get класса Transaction
+2021-12-06 14:16:16 INFO  StaticFieldsAndRequests:86 - получена информация объекта класса Transaction
+2021-12-06 14:16:16 INFO  StaticFieldsAndRequests:264 - получен ответ запроса put класса Bill
+2021-12-06 14:16:16 INFO  StaticFieldsAndRequests:273 - получена информация объекта класса Bill
+2021-12-06 14:16:16 INFO  StaticFieldsAndRequests:107 - получен ответ запроса get класса Bill
+2021-12-06 14:16:16 INFO  StaticFieldsAndRequests:120 - получена информация объекта класса Bill
+2021-12-06 14:16:16 INFO  StaticFieldsAndRequests:71 - получен ответ запроса get класса Transaction
+2021-12-06 14:16:16 INFO  StaticFieldsAndRequests:86 - получена информация объекта класса Transaction
+2021-12-06 14:16:17 INFO  StaticFieldsAndRequests:264 - получен ответ запроса put класса Bill
+2021-12-06 14:16:17 INFO  StaticFieldsAndRequests:273 - получена информация объекта класса Bill
+2021-12-06 14:16:17 INFO  StaticFieldsAndRequests:107 - получен ответ запроса get класса Bill
+2021-12-06 14:16:17 INFO  StaticFieldsAndRequests:120 - получена информация объекта класса Bill
+2021-12-06 14:16:17 INFO  StaticFieldsAndRequests:71 - получен ответ запроса get класса Transaction
+2021-12-06 14:16:17 INFO  StaticFieldsAndRequests:86 - получена информация объекта класса Transaction
+2021-12-06 14:16:17 INFO  StaticFieldsAndRequests:264 - получен ответ запроса put класса Bill
+2021-12-06 14:16:17 INFO  StaticFieldsAndRequests:273 - получена информация объекта класса Bill
+2021-12-06 14:16:17 INFO  StaticFieldsAndRequests:107 - получен ответ запроса get класса Bill
+2021-12-06 14:16:17 INFO  StaticFieldsAndRequests:120 - получена информация объекта класса Bill
+2021-12-06 14:16:17 INFO  StaticFieldsAndRequests:71 - получен ответ запроса get класса Transaction
+2021-12-06 14:16:17 INFO  StaticFieldsAndRequests:86 - получена информация объекта класса Transaction
+2021-12-06 14:16:17 INFO  StaticFieldsAndRequests:264 - получен ответ запроса put класса Bill
+2021-12-06 14:16:17 INFO  StaticFieldsAndRequests:273 - получена информация объекта класса Bill
+2021-12-06 14:16:17 INFO  StaticFieldsAndRequests:107 - получен ответ запроса get класса Bill
+2021-12-06 14:16:17 INFO  StaticFieldsAndRequests:120 - получена информация объекта класса Bill
+2021-12-06 14:16:17 INFO  StaticFieldsAndRequests:71 - получен ответ запроса get класса Transaction
+2021-12-06 14:16:17 INFO  StaticFieldsAndRequests:86 - получена информация объекта класса Transaction
+2021-12-06 14:16:17 INFO  StaticFieldsAndRequests:264 - получен ответ запроса put класса Bill
+2021-12-06 14:16:17 INFO  StaticFieldsAndRequests:273 - получена информация объекта класса Bill
+2021-12-06 14:16:17 INFO  StaticFieldsAndRequests:107 - получен ответ запроса get класса Bill
+2021-12-06 14:16:17 INFO  StaticFieldsAndRequests:120 - получена информация объекта класса Bill
+2021-12-06 14:16:18 INFO  StaticFieldsAndRequests:71 - получен ответ запроса get класса Transaction
+2021-12-06 14:16:18 INFO  StaticFieldsAndRequests:86 - получена информация объекта класса Transaction
+2021-12-06 14:16:18 INFO  StaticFieldsAndRequests:264 - получен ответ запроса put класса Bill
+2021-12-06 14:16:18 INFO  StaticFieldsAndRequests:273 - получена информация объекта класса Bill
+2021-12-06 14:16:18 INFO  StaticFieldsAndRequests:107 - получен ответ запроса get класса Bill
+2021-12-06 14:16:18 INFO  StaticFieldsAndRequests:120 - получена информация объекта класса Bill
+2021-12-06 14:16:18 INFO  StaticFieldsAndRequests:71 - получен ответ запроса get класса Transaction
+2021-12-06 14:16:18 INFO  StaticFieldsAndRequests:86 - получена информация объекта класса Transaction
+2021-12-06 14:16:18 INFO  StaticFieldsAndRequests:264 - получен ответ запроса put класса Bill
+2021-12-06 14:16:18 INFO  StaticFieldsAndRequests:273 - получена информация объекта класса Bill
+2021-12-06 14:16:18 INFO  StaticFieldsAndRequests:107 - получен ответ запроса get класса Bill
+2021-12-06 14:16:18 INFO  StaticFieldsAndRequests:120 - получена информация объекта класса Bill
+2021-12-06 14:16:18 INFO  StaticFieldsAndRequests:71 - получен ответ запроса get класса Transaction
+2021-12-06 14:16:18 INFO  StaticFieldsAndRequests:86 - получена информация объекта класса Transaction
+2021-12-06 14:16:18 INFO  StaticFieldsAndRequests:264 - получен ответ запроса put класса Bill
+2021-12-06 14:16:18 INFO  StaticFieldsAndRequests:273 - получена информация объекта класса Bill
+2021-12-06 14:16:18 INFO  StaticFieldsAndRequests:107 - получен ответ запроса get класса Bill
+2021-12-06 14:16:18 INFO  StaticFieldsAndRequests:120 - получена информация объекта класса Bill
+2021-12-06 14:16:18 INFO  StaticFieldsAndRequests:71 - получен ответ запроса get класса Transaction
+2021-12-06 14:16:18 INFO  StaticFieldsAndRequests:86 - получена информация объекта класса Transaction
+2021-12-06 14:16:18 INFO  StaticFieldsAndRequests:264 - получен ответ запроса put класса Bill
+2021-12-06 14:16:18 INFO  StaticFieldsAndRequests:273 - получена информация объекта класса Bill
+2021-12-06 14:16:18 INFO  StaticFieldsAndRequests:107 - получен ответ запроса get класса Bill
+2021-12-06 14:16:18 INFO  StaticFieldsAndRequests:120 - получена информация объекта класса Bill
+2021-12-06 14:16:18 INFO  StaticFieldsAndRequests:71 - получен ответ запроса get класса Transaction
+2021-12-06 14:16:18 INFO  StaticFieldsAndRequests:86 - получена информация объекта класса Transaction
+2021-12-06 14:16:18 INFO  StaticFieldsAndRequests:264 - получен ответ запроса put класса Bill
+2021-12-06 14:16:18 INFO  StaticFieldsAndRequests:273 - получена информация объекта класса Bill
+2021-12-06 14:16:18 INFO  StaticFieldsAndRequests:107 - получен ответ запроса get класса Bill
+2021-12-06 14:16:18 INFO  StaticFieldsAndRequests:120 - получена информация объекта класса Bill
+2021-12-06 14:16:18 INFO  StaticFieldsAndRequests:71 - получен ответ запроса get класса Transaction
+2021-12-06 14:16:18 INFO  StaticFieldsAndRequests:86 - получена информация объекта класса Transaction
+2021-12-06 14:16:18 INFO  StaticFieldsAndRequests:264 - получен ответ запроса put класса Bill
+2021-12-06 14:16:18 INFO  StaticFieldsAndRequests:273 - получена информация объекта класса Bill
+2021-12-06 14:16:18 INFO  StaticFieldsAndRequests:107 - получен ответ запроса get класса Bill
+2021-12-06 14:16:18 INFO  StaticFieldsAndRequests:120 - получена информация объекта класса Bill
+2021-12-06 14:16:18 INFO  StaticFieldsAndRequests:71 - получен ответ запроса get класса Transaction
+2021-12-06 14:16:18 INFO  StaticFieldsAndRequests:86 - получена информация объекта класса Transaction
+2021-12-06 14:16:18 INFO  StaticFieldsAndRequests:264 - получен ответ запроса put класса Bill
+2021-12-06 14:16:18 INFO  StaticFieldsAndRequests:273 - получена информация объекта класса Bill
+2021-12-06 14:16:18 INFO  StaticFieldsAndRequests:107 - получен ответ запроса get класса Bill
+2021-12-06 14:16:18 INFO  StaticFieldsAndRequests:120 - получена информация объекта класса Bill
+2021-12-06 14:16:18 INFO  StaticFieldsAndRequests:71 - получен ответ запроса get класса Transaction
+2021-12-06 14:16:18 INFO  StaticFieldsAndRequests:86 - получена информация объекта класса Transaction
+2021-12-06 14:16:18 INFO  StaticFieldsAndRequests:264 - получен ответ запроса put класса Bill
+2021-12-06 14:16:18 INFO  StaticFieldsAndRequests:273 - получена информация объекта класса Bill
+2021-12-06 14:16:18 INFO  StaticFieldsAndRequests:107 - получен ответ запроса get класса Bill
+2021-12-06 14:16:18 INFO  StaticFieldsAndRequests:120 - получена информация объекта класса Bill
+2021-12-06 14:16:18 INFO  StaticFieldsAndRequests:71 - получен ответ запроса get класса Transaction
+2021-12-06 14:16:18 INFO  StaticFieldsAndRequests:86 - получена информация объекта класса Transaction
+2021-12-06 14:16:18 INFO  StaticFieldsAndRequests:264 - получен ответ запроса put класса Bill
+2021-12-06 14:16:18 INFO  StaticFieldsAndRequests:273 - получена информация объекта класса Bill
+2021-12-06 14:16:18 INFO  StaticFieldsAndRequests:107 - получен ответ запроса get класса Bill
+2021-12-06 14:16:18 INFO  StaticFieldsAndRequests:120 - получена информация объекта класса Bill
+2021-12-06 14:16:18 INFO  StaticFieldsAndRequests:71 - получен ответ запроса get класса Transaction
+2021-12-06 14:16:18 INFO  StaticFieldsAndRequests:86 - получена информация объекта класса Transaction
+2021-12-06 14:16:18 INFO  StaticFieldsAndRequests:264 - получен ответ запроса put класса Bill
+2021-12-06 14:16:18 INFO  StaticFieldsAndRequests:273 - получена информация объекта класса Bill
+2021-12-06 14:16:18 INFO  StaticFieldsAndRequests:107 - получен ответ запроса get класса Bill
+2021-12-06 14:16:18 INFO  StaticFieldsAndRequests:120 - получена информация объекта класса Bill
+2021-12-06 14:16:18 INFO  StaticFieldsAndRequests:71 - получен ответ запроса get класса Transaction
+2021-12-06 14:16:18 INFO  StaticFieldsAndRequests:86 - получена информация объекта класса Transaction
+2021-12-06 14:16:18 INFO  StaticFieldsAndRequests:264 - получен ответ запроса put класса Bill
+2021-12-06 14:16:18 INFO  StaticFieldsAndRequests:273 - получена информация объекта класса Bill
+2021-12-06 14:16:18 INFO  StaticFieldsAndRequests:107 - получен ответ запроса get класса Bill
+2021-12-06 14:16:18 INFO  StaticFieldsAndRequests:120 - получена информация объекта класса Bill
+2021-12-06 14:16:18 INFO  StaticFieldsAndRequests:71 - получен ответ запроса get класса Transaction
+2021-12-06 14:16:18 INFO  StaticFieldsAndRequests:86 - получена информация объекта класса Transaction
+2021-12-06 14:16:19 INFO  StaticFieldsAndRequests:264 - получен ответ запроса put класса Bill
+2021-12-06 14:16:19 INFO  StaticFieldsAndRequests:273 - получена информация объекта класса Bill
+2021-12-06 14:16:19 INFO  StaticFieldsAndRequests:107 - получен ответ запроса get класса Bill
+2021-12-06 14:16:19 INFO  StaticFieldsAndRequests:120 - получена информация объекта класса Bill
+2021-12-06 14:16:19 INFO  StaticFieldsAndRequests:71 - получен ответ запроса get класса Transaction
+2021-12-06 14:16:19 INFO  StaticFieldsAndRequests:86 - получена информация объекта класса Transaction
+2021-12-06 14:16:19 INFO  StaticFieldsAndRequests:264 - получен ответ запроса put класса Bill
+2021-12-06 14:16:19 INFO  StaticFieldsAndRequests:273 - получена информация объекта класса Bill
+2021-12-06 14:16:19 INFO  StaticFieldsAndRequests:107 - получен ответ запроса get класса Bill
+2021-12-06 14:16:19 INFO  StaticFieldsAndRequests:120 - получена информация объекта класса Bill
+2021-12-06 14:16:19 INFO  StaticFieldsAndRequests:71 - получен ответ запроса get класса Transaction
+2021-12-06 14:16:19 INFO  StaticFieldsAndRequests:86 - получена информация объекта класса Transaction
+2021-12-06 14:16:19 INFO  StaticFieldsAndRequests:264 - получен ответ запроса put класса Bill
+2021-12-06 14:16:19 INFO  StaticFieldsAndRequests:273 - получена информация объекта класса Bill
+2021-12-06 14:16:19 INFO  StaticFieldsAndRequests:107 - получен ответ запроса get класса Bill
+2021-12-06 14:16:19 INFO  StaticFieldsAndRequests:120 - получена информация объекта класса Bill
+2021-12-06 14:16:19 INFO  StaticFieldsAndRequests:71 - получен ответ запроса get класса Transaction
+2021-12-06 14:16:19 INFO  StaticFieldsAndRequests:86 - получена информация объекта класса Transaction
+2021-12-06 14:16:19 INFO  StaticFieldsAndRequests:264 - получен ответ запроса put класса Bill
+2021-12-06 14:16:19 INFO  StaticFieldsAndRequests:273 - получена информация объекта класса Bill
+2021-12-06 14:16:19 INFO  StaticFieldsAndRequests:107 - получен ответ запроса get класса Bill
+2021-12-06 14:16:19 INFO  StaticFieldsAndRequests:120 - получена информация объекта класса Bill
+2021-12-06 14:16:19 INFO  StaticFieldsAndRequests:71 - получен ответ запроса get класса Transaction
+2021-12-06 14:16:19 INFO  StaticFieldsAndRequests:86 - получена информация объекта класса Transaction
+2021-12-06 14:16:19 INFO  StaticFieldsAndRequests:264 - получен ответ запроса put класса Bill
+2021-12-06 14:16:19 INFO  StaticFieldsAndRequests:273 - получена информация объекта класса Bill
+2021-12-06 14:16:19 INFO  StaticFieldsAndRequests:107 - получен ответ запроса get класса Bill
+2021-12-06 14:16:19 INFO  StaticFieldsAndRequests:120 - получена информация объекта класса Bill
+2021-12-06 14:16:19 INFO  StaticFieldsAndRequests:71 - получен ответ запроса get класса Transaction
+2021-12-06 14:16:19 INFO  StaticFieldsAndRequests:86 - получена информация объекта класса Transaction
+2021-12-06 14:16:19 INFO  StaticFieldsAndRequests:264 - получен ответ запроса put класса Bill
+2021-12-06 14:16:19 INFO  StaticFieldsAndRequests:273 - получена информация объекта класса Bill
+2021-12-06 14:16:19 INFO  StaticFieldsAndRequests:107 - получен ответ запроса get класса Bill
+2021-12-06 14:16:19 INFO  StaticFieldsAndRequests:120 - получена информация объекта класса Bill
+2021-12-06 14:16:19 INFO  StaticFieldsAndRequests:71 - получен ответ запроса get класса Transaction
+2021-12-06 14:16:19 INFO  StaticFieldsAndRequests:86 - получена информация объекта класса Transaction
+2021-12-06 14:16:19 INFO  StaticFieldsAndRequests:264 - получен ответ запроса put класса Bill
+2021-12-06 14:16:19 INFO  StaticFieldsAndRequests:273 - получена информация объекта класса Bill
+2021-12-06 14:16:19 INFO  StaticFieldsAndRequests:107 - получен ответ запроса get класса Bill
+2021-12-06 14:16:19 INFO  StaticFieldsAndRequests:120 - получена информация объекта класса Bill
+2021-12-06 14:16:19 INFO  StaticFieldsAndRequests:71 - получен ответ запроса get класса Transaction
+2021-12-06 14:16:19 INFO  StaticFieldsAndRequests:86 - получена информация объекта класса Transaction
+2021-12-06 14:16:19 INFO  StaticFieldsAndRequests:264 - получен ответ запроса put класса Bill
+2021-12-06 14:16:19 INFO  StaticFieldsAndRequests:273 - получена информация объекта класса Bill
+2021-12-06 14:16:19 INFO  StaticFieldsAndRequests:107 - получен ответ запроса get класса Bill
+2021-12-06 14:16:19 INFO  StaticFieldsAndRequests:120 - получена информация объекта класса Bill
+2021-12-06 14:16:19 INFO  StaticFieldsAndRequests:71 - получен ответ запроса get класса Transaction
+2021-12-06 14:16:19 INFO  StaticFieldsAndRequests:86 - получена информация объекта класса Transaction
+2021-12-06 14:16:20 INFO  StaticFieldsAndRequests:264 - получен ответ запроса put класса Bill
+2021-12-06 14:16:20 INFO  StaticFieldsAndRequests:273 - получена информация объекта класса Bill
+2021-12-06 14:16:20 INFO  StaticFieldsAndRequests:107 - получен ответ запроса get класса Bill
+2021-12-06 14:16:20 INFO  StaticFieldsAndRequests:120 - получена информация объекта класса Bill
+2021-12-06 14:16:20 INFO  StaticFieldsAndRequests:71 - получен ответ запроса get класса Transaction
+2021-12-06 14:16:20 INFO  StaticFieldsAndRequests:86 - получена информация объекта класса Transaction
+2021-12-06 14:16:20 INFO  StaticFieldsAndRequests:264 - получен ответ запроса put класса Bill
+2021-12-06 14:16:20 INFO  StaticFieldsAndRequests:273 - получена информация объекта класса Bill
+2021-12-06 14:16:20 INFO  StaticFieldsAndRequests:107 - получен ответ запроса get класса Bill
+2021-12-06 14:16:20 INFO  StaticFieldsAndRequests:120 - получена информация объекта класса Bill
+2021-12-06 14:16:20 INFO  StaticFieldsAndRequests:71 - получен ответ запроса get класса Transaction
+2021-12-06 14:16:20 INFO  StaticFieldsAndRequests:86 - получена информация объекта класса Transaction
+2021-12-06 14:16:20 INFO  StaticFieldsAndRequests:264 - получен ответ запроса put класса Bill
+2021-12-06 14:16:20 INFO  StaticFieldsAndRequests:273 - получена информация объекта класса Bill
+2021-12-06 14:16:20 INFO  StaticFieldsAndRequests:107 - получен ответ запроса get класса Bill
+2021-12-06 14:16:20 INFO  StaticFieldsAndRequests:120 - получена информация объекта класса Bill
+2021-12-06 14:16:20 INFO  StaticFieldsAndRequests:71 - получен ответ запроса get класса Transaction
+2021-12-06 14:16:20 INFO  StaticFieldsAndRequests:86 - получена информация объекта класса Transaction
+2021-12-06 14:16:20 INFO  StaticFieldsAndRequests:264 - получен ответ запроса put класса Bill
+2021-12-06 14:16:20 INFO  StaticFieldsAndRequests:273 - получена информация объекта класса Bill
+2021-12-06 14:16:20 INFO  StaticFieldsAndRequests:107 - получен ответ запроса get класса Bill
+2021-12-06 14:16:20 INFO  StaticFieldsAndRequests:120 - получена информация объекта класса Bill
+2021-12-06 14:16:20 INFO  StaticFieldsAndRequests:71 - получен ответ запроса get класса Transaction
+2021-12-06 14:16:20 INFO  StaticFieldsAndRequests:86 - получена информация объекта класса Transaction
+2021-12-06 14:16:20 INFO  StaticFieldsAndRequests:264 - получен ответ запроса put класса Bill
+2021-12-06 14:16:20 INFO  StaticFieldsAndRequests:273 - получена информация объекта класса Bill
+2021-12-06 14:16:20 INFO  StaticFieldsAndRequests:107 - получен ответ запроса get класса Bill
+2021-12-06 14:16:20 INFO  StaticFieldsAndRequests:120 - получена информация объекта класса Bill
+2021-12-06 14:16:20 INFO  StaticFieldsAndRequests:71 - получен ответ запроса get класса Transaction
+2021-12-06 14:16:20 INFO  StaticFieldsAndRequests:86 - получена информация объекта класса Transaction
+2021-12-06 14:16:21 INFO  StaticFieldsAndRequests:264 - получен ответ запроса put класса Bill
+2021-12-06 14:16:21 INFO  StaticFieldsAndRequests:273 - получена информация объекта класса Bill
+2021-12-06 14:16:21 INFO  StaticFieldsAndRequests:107 - получен ответ запроса get класса Bill
+2021-12-06 14:16:21 INFO  StaticFieldsAndRequests:120 - получена информация объекта класса Bill
+2021-12-06 14:16:21 INFO  StaticFieldsAndRequests:71 - получен ответ запроса get класса Transaction
+2021-12-06 14:16:21 INFO  StaticFieldsAndRequests:86 - получена информация объекта класса Transaction
+2021-12-06 14:16:21 INFO  StaticFieldsAndRequests:264 - получен ответ запроса put класса Bill
+2021-12-06 14:16:21 INFO  StaticFieldsAndRequests:273 - получена информация объекта класса Bill
+2021-12-06 14:16:21 INFO  StaticFieldsAndRequests:107 - получен ответ запроса get класса Bill
+2021-12-06 14:16:21 INFO  StaticFieldsAndRequests:120 - получена информация объекта класса Bill
+2021-12-06 14:16:21 INFO  StaticFieldsAndRequests:71 - получен ответ запроса get класса Transaction
+2021-12-06 14:16:21 INFO  StaticFieldsAndRequests:86 - получена информация объекта класса Transaction
+2021-12-06 14:16:21 INFO  StaticFieldsAndRequests:264 - получен ответ запроса put класса Bill
+2021-12-06 14:16:21 INFO  StaticFieldsAndRequests:273 - получена информация объекта класса Bill
+2021-12-06 14:16:21 INFO  StaticFieldsAndRequests:107 - получен ответ запроса get класса Bill
+2021-12-06 14:16:21 INFO  StaticFieldsAndRequests:120 - получена информация объекта класса Bill
+2021-12-06 14:16:21 INFO  StaticFieldsAndRequests:71 - получен ответ запроса get класса Transaction
+2021-12-06 14:16:21 INFO  StaticFieldsAndRequests:86 - получена информация объекта класса Transaction
+2021-12-06 14:16:21 INFO  StaticFieldsAndRequests:264 - получен ответ запроса put класса Bill
+2021-12-06 14:16:21 INFO  StaticFieldsAndRequests:273 - получена информация объекта класса Bill
+2021-12-06 14:16:21 INFO  StaticFieldsAndRequests:107 - получен ответ запроса get класса Bill
+2021-12-06 14:16:21 INFO  StaticFieldsAndRequests:120 - получена информация объекта класса Bill
+2021-12-06 14:16:21 INFO  StaticFieldsAndRequests:71 - получен ответ запроса get класса Transaction
+2021-12-06 14:16:21 INFO  StaticFieldsAndRequests:86 - получена информация объекта класса Transaction
+2021-12-06 14:16:21 INFO  StaticFieldsAndRequests:264 - получен ответ запроса put класса Bill
+2021-12-06 14:16:21 INFO  StaticFieldsAndRequests:273 - получена информация объекта класса Bill
+2021-12-06 14:16:21 INFO  StaticFieldsAndRequests:107 - получен ответ запроса get класса Bill
+2021-12-06 14:16:21 INFO  StaticFieldsAndRequests:120 - получена информация объекта класса Bill
+2021-12-06 14:16:21 INFO  StaticFieldsAndRequests:71 - получен ответ запроса get класса Transaction
+2021-12-06 14:16:21 INFO  StaticFieldsAndRequests:86 - получена информация объекта класса Transaction
+2021-12-06 14:16:21 INFO  StaticFieldsAndRequests:264 - получен ответ запроса put класса Bill
+2021-12-06 14:16:21 INFO  StaticFieldsAndRequests:273 - получена информация объекта класса Bill
+2021-12-06 14:16:21 INFO  StaticFieldsAndRequests:107 - получен ответ запроса get класса Bill
+2021-12-06 14:16:21 INFO  StaticFieldsAndRequests:120 - получена информация объекта класса Bill
+2021-12-06 14:16:21 INFO  StaticFieldsAndRequests:71 - получен ответ запроса get класса Transaction
+2021-12-06 14:16:21 INFO  StaticFieldsAndRequests:86 - получена информация объекта класса Transaction
+2021-12-06 14:16:22 INFO  StaticFieldsAndRequests:264 - получен ответ запроса put класса Bill
+2021-12-06 14:16:22 INFO  StaticFieldsAndRequests:273 - получена информация объекта класса Bill
+2021-12-06 14:16:22 INFO  StaticFieldsAndRequests:107 - получен ответ запроса get класса Bill
+2021-12-06 14:16:22 INFO  StaticFieldsAndRequests:120 - получена информация объекта класса Bill
+2021-12-06 14:16:22 INFO  StaticFieldsAndRequests:71 - получен ответ запроса get класса Transaction
+2021-12-06 14:16:22 INFO  StaticFieldsAndRequests:86 - получена информация объекта класса Transaction
+2021-12-06 14:16:22 INFO  StaticFieldsAndRequests:264 - получен ответ запроса put класса Bill
+2021-12-06 14:16:22 INFO  StaticFieldsAndRequests:273 - получена информация объекта класса Bill
+2021-12-06 14:16:22 INFO  StaticFieldsAndRequests:107 - получен ответ запроса get класса Bill
+2021-12-06 14:16:22 INFO  StaticFieldsAndRequests:120 - получена информация объекта класса Bill
+2021-12-06 14:16:22 INFO  StaticFieldsAndRequests:71 - получен ответ запроса get класса Transaction
+2021-12-06 14:16:22 INFO  StaticFieldsAndRequests:86 - получена информация объекта класса Transaction
+2021-12-06 14:16:22 INFO  StaticFieldsAndRequests:264 - получен ответ запроса put класса Bill
+2021-12-06 14:16:22 INFO  StaticFieldsAndRequests:273 - получена информация объекта класса Bill
+2021-12-06 14:16:22 INFO  StaticFieldsAndRequests:107 - получен ответ запроса get класса Bill
+2021-12-06 14:16:22 INFO  StaticFieldsAndRequests:120 - получена информация объекта класса Bill
+2021-12-06 14:16:22 INFO  StaticFieldsAndRequests:71 - получен ответ запроса get класса Transaction
+2021-12-06 14:16:22 INFO  StaticFieldsAndRequests:86 - получена информация объекта класса Transaction
+2021-12-06 14:16:22 INFO  StaticFieldsAndRequests:264 - получен ответ запроса put класса Bill
+2021-12-06 14:16:22 INFO  StaticFieldsAndRequests:273 - получена информация объекта класса Bill
+2021-12-06 14:16:22 INFO  StaticFieldsAndRequests:107 - получен ответ запроса get класса Bill
+2021-12-06 14:16:22 INFO  StaticFieldsAndRequests:120 - получена информация объекта класса Bill
+2021-12-06 14:16:22 INFO  StaticFieldsAndRequests:71 - получен ответ запроса get класса Transaction
+2021-12-06 14:16:22 INFO  StaticFieldsAndRequests:86 - получена информация объекта класса Transaction
+2021-12-06 14:16:22 INFO  StaticFieldsAndRequests:264 - получен ответ запроса put класса Bill
+2021-12-06 14:16:22 INFO  StaticFieldsAndRequests:273 - получена информация объекта класса Bill
+2021-12-06 14:16:22 INFO  StaticFieldsAndRequests:107 - получен ответ запроса get класса Bill
+2021-12-06 14:16:22 INFO  StaticFieldsAndRequests:120 - получена информация объекта класса Bill
+2021-12-06 14:16:22 INFO  StaticFieldsAndRequests:71 - получен ответ запроса get класса Transaction
+2021-12-06 14:16:22 INFO  StaticFieldsAndRequests:86 - получена информация объекта класса Transaction
+2021-12-06 14:16:23 INFO  StaticFieldsAndRequests:264 - получен ответ запроса put класса Bill
+2021-12-06 14:16:23 INFO  StaticFieldsAndRequests:273 - получена информация объекта класса Bill
+2021-12-06 14:16:23 INFO  StaticFieldsAndRequests:107 - получен ответ запроса get класса Bill
+2021-12-06 14:16:23 INFO  StaticFieldsAndRequests:120 - получена информация объекта класса Bill
+2021-12-06 14:16:23 INFO  StaticFieldsAndRequests:71 - получен ответ запроса get класса Transaction
+2021-12-06 14:16:23 INFO  StaticFieldsAndRequests:86 - получена информация объекта класса Transaction
+2021-12-06 14:16:23 INFO  StaticFieldsAndRequests:264 - получен ответ запроса put класса Bill
+2021-12-06 14:16:23 INFO  StaticFieldsAndRequests:273 - получена информация объекта класса Bill
+2021-12-06 14:16:23 INFO  StaticFieldsAndRequests:107 - получен ответ запроса get класса Bill
+2021-12-06 14:16:23 INFO  StaticFieldsAndRequests:120 - получена информация объекта класса Bill
+2021-12-06 14:16:23 INFO  StaticFieldsAndRequests:71 - получен ответ запроса get класса Transaction
+2021-12-06 14:16:23 INFO  StaticFieldsAndRequests:86 - получена информация объекта класса Transaction
+2021-12-06 14:16:23 INFO  StaticFieldsAndRequests:264 - получен ответ запроса put класса Bill
+2021-12-06 14:16:23 INFO  StaticFieldsAndRequests:273 - получена информация объекта класса Bill
+2021-12-06 14:16:23 INFO  StaticFieldsAndRequests:107 - получен ответ запроса get класса Bill
+2021-12-06 14:16:23 INFO  StaticFieldsAndRequests:120 - получена информация объекта класса Bill
+2021-12-06 14:16:23 INFO  StaticFieldsAndRequests:71 - получен ответ запроса get класса Transaction
+2021-12-06 14:16:23 INFO  StaticFieldsAndRequests:86 - получена информация объекта класса Transaction
+2021-12-06 14:16:23 INFO  StaticFieldsAndRequests:264 - получен ответ запроса put класса Bill
+2021-12-06 14:16:23 INFO  StaticFieldsAndRequests:273 - получена информация объекта класса Bill
+2021-12-06 14:16:23 INFO  StaticFieldsAndRequests:107 - получен ответ запроса get класса Bill
+2021-12-06 14:16:23 INFO  StaticFieldsAndRequests:120 - получена информация объекта класса Bill
+2021-12-06 14:16:23 INFO  StaticFieldsAndRequests:71 - получен ответ запроса get класса Transaction
+2021-12-06 14:16:23 INFO  StaticFieldsAndRequests:86 - получена информация объекта класса Transaction
+2021-12-06 14:16:23 INFO  StaticFieldsAndRequests:264 - получен ответ запроса put класса Bill
+2021-12-06 14:16:23 INFO  StaticFieldsAndRequests:273 - получена информация объекта класса Bill
+2021-12-06 14:16:23 INFO  StaticFieldsAndRequests:107 - получен ответ запроса get класса Bill
+2021-12-06 14:16:23 INFO  StaticFieldsAndRequests:120 - получена информация объекта класса Bill
+2021-12-06 14:16:23 INFO  StaticFieldsAndRequests:71 - получен ответ запроса get класса Transaction
+2021-12-06 14:16:23 INFO  StaticFieldsAndRequests:86 - получена информация объекта класса Transaction
+2021-12-06 14:16:24 INFO  StaticFieldsAndRequests:264 - получен ответ запроса put класса Bill
+2021-12-06 14:16:24 INFO  StaticFieldsAndRequests:273 - получена информация объекта класса Bill
+2021-12-06 14:16:24 INFO  StaticFieldsAndRequests:107 - получен ответ запроса get класса Bill
+2021-12-06 14:16:24 INFO  StaticFieldsAndRequests:120 - получена информация объекта класса Bill
+2021-12-06 14:16:24 INFO  StaticFieldsAndRequests:71 - получен ответ запроса get класса Transaction
+2021-12-06 14:16:24 INFO  StaticFieldsAndRequests:86 - получена информация объекта класса Transaction
+2021-12-06 14:16:24 INFO  StaticFieldsAndRequests:264 - получен ответ запроса put класса Bill
+2021-12-06 14:16:24 INFO  StaticFieldsAndRequests:273 - получена информация объекта класса Bill
+2021-12-06 14:16:24 INFO  StaticFieldsAndRequests:107 - получен ответ запроса get класса Bill
+2021-12-06 14:16:24 INFO  StaticFieldsAndRequests:120 - получена информация объекта класса Bill
+2021-12-06 14:16:24 INFO  StaticFieldsAndRequests:71 - получен ответ запроса get класса Transaction
+2021-12-06 14:16:24 INFO  StaticFieldsAndRequests:86 - получена информация объекта класса Transaction
+2021-12-06 14:16:24 INFO  StaticFieldsAndRequests:264 - получен ответ запроса put класса Bill
+2021-12-06 14:16:24 INFO  StaticFieldsAndRequests:273 - получена информация объекта класса Bill
+2021-12-06 14:16:24 INFO  StaticFieldsAndRequests:107 - получен ответ запроса get класса Bill
+2021-12-06 14:16:24 INFO  StaticFieldsAndRequests:120 - получена информация объекта класса Bill
+2021-12-06 14:16:24 INFO  StaticFieldsAndRequests:71 - получен ответ запроса get класса Transaction
+2021-12-06 14:16:24 INFO  StaticFieldsAndRequests:86 - получена информация объекта класса Transaction
+2021-12-06 14:16:24 INFO  StaticFieldsAndRequests:264 - получен ответ запроса put класса Bill
+2021-12-06 14:16:24 INFO  StaticFieldsAndRequests:273 - получена информация объекта класса Bill
+2021-12-06 14:16:24 INFO  StaticFieldsAndRequests:107 - получен ответ запроса get класса Bill
+2021-12-06 14:16:24 INFO  StaticFieldsAndRequests:120 - получена информация объекта класса Bill
+2021-12-06 14:16:24 INFO  StaticFieldsAndRequests:71 - получен ответ запроса get класса Transaction
+2021-12-06 14:16:24 INFO  StaticFieldsAndRequests:86 - получена информация объекта класса Transaction
+2021-12-06 14:16:24 INFO  StaticFieldsAndRequests:264 - получен ответ запроса put класса Bill
+2021-12-06 14:16:24 INFO  StaticFieldsAndRequests:273 - получена информация объекта класса Bill
+2021-12-06 14:16:24 INFO  StaticFieldsAndRequests:107 - получен ответ запроса get класса Bill
+2021-12-06 14:16:24 INFO  StaticFieldsAndRequests:120 - получена информация объекта класса Bill
+2021-12-06 14:16:24 INFO  StaticFieldsAndRequests:71 - получен ответ запроса get класса Transaction
+2021-12-06 14:16:24 INFO  StaticFieldsAndRequests:86 - получена информация объекта класса Transaction
+2021-12-06 14:16:25 INFO  StaticFieldsAndRequests:264 - получен ответ запроса put класса Bill
+2021-12-06 14:16:25 INFO  StaticFieldsAndRequests:273 - получена информация объекта класса Bill
+2021-12-06 14:16:25 INFO  StaticFieldsAndRequests:107 - получен ответ запроса get класса Bill
+2021-12-06 14:16:25 INFO  StaticFieldsAndRequests:120 - получена информация объекта класса Bill
+2021-12-06 14:16:25 INFO  StaticFieldsAndRequests:71 - получен ответ запроса get класса Transaction
+2021-12-06 14:16:25 INFO  StaticFieldsAndRequests:86 - получена информация объекта класса Transaction
+2021-12-06 14:16:25 INFO  StaticFieldsAndRequests:264 - получен ответ запроса put класса Bill
+2021-12-06 14:16:25 INFO  StaticFieldsAndRequests:273 - получена информация объекта класса Bill
+2021-12-06 14:16:25 INFO  StaticFieldsAndRequests:107 - получен ответ запроса get класса Bill
+2021-12-06 14:16:25 INFO  StaticFieldsAndRequests:120 - получена информация объекта класса Bill
+2021-12-06 14:16:25 INFO  StaticFieldsAndRequests:71 - получен ответ запроса get класса Transaction
+2021-12-06 14:16:25 INFO  StaticFieldsAndRequests:86 - получена информация объекта класса Transaction
+2021-12-06 14:16:25 INFO  StaticFieldsAndRequests:264 - получен ответ запроса put класса Bill
+2021-12-06 14:16:25 INFO  StaticFieldsAndRequests:273 - получена информация объекта класса Bill
+2021-12-06 14:16:25 INFO  StaticFieldsAndRequests:107 - получен ответ запроса get класса Bill
+2021-12-06 14:16:25 INFO  StaticFieldsAndRequests:120 - получена информация объекта класса Bill
+2021-12-06 14:16:25 INFO  StaticFieldsAndRequests:71 - получен ответ запроса get класса Transaction
+2021-12-06 14:16:25 INFO  StaticFieldsAndRequests:86 - получена информация объекта класса Transaction
+2021-12-06 14:16:25 INFO  StaticFieldsAndRequests:264 - получен ответ запроса put класса Bill
+2021-12-06 14:16:25 INFO  StaticFieldsAndRequests:273 - получена информация объекта класса Bill
+2021-12-06 14:16:25 INFO  StaticFieldsAndRequests:107 - получен ответ запроса get класса Bill
+2021-12-06 14:16:25 INFO  StaticFieldsAndRequests:120 - получена информация объекта класса Bill
+2021-12-06 14:16:25 INFO  StaticFieldsAndRequests:71 - получен ответ запроса get класса Transaction
+2021-12-06 14:16:25 INFO  StaticFieldsAndRequests:86 - получена информация объекта класса Transaction
+2021-12-06 14:16:25 INFO  StaticFieldsAndRequests:264 - получен ответ запроса put класса Bill
+2021-12-06 14:16:25 INFO  StaticFieldsAndRequests:273 - получена информация объекта класса Bill
+2021-12-06 14:16:25 INFO  StaticFieldsAndRequests:107 - получен ответ запроса get класса Bill
+2021-12-06 14:16:25 INFO  StaticFieldsAndRequests:120 - получена информация объекта класса Bill
+2021-12-06 14:16:25 INFO  StaticFieldsAndRequests:71 - получен ответ запроса get класса Transaction
+2021-12-06 14:16:25 INFO  StaticFieldsAndRequests:86 - получена информация объекта класса Transaction
+2021-12-06 14:16:26 INFO  StaticFieldsAndRequests:264 - получен ответ запроса put класса Bill
+2021-12-06 14:16:26 INFO  StaticFieldsAndRequests:273 - получена информация объекта класса Bill
+2021-12-06 14:16:26 INFO  StaticFieldsAndRequests:107 - получен ответ запроса get класса Bill
+2021-12-06 14:16:26 INFO  StaticFieldsAndRequests:120 - получена информация объекта класса Bill
+2021-12-06 14:16:26 INFO  StaticFieldsAndRequests:71 - получен ответ запроса get класса Transaction
+2021-12-06 14:16:26 INFO  StaticFieldsAndRequests:86 - получена информация объекта класса Transaction
+2021-12-06 14:16:26 INFO  StaticFieldsAndRequests:264 - получен ответ запроса put класса Bill
+2021-12-06 14:16:26 INFO  StaticFieldsAndRequests:273 - получена информация объекта класса Bill
+2021-12-06 14:16:26 INFO  StaticFieldsAndRequests:107 - получен ответ запроса get класса Bill
+2021-12-06 14:16:26 INFO  StaticFieldsAndRequests:120 - получена информация объекта класса Bill
+2021-12-06 14:16:26 INFO  StaticFieldsAndRequests:71 - получен ответ запроса get класса Transaction
+2021-12-06 14:16:26 INFO  StaticFieldsAndRequests:86 - получена информация объекта класса Transaction
+2021-12-06 14:16:26 INFO  StaticFieldsAndRequests:264 - получен ответ запроса put класса Bill
+2021-12-06 14:16:26 INFO  StaticFieldsAndRequests:273 - получена информация объекта класса Bill
+2021-12-06 14:16:26 INFO  StaticFieldsAndRequests:107 - получен ответ запроса get класса Bill
+2021-12-06 14:16:26 INFO  StaticFieldsAndRequests:120 - получена информация объекта класса Bill
+2021-12-06 14:16:26 INFO  StaticFieldsAndRequests:71 - получен ответ запроса get класса Transaction
+2021-12-06 14:16:26 INFO  StaticFieldsAndRequests:86 - получена информация объекта класса Transaction
+2021-12-06 14:16:26 INFO  StaticFieldsAndRequests:264 - получен ответ запроса put класса Bill
+2021-12-06 14:16:26 INFO  StaticFieldsAndRequests:273 - получена информация объекта класса Bill
+2021-12-06 14:16:26 INFO  StaticFieldsAndRequests:107 - получен ответ запроса get класса Bill
+2021-12-06 14:16:26 INFO  StaticFieldsAndRequests:120 - получена информация объекта класса Bill
+2021-12-06 14:16:26 INFO  StaticFieldsAndRequests:71 - получен ответ запроса get класса Transaction
+2021-12-06 14:16:26 INFO  StaticFieldsAndRequests:86 - получена информация объекта класса Transaction
+2021-12-06 14:16:27 INFO  StaticFieldsAndRequests:264 - получен ответ запроса put класса Bill
+2021-12-06 14:16:27 INFO  StaticFieldsAndRequests:273 - получена информация объекта класса Bill
+2021-12-06 14:16:27 INFO  StaticFieldsAndRequests:107 - получен ответ запроса get класса Bill
+2021-12-06 14:16:27 INFO  StaticFieldsAndRequests:120 - получена информация объекта класса Bill
+2021-12-06 14:16:27 INFO  StaticFieldsAndRequests:71 - получен ответ запроса get класса Transaction
+2021-12-06 14:16:27 INFO  StaticFieldsAndRequests:86 - получена информация объекта класса Transaction
+2021-12-06 14:16:27 INFO  StaticFieldsAndRequests:264 - получен ответ запроса put класса Bill
+2021-12-06 14:16:27 INFO  StaticFieldsAndRequests:273 - получена информация объекта класса Bill
+2021-12-06 14:16:27 INFO  StaticFieldsAndRequests:107 - получен ответ запроса get класса Bill
+2021-12-06 14:16:27 INFO  StaticFieldsAndRequests:120 - получена информация объекта класса Bill
+2021-12-06 14:16:27 INFO  StaticFieldsAndRequests:71 - получен ответ запроса get класса Transaction
+2021-12-06 14:16:27 INFO  StaticFieldsAndRequests:86 - получена информация объекта класса Transaction
+2021-12-06 14:16:27 INFO  StaticFieldsAndRequests:264 - получен ответ запроса put класса Bill
+2021-12-06 14:16:27 INFO  StaticFieldsAndRequests:273 - получена информация объекта класса Bill
+2021-12-06 14:16:27 INFO  StaticFieldsAndRequests:107 - получен ответ запроса get класса Bill
+2021-12-06 14:16:27 INFO  StaticFieldsAndRequests:120 - получена информация объекта класса Bill
+2021-12-06 14:16:27 INFO  StaticFieldsAndRequests:71 - получен ответ запроса get класса Transaction
+2021-12-06 14:16:27 INFO  StaticFieldsAndRequests:86 - получена информация объекта класса Transaction
+2021-12-06 14:16:27 INFO  StaticFieldsAndRequests:264 - получен ответ запроса put класса Bill
+2021-12-06 14:16:27 INFO  StaticFieldsAndRequests:273 - получена информация объекта класса Bill
+2021-12-06 14:16:27 INFO  StaticFieldsAndRequests:107 - получен ответ запроса get класса Bill
+2021-12-06 14:16:27 INFO  StaticFieldsAndRequests:120 - получена информация объекта класса Bill
+2021-12-06 14:16:27 INFO  StaticFieldsAndRequests:71 - получен ответ запроса get класса Transaction
+2021-12-06 14:16:27 INFO  StaticFieldsAndRequests:86 - получена информация объекта класса Transaction
+2021-12-06 14:16:27 INFO  StaticFieldsAndRequests:264 - получен ответ запроса put класса Bill
+2021-12-06 14:16:27 INFO  StaticFieldsAndRequests:273 - получена информация объекта класса Bill
+2021-12-06 14:16:27 INFO  StaticFieldsAndRequests:107 - получен ответ запроса get класса Bill
+2021-12-06 14:16:27 INFO  StaticFieldsAndRequests:120 - получена информация объекта класса Bill
+2021-12-06 14:16:27 INFO  StaticFieldsAndRequests:71 - получен ответ запроса get класса Transaction
+2021-12-06 14:16:27 INFO  StaticFieldsAndRequests:86 - получена информация объекта класса Transaction
+2021-12-06 14:16:28 INFO  StaticFieldsAndRequests:264 - получен ответ запроса put класса Bill
+2021-12-06 14:16:28 INFO  StaticFieldsAndRequests:273 - получена информация объекта класса Bill
+2021-12-06 14:16:28 INFO  StaticFieldsAndRequests:107 - получен ответ запроса get класса Bill
+2021-12-06 14:16:28 INFO  StaticFieldsAndRequests:120 - получена информация объекта класса Bill
+2021-12-06 14:16:28 INFO  StaticFieldsAndRequests:71 - получен ответ запроса get класса Transaction
+2021-12-06 14:16:28 INFO  StaticFieldsAndRequests:86 - получена информация объекта класса Transaction
+2021-12-06 14:16:28 INFO  StaticFieldsAndRequests:264 - получен ответ запроса put класса Bill
+2021-12-06 14:16:28 INFO  StaticFieldsAndRequests:273 - получена информация объекта класса Bill
+2021-12-06 14:16:28 INFO  StaticFieldsAndRequests:107 - получен ответ запроса get класса Bill
+2021-12-06 14:16:28 INFO  StaticFieldsAndRequests:120 - получена информация объекта класса Bill
+2021-12-06 14:16:28 INFO  StaticFieldsAndRequests:71 - получен ответ запроса get класса Transaction
+2021-12-06 14:16:28 INFO  StaticFieldsAndRequests:86 - получена информация объекта класса Transaction
+2021-12-06 14:16:28 INFO  StaticFieldsAndRequests:264 - получен ответ запроса put класса Bill
+2021-12-06 14:16:28 INFO  StaticFieldsAndRequests:273 - получена информация объекта класса Bill
+2021-12-06 14:16:28 INFO  StaticFieldsAndRequests:107 - получен ответ запроса get класса Bill
+2021-12-06 14:16:28 INFO  StaticFieldsAndRequests:120 - получена информация объекта класса Bill
+2021-12-06 14:16:28 INFO  StaticFieldsAndRequests:71 - получен ответ запроса get класса Transaction
+2021-12-06 14:16:28 INFO  StaticFieldsAndRequests:86 - получена информация объекта класса Transaction
+2021-12-06 14:16:28 INFO  StaticFieldsAndRequests:264 - получен ответ запроса put класса Bill
+2021-12-06 14:16:28 INFO  StaticFieldsAndRequests:273 - получена информация объекта класса Bill
+2021-12-06 14:16:28 INFO  StaticFieldsAndRequests:107 - получен ответ запроса get класса Bill
+2021-12-06 14:16:28 INFO  StaticFieldsAndRequests:120 - получена информация объекта класса Bill
+2021-12-06 14:16:28 INFO  StaticFieldsAndRequests:71 - получен ответ запроса get класса Transaction
+2021-12-06 14:16:28 INFO  StaticFieldsAndRequests:86 - получена информация объекта класса Transaction
+2021-12-06 14:16:28 INFO  StaticFieldsAndRequests:264 - получен ответ запроса put класса Bill
+2021-12-06 14:16:28 INFO  StaticFieldsAndRequests:273 - получена информация объекта класса Bill
+2021-12-06 14:16:28 INFO  StaticFieldsAndRequests:107 - получен ответ запроса get класса Bill
+2021-12-06 14:16:28 INFO  StaticFieldsAndRequests:120 - получена информация объекта класса Bill
+2021-12-06 14:16:28 INFO  StaticFieldsAndRequests:71 - получен ответ запроса get класса Transaction
+2021-12-06 14:16:28 INFO  StaticFieldsAndRequests:86 - получена информация объекта класса Transaction
+2021-12-06 14:16:28 INFO  StaticFieldsAndRequests:264 - получен ответ запроса put класса Bill
+2021-12-06 14:16:28 INFO  StaticFieldsAndRequests:273 - получена информация объекта класса Bill
+2021-12-06 14:16:28 INFO  StaticFieldsAndRequests:107 - получен ответ запроса get класса Bill
+2021-12-06 14:16:28 INFO  StaticFieldsAndRequests:120 - получена информация объекта класса Bill
+2021-12-06 14:16:28 INFO  StaticFieldsAndRequests:71 - получен ответ запроса get класса Transaction
+2021-12-06 14:16:28 INFO  StaticFieldsAndRequests:86 - получена информация объекта класса Transaction
+2021-12-06 14:16:29 INFO  StaticFieldsAndRequests:264 - получен ответ запроса put класса Bill
+2021-12-06 14:16:29 INFO  StaticFieldsAndRequests:273 - получена информация объекта класса Bill
+2021-12-06 14:16:29 INFO  StaticFieldsAndRequests:107 - получен ответ запроса get класса Bill
+2021-12-06 14:16:29 INFO  StaticFieldsAndRequests:120 - получена информация объекта класса Bill
+2021-12-06 14:16:29 INFO  StaticFieldsAndRequests:71 - получен ответ запроса get класса Transaction
+2021-12-06 14:16:29 INFO  StaticFieldsAndRequests:86 - получена информация объекта класса Transaction
+2021-12-06 14:16:29 INFO  StaticFieldsAndRequests:264 - получен ответ запроса put класса Bill
+2021-12-06 14:16:29 INFO  StaticFieldsAndRequests:273 - получена информация объекта класса Bill
+2021-12-06 14:16:29 INFO  StaticFieldsAndRequests:107 - получен ответ запроса get класса Bill
+2021-12-06 14:16:29 INFO  StaticFieldsAndRequests:120 - получена информация объекта класса Bill
+2021-12-06 14:16:29 INFO  StaticFieldsAndRequests:71 - получен ответ запроса get класса Transaction
+2021-12-06 14:16:29 INFO  StaticFieldsAndRequests:86 - получена информация объекта класса Transaction
+2021-12-06 14:16:29 INFO  StaticFieldsAndRequests:264 - получен ответ запроса put класса Bill
+2021-12-06 14:16:29 INFO  StaticFieldsAndRequests:273 - получена информация объекта класса Bill
+2021-12-06 14:16:29 INFO  StaticFieldsAndRequests:107 - получен ответ запроса get класса Bill
+2021-12-06 14:16:29 INFO  StaticFieldsAndRequests:120 - получена информация объекта класса Bill
+2021-12-06 14:16:29 INFO  StaticFieldsAndRequests:71 - получен ответ запроса get класса Transaction
+2021-12-06 14:16:29 INFO  StaticFieldsAndRequests:86 - получена информация объекта класса Transaction
+2021-12-06 14:16:29 INFO  StaticFieldsAndRequests:264 - получен ответ запроса put класса Bill
+2021-12-06 14:16:29 INFO  StaticFieldsAndRequests:273 - получена информация объекта класса Bill
+2021-12-06 14:16:29 INFO  StaticFieldsAndRequests:107 - получен ответ запроса get класса Bill
+2021-12-06 14:16:29 INFO  StaticFieldsAndRequests:120 - получена информация объекта класса Bill
+2021-12-06 14:16:29 INFO  StaticFieldsAndRequests:71 - получен ответ запроса get класса Transaction
+2021-12-06 14:16:29 INFO  StaticFieldsAndRequests:86 - получена информация объекта класса Transaction
+2021-12-06 14:16:29 INFO  StaticFieldsAndRequests:264 - получен ответ запроса put класса Bill
+2021-12-06 14:16:29 INFO  StaticFieldsAndRequests:273 - получена информация объекта класса Bill
+2021-12-06 14:16:29 INFO  StaticFieldsAndRequests:107 - получен ответ запроса get класса Bill
+2021-12-06 14:16:29 INFO  StaticFieldsAndRequests:120 - получена информация объекта класса Bill
+2021-12-06 14:16:29 INFO  StaticFieldsAndRequests:71 - получен ответ запроса get класса Transaction
+2021-12-06 14:16:29 INFO  StaticFieldsAndRequests:86 - получена информация объекта класса Transaction
+2021-12-06 14:16:30 INFO  StaticFieldsAndRequests:264 - получен ответ запроса put класса Bill
+2021-12-06 14:16:30 INFO  StaticFieldsAndRequests:273 - получена информация объекта класса Bill
+2021-12-06 14:16:30 INFO  StaticFieldsAndRequests:107 - получен ответ запроса get класса Bill
+2021-12-06 14:16:30 INFO  StaticFieldsAndRequests:120 - получена информация объекта класса Bill
+2021-12-06 14:16:30 INFO  StaticFieldsAndRequests:71 - получен ответ запроса get класса Transaction
+2021-12-06 14:16:30 INFO  StaticFieldsAndRequests:86 - получена информация объекта класса Transaction
+2021-12-06 14:16:30 INFO  StaticFieldsAndRequests:264 - получен ответ запроса put класса Bill
+2021-12-06 14:16:30 INFO  StaticFieldsAndRequests:273 - получена информация объекта класса Bill
+2021-12-06 14:16:30 INFO  StaticFieldsAndRequests:107 - получен ответ запроса get класса Bill
+2021-12-06 14:16:30 INFO  StaticFieldsAndRequests:120 - получена информация объекта класса Bill
+2021-12-06 14:16:30 INFO  StaticFieldsAndRequests:71 - получен ответ запроса get класса Transaction
+2021-12-06 14:16:30 INFO  StaticFieldsAndRequests:86 - получена информация объекта класса Transaction
+2021-12-06 14:16:30 INFO  StaticFieldsAndRequests:264 - получен ответ запроса put класса Bill
+2021-12-06 14:16:30 INFO  StaticFieldsAndRequests:273 - получена информация объекта класса Bill
+2021-12-06 14:16:30 INFO  StaticFieldsAndRequests:107 - получен ответ запроса get класса Bill
+2021-12-06 14:16:30 INFO  StaticFieldsAndRequests:120 - получена информация объекта класса Bill
+2021-12-06 14:16:30 INFO  StaticFieldsAndRequests:71 - получен ответ запроса get класса Transaction
+2021-12-06 14:16:30 INFO  StaticFieldsAndRequests:86 - получена информация объекта класса Transaction
+2021-12-06 14:16:31 INFO  StaticFieldsAndRequests:264 - получен ответ запроса put класса Bill
+2021-12-06 14:16:31 INFO  StaticFieldsAndRequests:273 - получена информация объекта класса Bill
+2021-12-06 14:16:31 INFO  StaticFieldsAndRequests:107 - получен ответ запроса get класса Bill
+2021-12-06 14:16:31 INFO  StaticFieldsAndRequests:120 - получена информация объекта класса Bill
+2021-12-06 14:16:31 INFO  StaticFieldsAndRequests:71 - получен ответ запроса get класса Transaction
+2021-12-06 14:16:31 INFO  StaticFieldsAndRequests:86 - получена информация объекта класса Transaction
+2021-12-06 14:16:31 INFO  StaticFieldsAndRequests:264 - получен ответ запроса put класса Bill
+2021-12-06 14:16:31 INFO  StaticFieldsAndRequests:273 - получена информация объекта класса Bill
+2021-12-06 14:16:31 INFO  StaticFieldsAndRequests:107 - получен ответ запроса get класса Bill
+2021-12-06 14:16:31 INFO  StaticFieldsAndRequests:120 - получена информация объекта класса Bill
+2021-12-06 14:16:31 INFO  StaticFieldsAndRequests:71 - получен ответ запроса get класса Transaction
+2021-12-06 14:16:31 INFO  StaticFieldsAndRequests:86 - получена информация объекта класса Transaction
+2021-12-06 14:16:31 INFO  StaticFieldsAndRequests:264 - получен ответ запроса put класса Bill
+2021-12-06 14:16:31 INFO  StaticFieldsAndRequests:273 - получена информация объекта класса Bill
+2021-12-06 14:16:31 INFO  StaticFieldsAndRequests:107 - получен ответ запроса get класса Bill
+2021-12-06 14:16:31 INFO  StaticFieldsAndRequests:120 - получена информация объекта класса Bill
+2021-12-06 14:16:31 INFO  StaticFieldsAndRequests:71 - получен ответ запроса get класса Transaction
+2021-12-06 14:16:31 INFO  StaticFieldsAndRequests:86 - получена информация объекта класса Transaction
+2021-12-06 14:16:31 INFO  StaticFieldsAndRequests:264 - получен ответ запроса put класса Bill
+2021-12-06 14:16:31 INFO  StaticFieldsAndRequests:273 - получена информация объекта класса Bill
+2021-12-06 14:16:31 INFO  StaticFieldsAndRequests:107 - получен ответ запроса get класса Bill
+2021-12-06 14:16:31 INFO  StaticFieldsAndRequests:120 - получена информация объекта класса Bill
+2021-12-06 14:16:31 INFO  StaticFieldsAndRequests:71 - получен ответ запроса get класса Transaction
+2021-12-06 14:16:31 INFO  StaticFieldsAndRequests:86 - получена информация объекта класса Transaction
+2021-12-06 14:16:31 INFO  StaticFieldsAndRequests:264 - получен ответ запроса put класса Bill
+2021-12-06 14:16:31 INFO  StaticFieldsAndRequests:273 - получена информация объекта класса Bill
+2021-12-06 14:16:31 INFO  StaticFieldsAndRequests:107 - получен ответ запроса get класса Bill
+2021-12-06 14:16:31 INFO  StaticFieldsAndRequests:120 - получена информация объекта класса Bill
+2021-12-06 14:16:31 INFO  StaticFieldsAndRequests:71 - получен ответ запроса get класса Transaction
+2021-12-06 14:16:31 INFO  StaticFieldsAndRequests:86 - получена информация объекта класса Transaction
+2021-12-06 14:16:31 INFO  StaticFieldsAndRequests:264 - получен ответ запроса put класса Bill
+2021-12-06 14:16:31 INFO  StaticFieldsAndRequests:273 - получена информация объекта класса Bill
+2021-12-06 14:16:31 INFO  StaticFieldsAndRequests:107 - получен ответ запроса get класса Bill
+2021-12-06 14:16:31 INFO  StaticFieldsAndRequests:120 - получена информация объекта класса Bill
+2021-12-06 14:16:31 INFO  StaticFieldsAndRequests:71 - получен ответ запроса get класса Transaction
+2021-12-06 14:16:31 INFO  StaticFieldsAndRequests:86 - получена информация объекта класса Transaction
+2021-12-06 14:16:32 INFO  StaticFieldsAndRequests:264 - получен ответ запроса put класса Bill
+2021-12-06 14:16:32 INFO  StaticFieldsAndRequests:273 - получена информация объекта класса Bill
+2021-12-06 14:16:32 INFO  StaticFieldsAndRequests:107 - получен ответ запроса get класса Bill
+2021-12-06 14:16:32 INFO  StaticFieldsAndRequests:120 - получена информация объекта класса Bill
+2021-12-06 14:16:32 INFO  StaticFieldsAndRequests:71 - получен ответ запроса get класса Transaction
+2021-12-06 14:16:32 INFO  StaticFieldsAndRequests:86 - получена информация объекта класса Transaction
+2021-12-06 14:16:32 INFO  StaticFieldsAndRequests:264 - получен ответ запроса put класса Bill
+2021-12-06 14:16:32 INFO  StaticFieldsAndRequests:273 - получена информация объекта класса Bill
+2021-12-06 14:16:32 INFO  StaticFieldsAndRequests:107 - получен ответ запроса get класса Bill
+2021-12-06 14:16:32 INFO  StaticFieldsAndRequests:120 - получена информация объекта класса Bill
+2021-12-06 14:16:32 INFO  StaticFieldsAndRequests:71 - получен ответ запроса get класса Transaction
+2021-12-06 14:16:32 INFO  StaticFieldsAndRequests:86 - получена информация объекта класса Transaction
+2021-12-06 14:16:32 INFO  StaticFieldsAndRequests:264 - получен ответ запроса put класса Bill
+2021-12-06 14:16:32 INFO  StaticFieldsAndRequests:273 - получена информация объекта класса Bill
+2021-12-06 14:16:32 INFO  StaticFieldsAndRequests:107 - получен ответ запроса get класса Bill
+2021-12-06 14:16:32 INFO  StaticFieldsAndRequests:120 - получена информация объекта класса Bill
+2021-12-06 14:16:32 INFO  StaticFieldsAndRequests:71 - получен ответ запроса get класса Transaction
+2021-12-06 14:16:32 INFO  StaticFieldsAndRequests:86 - получена информация объекта класса Transaction
+2021-12-06 14:16:32 INFO  StaticFieldsAndRequests:264 - получен ответ запроса put класса Bill
+2021-12-06 14:16:32 INFO  StaticFieldsAndRequests:273 - получена информация объекта класса Bill
+2021-12-06 14:16:32 INFO  StaticFieldsAndRequests:107 - получен ответ запроса get класса Bill
+2021-12-06 14:16:32 INFO  StaticFieldsAndRequests:120 - получена информация объекта класса Bill
+2021-12-06 14:16:32 INFO  StaticFieldsAndRequests:71 - получен ответ запроса get класса Transaction
+2021-12-06 14:16:32 INFO  StaticFieldsAndRequests:86 - получена информация объекта класса Transaction
+2021-12-06 14:16:33 INFO  StaticFieldsAndRequests:264 - получен ответ запроса put класса Bill
+2021-12-06 14:16:33 INFO  StaticFieldsAndRequests:273 - получена информация объекта класса Bill
+2021-12-06 14:16:33 INFO  StaticFieldsAndRequests:107 - получен ответ запроса get класса Bill
+2021-12-06 14:16:33 INFO  StaticFieldsAndRequests:120 - получена информация объекта класса Bill
+2021-12-06 14:16:33 INFO  StaticFieldsAndRequests:71 - получен ответ запроса get класса Transaction
+2021-12-06 14:16:33 INFO  StaticFieldsAndRequests:86 - получена информация объекта класса Transaction
+2021-12-06 14:16:33 INFO  StaticFieldsAndRequests:264 - получен ответ запроса put класса Bill
+2021-12-06 14:16:33 INFO  StaticFieldsAndRequests:273 - получена информация объекта класса Bill
+2021-12-06 14:16:33 INFO  StaticFieldsAndRequests:107 - получен ответ запроса get класса Bill
+2021-12-06 14:16:33 INFO  StaticFieldsAndRequests:120 - получена информация объекта класса Bill
+2021-12-06 14:16:33 INFO  StaticFieldsAndRequests:71 - получен ответ запроса get класса Transaction
+2021-12-06 14:16:33 INFO  StaticFieldsAndRequests:86 - получена информация объекта класса Transaction
+2021-12-06 14:16:33 INFO  StaticFieldsAndRequests:264 - получен ответ запроса put класса Bill
+2021-12-06 14:16:33 INFO  StaticFieldsAndRequests:273 - получена информация объекта класса Bill
+2021-12-06 14:16:33 INFO  StaticFieldsAndRequests:107 - получен ответ запроса get класса Bill
+2021-12-06 14:16:33 INFO  StaticFieldsAndRequests:120 - получена информация объекта класса Bill
+2021-12-06 14:16:33 INFO  StaticFieldsAndRequests:71 - получен ответ запроса get класса Transaction
+2021-12-06 14:16:33 INFO  StaticFieldsAndRequests:86 - получена информация объекта класса Transaction
+2021-12-06 14:16:33 INFO  StaticFieldsAndRequests:264 - получен ответ запроса put класса Bill
+2021-12-06 14:16:33 INFO  StaticFieldsAndRequests:273 - получена информация объекта класса Bill
+2021-12-06 14:16:33 INFO  StaticFieldsAndRequests:107 - получен ответ запроса get класса Bill
+2021-12-06 14:16:33 INFO  StaticFieldsAndRequests:120 - получена информация объекта класса Bill
+2021-12-06 14:16:33 INFO  StaticFieldsAndRequests:71 - получен ответ запроса get класса Transaction
+2021-12-06 14:16:33 INFO  StaticFieldsAndRequests:86 - получена информация объекта класса Transaction
+2021-12-06 14:16:33 INFO  StaticFieldsAndRequests:264 - получен ответ запроса put класса Bill
+2021-12-06 14:16:33 INFO  StaticFieldsAndRequests:273 - получена информация объекта класса Bill
+2021-12-06 14:16:33 INFO  StaticFieldsAndRequests:107 - получен ответ запроса get класса Bill
+2021-12-06 14:16:33 INFO  StaticFieldsAndRequests:120 - получена информация объекта класса Bill
+2021-12-06 14:16:33 INFO  StaticFieldsAndRequests:71 - получен ответ запроса get класса Transaction
+2021-12-06 14:16:33 INFO  StaticFieldsAndRequests:86 - получена информация объекта класса Transaction
+2021-12-06 14:16:34 INFO  StaticFieldsAndRequests:264 - получен ответ запроса put класса Bill
+2021-12-06 14:16:34 INFO  StaticFieldsAndRequests:273 - получена информация объекта класса Bill
+2021-12-06 14:16:34 INFO  StaticFieldsAndRequests:107 - получен ответ запроса get класса Bill
+2021-12-06 14:16:34 INFO  StaticFieldsAndRequests:120 - получена информация объекта класса Bill
+2021-12-06 14:16:34 INFO  StaticFieldsAndRequests:71 - получен ответ запроса get класса Transaction
+2021-12-06 14:16:34 INFO  StaticFieldsAndRequests:86 - получена информация объекта класса Transaction
+2021-12-06 14:16:34 INFO  StaticFieldsAndRequests:264 - получен ответ запроса put класса Bill
+2021-12-06 14:16:34 INFO  StaticFieldsAndRequests:273 - получена информация объекта класса Bill
+2021-12-06 14:16:34 INFO  StaticFieldsAndRequests:107 - получен ответ запроса get класса Bill
+2021-12-06 14:16:34 INFO  StaticFieldsAndRequests:120 - получена информация объекта класса Bill
+2021-12-06 14:16:34 INFO  StaticFieldsAndRequests:71 - получен ответ запроса get класса Transaction
+2021-12-06 14:16:34 INFO  StaticFieldsAndRequests:86 - получена информация объекта класса Transaction
+2021-12-06 14:16:34 INFO  StaticFieldsAndRequests:264 - получен ответ запроса put класса Bill
+2021-12-06 14:16:34 INFO  StaticFieldsAndRequests:273 - получена информация объекта класса Bill
+2021-12-06 14:16:34 INFO  StaticFieldsAndRequests:107 - получен ответ запроса get класса Bill
+2021-12-06 14:16:34 INFO  StaticFieldsAndRequests:120 - получена информация объекта класса Bill
+2021-12-06 14:16:34 INFO  StaticFieldsAndRequests:71 - получен ответ запроса get класса Transaction
+2021-12-06 14:16:34 INFO  StaticFieldsAndRequests:86 - получена информация объекта класса Transaction
+2021-12-06 14:16:34 INFO  StaticFieldsAndRequests:264 - получен ответ запроса put класса Bill
+2021-12-06 14:16:34 INFO  StaticFieldsAndRequests:273 - получена информация объекта класса Bill
+2021-12-06 14:16:34 INFO  StaticFieldsAndRequests:107 - получен ответ запроса get класса Bill
+2021-12-06 14:16:34 INFO  StaticFieldsAndRequests:120 - получена информация объекта класса Bill
+2021-12-06 14:16:34 INFO  StaticFieldsAndRequests:71 - получен ответ запроса get класса Transaction
+2021-12-06 14:16:34 INFO  StaticFieldsAndRequests:86 - получена информация объекта класса Transaction
+2021-12-06 14:16:35 INFO  StaticFieldsAndRequests:264 - получен ответ запроса put класса Bill
+2021-12-06 14:16:35 INFO  StaticFieldsAndRequests:273 - получена информация объекта класса Bill
+2021-12-06 14:16:35 INFO  StaticFieldsAndRequests:107 - получен ответ запроса get класса Bill
+2021-12-06 14:16:35 INFO  StaticFieldsAndRequests:120 - получена информация объекта класса Bill
+2021-12-06 14:16:35 INFO  StaticFieldsAndRequests:71 - получен ответ запроса get класса Transaction
+2021-12-06 14:16:35 INFO  StaticFieldsAndRequests:86 - получена информация объекта класса Transaction
+2021-12-06 14:16:35 INFO  StaticFieldsAndRequests:264 - получен ответ запроса put класса Bill
+2021-12-06 14:16:35 INFO  StaticFieldsAndRequests:273 - получена информация объекта класса Bill
+2021-12-06 14:16:35 INFO  StaticFieldsAndRequests:107 - получен ответ запроса get класса Bill
+2021-12-06 14:16:35 INFO  StaticFieldsAndRequests:120 - получена информация объекта класса Bill
+2021-12-06 14:16:35 INFO  StaticFieldsAndRequests:71 - получен ответ запроса get класса Transaction
+2021-12-06 14:16:35 INFO  StaticFieldsAndRequests:86 - получена информация объекта класса Transaction
+2021-12-06 14:16:35 INFO  StaticFieldsAndRequests:264 - получен ответ запроса put класса Bill
+2021-12-06 14:16:35 INFO  StaticFieldsAndRequests:273 - получена информация объекта класса Bill
+2021-12-06 14:16:35 INFO  StaticFieldsAndRequests:107 - получен ответ запроса get класса Bill
+2021-12-06 14:16:35 INFO  StaticFieldsAndRequests:120 - получена информация объекта класса Bill
+2021-12-06 14:16:35 INFO  StaticFieldsAndRequests:71 - получен ответ запроса get класса Transaction
+2021-12-06 14:16:35 INFO  StaticFieldsAndRequests:86 - получена информация объекта класса Transaction
+2021-12-06 14:16:35 INFO  StaticFieldsAndRequests:264 - получен ответ запроса put класса Bill
+2021-12-06 14:16:35 INFO  StaticFieldsAndRequests:273 - получена информация объекта класса Bill
+2021-12-06 14:16:35 INFO  StaticFieldsAndRequests:107 - получен ответ запроса get класса Bill
+2021-12-06 14:16:35 INFO  StaticFieldsAndRequests:120 - получена информация объекта класса Bill
+2021-12-06 14:16:35 INFO  StaticFieldsAndRequests:71 - получен ответ запроса get класса Transaction
+2021-12-06 14:16:35 INFO  StaticFieldsAndRequests:86 - получена информация объекта класса Transaction
+2021-12-06 14:16:35 INFO  StaticFieldsAndRequests:264 - получен ответ запроса put класса Bill
+2021-12-06 14:16:35 INFO  StaticFieldsAndRequests:273 - получена информация объекта класса Bill
+2021-12-06 14:16:35 INFO  StaticFieldsAndRequests:107 - получен ответ запроса get класса Bill
+2021-12-06 14:16:35 INFO  StaticFieldsAndRequests:120 - получена информация объекта класса Bill
+2021-12-06 14:16:35 INFO  StaticFieldsAndRequests:71 - получен ответ запроса get класса Transaction
+2021-12-06 14:16:35 INFO  StaticFieldsAndRequests:86 - получена информация объекта класса Transaction
+2021-12-06 14:16:36 INFO  StaticFieldsAndRequests:264 - получен ответ запроса put класса Bill
+2021-12-06 14:16:36 INFO  StaticFieldsAndRequests:273 - получена информация объекта класса Bill
+2021-12-06 14:16:36 INFO  StaticFieldsAndRequests:107 - получен ответ запроса get класса Bill
+2021-12-06 14:16:36 INFO  StaticFieldsAndRequests:120 - получена информация объекта класса Bill
+2021-12-06 14:16:36 INFO  StaticFieldsAndRequests:71 - получен ответ запроса get класса Transaction
+2021-12-06 14:16:36 INFO  StaticFieldsAndRequests:86 - получена информация объекта класса Transaction
+2021-12-06 14:16:36 INFO  StaticFieldsAndRequests:264 - получен ответ запроса put класса Bill
+2021-12-06 14:16:36 INFO  StaticFieldsAndRequests:273 - получена информация объекта класса Bill
+2021-12-06 14:16:36 INFO  StaticFieldsAndRequests:107 - получен ответ запроса get класса Bill
+2021-12-06 14:16:36 INFO  StaticFieldsAndRequests:120 - получена информация объекта класса Bill
+2021-12-06 14:16:36 INFO  StaticFieldsAndRequests:71 - получен ответ запроса get класса Transaction
+2021-12-06 14:16:36 INFO  StaticFieldsAndRequests:86 - получена информация объекта класса Transaction
+2021-12-06 14:16:36 INFO  StaticFieldsAndRequests:264 - получен ответ запроса put класса Bill
+2021-12-06 14:16:36 INFO  StaticFieldsAndRequests:273 - получена информация объекта класса Bill
+2021-12-06 14:16:36 INFO  StaticFieldsAndRequests:107 - получен ответ запроса get класса Bill
+2021-12-06 14:16:36 INFO  StaticFieldsAndRequests:120 - получена информация объекта класса Bill
+2021-12-06 14:16:36 INFO  StaticFieldsAndRequests:71 - получен ответ запроса get класса Transaction
+2021-12-06 14:16:36 INFO  StaticFieldsAndRequests:86 - получена информация объекта класса Transaction
+2021-12-06 14:16:36 INFO  StaticFieldsAndRequests:264 - получен ответ запроса put класса Bill
+2021-12-06 14:16:36 INFO  StaticFieldsAndRequests:273 - получена информация объекта класса Bill
+2021-12-06 14:16:36 INFO  StaticFieldsAndRequests:107 - получен ответ запроса get класса Bill
+2021-12-06 14:16:36 INFO  StaticFieldsAndRequests:120 - получена информация объекта класса Bill
+2021-12-06 14:16:36 INFO  StaticFieldsAndRequests:71 - получен ответ запроса get класса Transaction
+2021-12-06 14:16:36 INFO  StaticFieldsAndRequests:86 - получена информация объекта класса Transaction
+2021-12-06 14:16:37 INFO  StaticFieldsAndRequests:264 - получен ответ запроса put класса Bill
+2021-12-06 14:16:37 INFO  StaticFieldsAndRequests:273 - получена информация объекта класса Bill
+2021-12-06 14:16:37 INFO  StaticFieldsAndRequests:107 - получен ответ запроса get класса Bill
+2021-12-06 14:16:37 INFO  StaticFieldsAndRequests:120 - получена информация объекта класса Bill
+2021-12-06 14:16:37 INFO  StaticFieldsAndRequests:71 - получен ответ запроса get класса Transaction
+2021-12-06 14:16:37 INFO  StaticFieldsAndRequests:86 - получена информация объекта класса Transaction
+2021-12-06 14:16:37 INFO  StaticFieldsAndRequests:264 - получен ответ запроса put класса Bill
+2021-12-06 14:16:37 INFO  StaticFieldsAndRequests:273 - получена информация объекта класса Bill
+2021-12-06 14:16:37 INFO  StaticFieldsAndRequests:107 - получен ответ запроса get класса Bill
+2021-12-06 14:16:37 INFO  StaticFieldsAndRequests:120 - получена информация объекта класса Bill
+2021-12-06 14:16:37 INFO  StaticFieldsAndRequests:71 - получен ответ запроса get класса Transaction
+2021-12-06 14:16:37 INFO  StaticFieldsAndRequests:86 - получена информация объекта класса Transaction
+2021-12-06 14:16:39 INFO  StaticFieldsAndRequests:264 - получен ответ запроса put класса Bill
+2021-12-06 14:16:39 INFO  StaticFieldsAndRequests:273 - получена информация объекта класса Bill
+2021-12-06 14:16:39 INFO  StaticFieldsAndRequests:107 - получен ответ запроса get класса Bill
+2021-12-06 14:16:39 INFO  StaticFieldsAndRequests:120 - получена информация объекта класса Bill
+2021-12-06 14:16:39 INFO  StaticFieldsAndRequests:71 - получен ответ запроса get класса Transaction
+2021-12-06 14:16:39 INFO  StaticFieldsAndRequests:86 - получена информация объекта класса Transaction
+2021-12-06 14:16:39 INFO  StaticFieldsAndRequests:264 - получен ответ запроса put класса Bill
+2021-12-06 14:16:39 INFO  StaticFieldsAndRequests:273 - получена информация объекта класса Bill
+2021-12-06 14:16:39 INFO  StaticFieldsAndRequests:107 - получен ответ запроса get класса Bill
+2021-12-06 14:16:39 INFO  StaticFieldsAndRequests:120 - получена информация объекта класса Bill
+2021-12-06 14:16:39 INFO  StaticFieldsAndRequests:71 - получен ответ запроса get класса Transaction
+2021-12-06 14:16:39 INFO  StaticFieldsAndRequests:86 - получена информация объекта класса Transaction
+2021-12-06 14:16:39 INFO  StaticFieldsAndRequests:264 - получен ответ запроса put класса Bill
+2021-12-06 14:16:39 INFO  StaticFieldsAndRequests:273 - получена информация объекта класса Bill
+2021-12-06 14:16:39 INFO  StaticFieldsAndRequests:107 - получен ответ запроса get класса Bill
+2021-12-06 14:16:39 INFO  StaticFieldsAndRequests:120 - получена информация объекта класса Bill
+2021-12-06 14:16:39 INFO  StaticFieldsAndRequests:71 - получен ответ запроса get класса Transaction
+2021-12-06 14:16:39 INFO  StaticFieldsAndRequests:86 - получена информация объекта класса Transaction
+2021-12-06 14:16:39 INFO  StaticFieldsAndRequests:264 - получен ответ запроса put класса Bill
+2021-12-06 14:16:39 INFO  StaticFieldsAndRequests:273 - получена информация объекта класса Bill
+2021-12-06 14:16:39 INFO  StaticFieldsAndRequests:107 - получен ответ запроса get класса Bill
+2021-12-06 14:16:39 INFO  StaticFieldsAndRequests:120 - получена информация объекта класса Bill
+2021-12-06 14:16:39 INFO  StaticFieldsAndRequests:71 - получен ответ запроса get класса Transaction
+2021-12-06 14:16:39 INFO  StaticFieldsAndRequests:86 - получена информация объекта класса Transaction
+2021-12-06 14:16:39 INFO  StaticFieldsAndRequests:264 - получен ответ запроса put класса Bill
+2021-12-06 14:16:39 INFO  StaticFieldsAndRequests:273 - получена информация объекта класса Bill
+2021-12-06 14:16:39 INFO  StaticFieldsAndRequests:107 - получен ответ запроса get класса Bill
+2021-12-06 14:16:39 INFO  StaticFieldsAndRequests:120 - получена информация объекта класса Bill
+2021-12-06 14:16:39 INFO  StaticFieldsAndRequests:71 - получен ответ запроса get класса Transaction
+2021-12-06 14:16:39 INFO  StaticFieldsAndRequests:86 - получена информация объекта класса Transaction
+2021-12-06 14:16:39 INFO  StaticFieldsAndRequests:264 - получен ответ запроса put класса Bill
+2021-12-06 14:16:39 INFO  StaticFieldsAndRequests:273 - получена информация объекта класса Bill
+2021-12-06 14:16:39 INFO  StaticFieldsAndRequests:107 - получен ответ запроса get класса Bill
+2021-12-06 14:16:39 INFO  StaticFieldsAndRequests:120 - получена информация объекта класса Bill
+2021-12-06 14:16:39 INFO  StaticFieldsAndRequests:71 - получен ответ запроса get класса Transaction
+2021-12-06 14:16:39 INFO  StaticFieldsAndRequests:86 - получена информация объекта класса Transaction
+2021-12-06 14:16:40 INFO  StaticFieldsAndRequests:264 - получен ответ запроса put класса Bill
+2021-12-06 14:16:40 INFO  StaticFieldsAndRequests:273 - получена информация объекта класса Bill
+2021-12-06 14:16:40 INFO  StaticFieldsAndRequests:107 - получен ответ запроса get класса Bill
+2021-12-06 14:16:40 INFO  StaticFieldsAndRequests:120 - получена информация объекта класса Bill
+2021-12-06 14:16:40 INFO  StaticFieldsAndRequests:71 - получен ответ запроса get класса Transaction
+2021-12-06 14:16:40 INFO  StaticFieldsAndRequests:86 - получена информация объекта класса Transaction
+2021-12-06 14:16:40 INFO  StaticFieldsAndRequests:264 - получен ответ запроса put класса Bill
+2021-12-06 14:16:40 INFO  StaticFieldsAndRequests:273 - получена информация объекта класса Bill
+2021-12-06 14:16:40 INFO  StaticFieldsAndRequests:107 - получен ответ запроса get класса Bill
+2021-12-06 14:16:40 INFO  StaticFieldsAndRequests:120 - получена информация объекта класса Bill
+2021-12-06 14:16:40 INFO  StaticFieldsAndRequests:71 - получен ответ запроса get класса Transaction
+2021-12-06 14:16:40 INFO  StaticFieldsAndRequests:86 - получена информация объекта класса Transaction
+2021-12-06 14:16:40 INFO  StaticFieldsAndRequests:264 - получен ответ запроса put класса Bill
+2021-12-06 14:16:40 INFO  StaticFieldsAndRequests:273 - получена информация объекта класса Bill
+2021-12-06 14:16:40 INFO  StaticFieldsAndRequests:107 - получен ответ запроса get класса Bill
+2021-12-06 14:16:40 INFO  StaticFieldsAndRequests:120 - получена информация объекта класса Bill
+2021-12-06 14:16:40 INFO  StaticFieldsAndRequests:71 - получен ответ запроса get класса Transaction
+2021-12-06 14:16:40 INFO  StaticFieldsAndRequests:86 - получена информация объекта класса Transaction
+2021-12-06 14:16:40 INFO  StaticFieldsAndRequests:264 - получен ответ запроса put класса Bill
+2021-12-06 14:16:40 INFO  StaticFieldsAndRequests:273 - получена информация объекта класса Bill
+2021-12-06 14:16:40 INFO  StaticFieldsAndRequests:107 - получен ответ запроса get класса Bill
+2021-12-06 14:16:40 INFO  StaticFieldsAndRequests:120 - получена информация объекта класса Bill
+2021-12-06 14:16:40 INFO  StaticFieldsAndRequests:71 - получен ответ запроса get класса Transaction
+2021-12-06 14:16:40 INFO  StaticFieldsAndRequests:86 - получена информация объекта класса Transaction
+2021-12-06 14:16:41 INFO  StaticFieldsAndRequests:264 - получен ответ запроса put класса Bill
+2021-12-06 14:16:41 INFO  StaticFieldsAndRequests:273 - получена информация объекта класса Bill
+2021-12-06 14:16:41 INFO  StaticFieldsAndRequests:107 - получен ответ запроса get класса Bill
+2021-12-06 14:16:41 INFO  StaticFieldsAndRequests:120 - получена информация объекта класса Bill
+2021-12-06 14:16:41 INFO  StaticFieldsAndRequests:71 - получен ответ запроса get класса Transaction
+2021-12-06 14:16:41 INFO  StaticFieldsAndRequests:86 - получена информация объекта класса Transaction
+2021-12-06 14:16:44 INFO  MainWindowController:127 - окно hello-view успешно создано
+2021-12-06 14:17:03 INFO  StaticFieldsAndRequests:38 - получен ответ запроса get класса User
+2021-12-06 14:17:03 INFO  StaticFieldsAndRequests:51 - получена информация объекта класса User
+2021-12-06 14:17:03 INFO  StaticFieldsAndRequests:107 - получен ответ запроса get класса Bill
+2021-12-06 14:17:03 INFO  StaticFieldsAndRequests:120 - получена информация объекта класса Bill
+2021-12-06 14:17:03 INFO  StaticFieldsAndRequests:71 - получен ответ запроса get класса Transaction
+2021-12-06 14:17:03 INFO  StaticFieldsAndRequests:86 - получена информация объекта класса Transaction
+2021-12-06 14:17:03 INFO  HelloController:100 - окно mainWindow успешно создано
+2021-12-06 14:17:10 INFO  StaticFieldsAndRequests:264 - получен ответ запроса put класса Bill
+2021-12-06 14:17:10 INFO  StaticFieldsAndRequests:273 - получена информация объекта класса Bill
+2021-12-06 14:17:10 INFO  StaticFieldsAndRequests:107 - получен ответ запроса get класса Bill
+2021-12-06 14:17:10 INFO  StaticFieldsAndRequests:120 - получена информация объекта класса Bill
+2021-12-06 14:17:10 INFO  StaticFieldsAndRequests:71 - получен ответ запроса get класса Transaction
+2021-12-06 14:17:10 INFO  StaticFieldsAndRequests:86 - получена информация объекта класса Transaction
+2021-12-06 14:17:12 INFO  StaticFieldsAndRequests:264 - получен ответ запроса put класса Bill
+2021-12-06 14:17:12 INFO  StaticFieldsAndRequests:273 - получена информация объекта класса Bill
+2021-12-06 14:17:12 INFO  StaticFieldsAndRequests:107 - получен ответ запроса get класса Bill
+2021-12-06 14:17:12 INFO  StaticFieldsAndRequests:120 - получена информация объекта класса Bill
+2021-12-06 14:17:12 INFO  StaticFieldsAndRequests:71 - получен ответ запроса get класса Transaction
+2021-12-06 14:17:12 INFO  StaticFieldsAndRequests:86 - получена информация объекта класса Transaction
+2021-12-06 14:17:13 INFO  StaticFieldsAndRequests:264 - получен ответ запроса put класса Bill
+2021-12-06 14:17:13 INFO  StaticFieldsAndRequests:273 - получена информация объекта класса Bill
+2021-12-06 14:17:13 INFO  StaticFieldsAndRequests:107 - получен ответ запроса get класса Bill
+2021-12-06 14:17:13 INFO  StaticFieldsAndRequests:120 - получена информация объекта класса Bill
+2021-12-06 14:17:13 INFO  StaticFieldsAndRequests:71 - получен ответ запроса get класса Transaction
+2021-12-06 14:17:13 INFO  StaticFieldsAndRequests:86 - получена информация объекта класса Transaction
+2021-12-06 14:17:15 INFO  StaticFieldsAndRequests:139 - получен ответ запроса get класса Component
+2021-12-06 14:17:15 INFO  StaticFieldsAndRequests:154 - получена информация объектов класса Component
+2021-12-06 14:17:15 INFO  MainWindowController:110 - окно Store успешно создано
+2021-12-06 14:17:17 INFO  StoreController:178 - окно ComponentCard успешно создано
+2021-12-06 14:17:22 INFO  StoreController:178 - окно ComponentCard успешно создано
+2021-12-06 14:17:23 INFO  StaticFieldsAndRequests:238 - получен ответ запроса post класса Transaction
+2021-12-06 14:17:23 INFO  StaticFieldsAndRequests:247 - получена информация объекта класса Transaction
+2021-12-06 14:17:23 INFO  ComponentCardController:68 - получен ответ от post класса Transaction
+2021-12-06 14:17:23 INFO  StaticFieldsAndRequests:264 - получен ответ запроса put класса Bill
+2021-12-06 14:17:23 INFO  StaticFieldsAndRequests:273 - получена информация объекта класса Bill
+2021-12-06 14:17:23 INFO  ComponentCardController:70 - получен ответ от put класса Bill
+2021-12-06 14:17:26 INFO  StaticFieldsAndRequests:107 - получен ответ запроса get класса Bill
+2021-12-06 14:17:26 INFO  StaticFieldsAndRequests:120 - получена информация объекта класса Bill
+2021-12-06 14:17:26 INFO  StaticFieldsAndRequests:71 - получен ответ запроса get класса Transaction
+2021-12-06 14:17:26 INFO  StaticFieldsAndRequests:86 - получена информация объекта класса Transaction
+2021-12-06 14:17:26 INFO  StoreController:159 - окно mainWindow успешно создано
+2021-12-06 14:17:29 INFO  StaticFieldsAndRequests:139 - получен ответ запроса get класса Component
+2021-12-06 14:17:29 INFO  StaticFieldsAndRequests:154 - получена информация объектов класса Component
+2021-12-06 14:17:29 INFO  MainWindowController:110 - окно Store успешно создано
+2021-12-06 14:17:31 INFO  StoreController:178 - окно ComponentCard успешно создано
+2021-12-06 14:17:33 INFO  StaticFieldsAndRequests:238 - получен ответ запроса post класса Transaction
+2021-12-06 14:17:33 INFO  StaticFieldsAndRequests:247 - получена информация объекта класса Transaction
+2021-12-06 14:17:33 INFO  ComponentCardController:68 - получен ответ от post класса Transaction
+2021-12-06 14:17:33 INFO  StaticFieldsAndRequests:264 - получен ответ запроса put класса Bill
+2021-12-06 14:17:33 INFO  StaticFieldsAndRequests:273 - получена информация объекта класса Bill
+2021-12-06 14:17:33 INFO  ComponentCardController:70 - получен ответ от put класса Bill
+2021-12-06 14:17:37 INFO  StoreController:178 - окно ComponentCard успешно создано
+2021-12-06 14:17:40 INFO  StoreController:178 - окно ComponentCard успешно создано
+2021-12-06 14:17:41 INFO  StaticFieldsAndRequests:238 - получен ответ запроса post класса Transaction
+2021-12-06 14:17:41 INFO  StaticFieldsAndRequests:247 - получена информация объекта класса Transaction
+2021-12-06 14:17:41 INFO  ComponentCardController:68 - получен ответ от post класса Transaction
+2021-12-06 14:17:41 INFO  StaticFieldsAndRequests:264 - получен ответ запроса put класса Bill
+2021-12-06 14:17:41 INFO  StaticFieldsAndRequests:273 - получена информация объекта класса Bill
+2021-12-06 14:17:41 INFO  ComponentCardController:70 - получен ответ от put класса Bill
+2021-12-06 14:17:43 INFO  StoreController:178 - окно ComponentCard успешно создано
+2021-12-06 14:17:45 INFO  StaticFieldsAndRequests:238 - получен ответ запроса post класса Transaction
+2021-12-06 14:17:45 INFO  StaticFieldsAndRequests:247 - получена информация объекта класса Transaction
+2021-12-06 14:17:45 INFO  ComponentCardController:68 - получен ответ от post класса Transaction
+2021-12-06 14:17:45 INFO  StaticFieldsAndRequests:264 - получен ответ запроса put класса Bill
+2021-12-06 14:17:45 INFO  StaticFieldsAndRequests:273 - получена информация объекта класса Bill
+2021-12-06 14:17:45 INFO  ComponentCardController:70 - получен ответ от put класса Bill
+2021-12-06 14:17:50 INFO  StoreController:178 - окно ComponentCard успешно создано
+2021-12-06 14:17:51 INFO  StaticFieldsAndRequests:238 - получен ответ запроса post класса Transaction
+2021-12-06 14:17:51 INFO  StaticFieldsAndRequests:247 - получена информация объекта класса Transaction
+2021-12-06 14:17:51 INFO  ComponentCardController:68 - получен ответ от post класса Transaction
+2021-12-06 14:17:51 INFO  StaticFieldsAndRequests:264 - получен ответ запроса put класса Bill
+2021-12-06 14:17:51 INFO  StaticFieldsAndRequests:273 - получена информация объекта класса Bill
+2021-12-06 14:17:51 INFO  ComponentCardController:70 - получен ответ от put класса Bill
+2021-12-06 14:17:54 INFO  StoreController:178 - окно ComponentCard успешно создано
+2021-12-06 14:17:55 INFO  StaticFieldsAndRequests:238 - получен ответ запроса post класса Transaction
+2021-12-06 14:17:55 INFO  StaticFieldsAndRequests:247 - получена информация объекта класса Transaction
+2021-12-06 14:17:55 INFO  ComponentCardController:68 - получен ответ от post класса Transaction
+2021-12-06 14:17:55 INFO  StaticFieldsAndRequests:264 - получен ответ запроса put класса Bill
+2021-12-06 14:17:55 INFO  StaticFieldsAndRequests:273 - получена информация объекта класса Bill
+2021-12-06 14:17:55 INFO  ComponentCardController:70 - получен ответ от put класса Bill
+2021-12-06 14:17:58 INFO  StoreController:178 - окно ComponentCard успешно создано
+2021-12-06 14:17:59 INFO  StaticFieldsAndRequests:238 - получен ответ запроса post класса Transaction
+2021-12-06 14:17:59 INFO  StaticFieldsAndRequests:247 - получена информация объекта класса Transaction
+2021-12-06 14:17:59 INFO  ComponentCardController:68 - получен ответ от post класса Transaction
+2021-12-06 14:17:59 INFO  StaticFieldsAndRequests:264 - получен ответ запроса put класса Bill
+2021-12-06 14:17:59 INFO  StaticFieldsAndRequests:273 - получена информация объекта класса Bill
+2021-12-06 14:17:59 INFO  ComponentCardController:70 - получен ответ от put класса Bill
+2021-12-06 14:18:02 INFO  StaticFieldsAndRequests:107 - получен ответ запроса get класса Bill
+2021-12-06 14:18:02 INFO  StaticFieldsAndRequests:120 - получена информация объекта класса Bill
+2021-12-06 14:18:02 INFO  StaticFieldsAndRequests:71 - получен ответ запроса get класса Transaction
+2021-12-06 14:18:02 INFO  StaticFieldsAndRequests:86 - получена информация объекта класса Transaction
+2021-12-06 14:18:02 INFO  StoreController:159 - окно mainWindow успешно создано
+2021-12-06 14:18:41 INFO  MainWindowController:217 - окно TransactionCard успешно создано
+2021-12-06 14:18:54 INFO  MainWindowController:217 - окно TransactionCard успешно создано
+2021-12-06 14:18:56 INFO  StaticFieldsAndRequests:139 - получен ответ запроса get класса Component
+2021-12-06 14:18:56 INFO  StaticFieldsAndRequests:154 - получена информация объектов класса Component
+2021-12-06 14:18:56 INFO  MainWindowController:110 - окно Store успешно создано
+2021-12-06 14:18:57 INFO  StoreController:178 - окно ComponentCard успешно создано
+2021-12-06 14:18:59 INFO  StaticFieldsAndRequests:238 - получен ответ запроса post класса Transaction
+2021-12-06 14:18:59 INFO  StaticFieldsAndRequests:247 - получена информация объекта класса Transaction
+2021-12-06 14:18:59 INFO  ComponentCardController:68 - получен ответ от post класса Transaction
+2021-12-06 14:18:59 INFO  StaticFieldsAndRequests:264 - получен ответ запроса put класса Bill
+2021-12-06 14:18:59 INFO  StaticFieldsAndRequests:273 - получена информация объекта класса Bill
+2021-12-06 14:18:59 INFO  ComponentCardController:70 - получен ответ от put класса Bill
+2021-12-06 14:19:01 INFO  StaticFieldsAndRequests:107 - получен ответ запроса get класса Bill
+2021-12-06 14:19:01 INFO  StaticFieldsAndRequests:120 - получена информация объекта класса Bill
+2021-12-06 14:19:01 INFO  StaticFieldsAndRequests:71 - получен ответ запроса get класса Transaction
+2021-12-06 14:19:01 INFO  StaticFieldsAndRequests:86 - получена информация объекта класса Transaction
+2021-12-06 14:19:01 INFO  StoreController:159 - окно mainWindow успешно создано
+2021-12-06 14:19:34 INFO  MainWindowController:217 - окно TransactionCard успешно создано
+2021-12-18 22:51:40 INFO  StaticFieldsAndRequests:38 - получен ответ запроса get класса User
+2021-12-18 22:51:40 INFO  StaticFieldsAndRequests:51 - получена информация объекта класса User
+2021-12-18 22:51:40 INFO  StaticFieldsAndRequests:107 - получен ответ запроса get класса Bill
+2021-12-18 22:51:40 INFO  StaticFieldsAndRequests:120 - получена информация объекта класса Bill
+2021-12-18 22:51:40 INFO  StaticFieldsAndRequests:71 - получен ответ запроса get класса Transaction
+2021-12-18 22:51:40 INFO  StaticFieldsAndRequests:86 - получена информация объекта класса Transaction
+2021-12-18 22:51:40 INFO  HelloController:100 - окно mainWindow успешно создано
+2021-12-18 22:51:42 INFO  MainWindowController:127 - окно hello-view успешно создано
+2021-12-18 22:51:43 INFO  HelloController:84 - окно SignIn успешно создано
+2021-12-18 22:51:52 INFO  StaticFieldsAndRequests:178 - получен ответ запроса post класса User
+2021-12-18 22:51:52 INFO  StaticFieldsAndRequests:188 - получена информация объекта класса User
+2021-12-18 22:51:52 INFO  StaticFieldsAndRequests:210 - получен ответ запроса post класса Bill
+2021-12-18 22:51:52 INFO  StaticFieldsAndRequests:221 - получена информация объекта класса Bill
+2021-12-18 22:51:52 INFO  StaticFieldsAndRequests:107 - получен ответ запроса get класса Bill
+2021-12-18 22:51:52 INFO  StaticFieldsAndRequests:120 - получена информация объекта класса Bill
+2021-12-18 22:51:52 INFO  StaticFieldsAndRequests:71 - получен ответ запроса get класса Transaction
+2021-12-18 22:51:52 INFO  StaticFieldsAndRequests:86 - получена информация объекта класса Transaction
+2021-12-18 22:51:52 INFO  SignInController:180 - окно mainWindow успешно создано
+2021-12-18 22:51:54 INFO  MainWindowController:127 - окно hello-view успешно создано
+2021-12-18 23:15:48 INFO  StaticFieldsAndRequests:38 - получен ответ запроса get класса User
+2021-12-18 23:15:48 INFO  StaticFieldsAndRequests:51 - получена информация объекта класса User
+2021-12-18 23:15:48 INFO  StaticFieldsAndRequests:107 - получен ответ запроса get класса Bill
+2021-12-18 23:15:48 INFO  StaticFieldsAndRequests:120 - получена информация объекта класса Bill
+2021-12-18 23:15:48 INFO  StaticFieldsAndRequests:71 - получен ответ запроса get класса Transaction
+2021-12-18 23:15:48 INFO  StaticFieldsAndRequests:86 - получена информация объекта класса Transaction
+2021-12-18 23:15:48 INFO  HelloController:100 - окно mainWindow успешно создано
+2021-12-18 23:15:50 INFO  MainWindowController:127 - окно hello-view успешно создано
+2021-12-19 16:15:25 INFO  StaticFieldsAndRequests:38 - получен ответ запроса get класса User
+2021-12-19 16:15:26 INFO  StaticFieldsAndRequests:51 - получена информация объекта класса User
+2021-12-19 16:15:26 INFO  StaticFieldsAndRequests:107 - получен ответ запроса get класса Bill
+2021-12-19 16:15:26 INFO  StaticFieldsAndRequests:120 - получена информация объекта класса Bill
+2021-12-19 16:15:26 INFO  StaticFieldsAndRequests:71 - получен ответ запроса get класса Transaction
+2021-12-19 16:15:26 INFO  StaticFieldsAndRequests:86 - получена информация объекта класса Transaction
+2021-12-19 16:15:26 INFO  HelloController:100 - окно mainWindow успешно создано
